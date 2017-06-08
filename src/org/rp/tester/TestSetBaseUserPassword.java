@@ -1,10 +1,9 @@
 package org.rp.tester;
 
 import org.apache.log4j.Logger;
+import org.rp.baseuser.GzBaseUser;
 import org.rp.home.GzHome;
 import org.rp.home.persistence.GzPersistenceException;
-import org.rp.services.GzServices;
-import org.rp.game.participant.GzParticipant;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -36,7 +35,7 @@ public class TestSetBaseUserPassword
 		home.setDefaultPasswordForAll(encoded);
 		
 		try {
-			GzParticipant hb = home.getParticipantByEmail("pmk@test.com");
+			GzBaseUser hb = home.getBaseUserByEmail("pmk@test.com");
 			log.info("matches : " + encoder.matches("88888888", hb.getPassword()));
 		} catch (GzPersistenceException e) {
 			// TODO Auto-generated catch block

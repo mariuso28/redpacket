@@ -21,8 +21,6 @@ import org.rp.home.GzHome;
 import org.rp.home.persistence.GzPersistenceException;
 import org.rp.util.NumberUtil;
 import org.rp.util.StackDump;
-import org.rp.web.transactional.GzTransactionalException;
-import org.rp.web.transactional.GzTransactionalSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -46,13 +44,11 @@ public class GzServices
 	private Mail mail;
 	private String gzProperties;
 	private Properties properties;
-	private GzTransactionalSupport transactionalSupport;
 	private Semaphore updateInvoiceSem = new Semaphore(1);
 	private GzAdminProperties gzAdminProperties;
 	
 	public GzServices()
 	{
-		setTransactionalSupport(new GzTransactionalSupport(this));
 		scheduler = new ThreadPoolTaskScheduler();
 		scheduler.setPoolSize(10);
 		scheduler.setThreadNamePrefix("faces async scheduler- ");
@@ -69,9 +65,9 @@ public class GzServices
 			System.exit(5);
 		} 
 		
-		String dataSourceUrl = properties.getProperty("dataSourceUrl");
-		if (dataSourceUrl!=null)
-			gzHome.overrideDataSourceUrl(dataSourceUrl);
+//		String dataSourceUrl = properties.getProperty("dataSourceUrl");
+//		if (dataSourceUrl!=null)
+//			gzHome.overrideDataSourceUrl(dataSourceUrl);
 		
 		gzAccountMgr.setServices(this);
 		gzAccountMgr.setHome(gzHome);
@@ -280,16 +276,6 @@ public class GzServices
 			
 		}
 		});
-		
-		if (flag==false)
-		{
-			try {
-				transactionalSupport.deactivatePrivateRoomsForOnwer( user.getEmail());
-			} catch (GzTransactionalException e) {
-				e.printStackTrace();
-				log.error(e.getMessage());
-			}
-		}
 	}
 	
 	private void doUpdateEnabled(GzBaseUser user,boolean enable) throws GzPersistenceException
@@ -429,14 +415,6 @@ public class GzServices
 
 	public void setProperties(Properties properties) {
 		this.properties = properties;
-	}
-
-	public GzTransactionalSupport getTransactionalSupport() {
-		return transactionalSupport;
-	}
-
-	public void setTransactionalSupport(GzTransactionalSupport transactionalSupport) {
-		this.transactionalSupport = transactionalSupport;
 	}
 
 	public GzAdminProperties getGzAdminProperties() {

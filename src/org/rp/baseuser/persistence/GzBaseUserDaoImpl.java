@@ -19,7 +19,6 @@ import org.rp.agent.GzSMA;
 import org.rp.agent.GzZMA;
 import org.rp.baseuser.GzBaseUser;
 import org.rp.baseuser.GzRole;
-import org.rp.game.participant.GzParticipant;
 import org.rp.home.persistence.GzPersistenceException;
 import org.rp.util.GetNextNumberNo4s;
 import org.rp.util.StackDump;
@@ -417,16 +416,15 @@ public class GzBaseUserDaoImpl extends GzAccountDaoImpl implements GzBaseUserDao
 		return agents;
 	}
 
-	private List<GzParticipant> getParticipantsForParent(GzBaseUser parent) throws GzPersistenceException
+
+	private List<GzBaseUser> getParticipantsForParent(GzBaseUser parent) throws GzPersistenceException
 	{
-		List<GzBaseUser> users = getUsersForParent(parent,GzParticipant.class,GzRole.ROLE_PLAY); 
-		List<GzParticipant> participants = new ArrayList<GzParticipant>();
+		List<GzBaseUser> users = getUsersForParent(parent,GzBaseUser.class,GzRole.ROLE_PLAY); 
 		for (GzBaseUser user : users)
 		{
 			parent.getMembers().add(user);
-			participants.add((GzParticipant) user);
 		}
-		return participants;
+		return users;
 	}
 	
 	private List<GzBaseUser> getUsersForParent(final GzBaseUser parent,

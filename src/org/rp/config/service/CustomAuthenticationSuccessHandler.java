@@ -33,21 +33,21 @@ public class CustomAuthenticationSuccessHandler extends SavedRequestAwareAuthent
 		
 		String authorities = user.getAuthorities().toString();
 		if ( authorities.contains("ROLE_ADMIN"))
-			setDefaultTargetUrl("/gz/admin/logon?user&email=" + user.getUsername());
+			setDefaultTargetUrl("/rp/admin/logon?user&email=" + user.getUsername());
 		else
 		if (authorities.contains("ROLE_COMP") || authorities.contains("ROLE_ZMA") 
 				|| authorities.contains("ROLE_SMA") || authorities.contains("ROLE_MA") 
 				|| authorities.contains("ROLE_AGENT"))
 		{
-			setDefaultTargetUrl("/gz/agnt/processAgent?goMemberHome");
+			setDefaultTargetUrl("/rp/agnt/processAgent?goMemberHome");
 		}
 		else
 		if (authorities.contains("ROLE_PLAY"))
 		{
-			setDefaultTargetUrl("/gz/logon/signin?error&message=" + "Home Page Not Available for role for : ".replace(" ","%20") + user.getUsername());	
+			setDefaultTargetUrl("/rp/logon/signin?error&message=" + "Home Page Not Available for role for : ".replace(" ","%20") + user.getUsername());	
 		}
 		else
-			setDefaultTargetUrl("/gz/logon/signin?error&message=" + "Unknown role fo : ".replace(" ","%20") + user.getUsername());
+			setDefaultTargetUrl("/rp/logon/signin?error&message=" + "Unknown role fo : ".replace(" ","%20") + user.getUsername());
 		
 		setAlwaysUseDefaultTargetUrl(true);
 		request.getSession().setMaxInactiveInterval(5*60);

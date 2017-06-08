@@ -23,15 +23,15 @@ public class CustomAuthenticationFailureHandler extends SimpleUrlAuthenticationF
 		String email = request.getParameter("email");
 		EmailValidator ev = new EmailValidator();
 		if (ev.validate(email))
-			setDefaultFailureUrl("/gz/logon/signin?error&message=Authentication%20Error&email="+email);
+			setDefaultFailureUrl("/rp/logon/signin?error&message=Authentication%20Error&email="+email);
 		else
-			setDefaultFailureUrl("/gz/logon/signin?error&message=Authentication%20Error&email=");
+			setDefaultFailureUrl("/rp/logon/signin?error&message=Authentication%20Error&email=");
 		
 		log.info("Failure on : " + request.getParameter("email"));
 		setUseForward(false);
 		
 		try {
-			log.info("Forwarding to : " + "/gz/logon/signin?error&message=Authentication%20Error");
+			log.info("Forwarding to : " + "/rp/logon/signin?error&message=Authentication%20Error");
 			super.onAuthenticationFailure(request, response, exception);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

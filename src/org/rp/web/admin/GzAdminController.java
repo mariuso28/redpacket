@@ -33,7 +33,7 @@ public class GzAdminController {
 	private GzServices gzServices;
 	
 	
-	// /gz/admin/logon?user&email=
+	// /rp/admin/logon?user&email=
 	@RequestMapping(value = "/logon", params="user", method = RequestMethod.GET)
 	public Object signin(String email,ModelMap model,HttpServletRequest request,RedirectAttributes stack) {
 		
@@ -47,7 +47,7 @@ public class GzAdminController {
 			String stackDump = StackDump.toString(e);
 			log.error(stackDump);
 			stack.addFlashAttribute("errMsg",stackDump);
-			return "redirect:/gz/logon/errStackDump";
+			return "redirect:/rp/logon/errStackDump";
 		}
 	
 		model.addAttribute("currUser",currUser);
@@ -91,7 +91,7 @@ public class GzAdminController {
 				String stackDump = StackDump.toString(e);
 				log.error(stackDump);
 				stack.addFlashAttribute("errMsg",stackDump);
-				return "redirect:/gz/logon/errStackDump";
+				return "redirect:/rp/logon/errStackDump";
 			}
 		}
 		
@@ -110,7 +110,7 @@ public class GzAdminController {
 			String stackDump = StackDump.toString(e);
 			log.error(stackDump);
 			stack.addFlashAttribute("errMsg",stackDump);
-			return "redirect:/gz/logon/errStackDump";
+			return "redirect:/rp/logon/errStackDump";
 		}
 		
 		adminForm.setErrMsg(errMsg);

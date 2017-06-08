@@ -70,7 +70,7 @@ public class GzAgentController {
 			String stackDump = StackDump.toString(e);
 			log.error(stackDump);
 			stack.addFlashAttribute("errMsg",stackDump);
-			return "redirect:/gz/logon/errStackDump";
+			return "redirect:/rp/logon/errStackDump";
 		}
 		model.addAttribute("currUser",agent);
 		HashMap<String, GzBaseUser> expandedMembers = new HashMap<String, GzBaseUser>();
@@ -238,7 +238,7 @@ public class GzAgentController {
 			String stackDump = StackDump.toString(e);
 			log.error(stackDump);
 			stack.addFlashAttribute("errMsg",stackDump);
-			return "redirect:/gz/logon/errStackDump";
+			return "redirect:/rp/logon/errStackDump";
 		}
 		
 		
@@ -299,7 +299,7 @@ public class GzAgentController {
 			String stackDump = StackDump.toString(e);
 			log.error(stackDump);
 			stack.addFlashAttribute("errMsg",stackDump);
-			return "redirect:/gz/logon/errStackDump";
+			return "redirect:/rp/logon/errStackDump";
 		}
 		
 		return "redirect:backtoMemberHome";

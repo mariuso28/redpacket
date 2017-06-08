@@ -34,7 +34,7 @@ http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 	</property>
 </bean>
 
-<bean id="mail" class="org.faces.framework.Mail">
+<bean id="mail" class="org.rp.framework.Mail">
 	<property name="mailSender" ref="mailSender2" />
 	<property name="mailFrom" value="info@goldmine.online"/>
 </bean>

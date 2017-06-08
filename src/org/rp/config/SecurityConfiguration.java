@@ -52,7 +52,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
 		http
 		.authorizeRequests()
 		.antMatchers(
-				"/gz/logon/**",
+				"/rp/logon/**",
 				"/css/**/**",
 				"/fonts/**",
 				"/images/**",
@@ -61,20 +61,19 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
 		.permitAll()
 		
 		.antMatchers(
-				"/gz/admin/**",
-				"/gz/agnt/viewCompanies"
+				"/rp/admin/**"
 				)
 		
 		.access("hasRole('ROLE_ADMIN')")
 			
 		
 		.and().formLogin()
-		.loginPage("/gz/logon/signin")
+		.loginPage("/rp/logon/signin")
 		.usernameParameter("email")
 		.passwordParameter("password")
 		.successHandler(customAuthenticationSuccessHandler)
 		.failureHandler(customAuthenticationFailureHandler)
-	//	.failureUrl("/gz/logon/signin?error&message=Authentication%20Error")
+	//	.failureUrl("/rp/logon/signin?error&message=Authentication%20Error")
 		.permitAll()
 
 		.and().logout()
@@ -82,16 +81,16 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
 
 	
 		.and().sessionManagement()
-		.invalidSessionUrl("/gz/logon/signin")
+		.invalidSessionUrl("/rp/logon/signin")
 		.and().exceptionHandling()
-		.accessDeniedPage("/gz/logon/access_denied")
+		.accessDeniedPage("/rp/logon/access_denied")
 //		.and().csrf().disable()
 		;
 	}
 
 	@Override
 	public void configure(WebSecurity web) throws Exception {
-		web.ignoring().antMatchers("/gz/logon/storeImage");
+		web.ignoring().antMatchers("/rp/logon/storeImage");
 	}
 
 	@Bean

@@ -12,10 +12,10 @@ http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
 		<context:annotation-config />
-		<bean class="org.faces.config.SecurityConfiguration" />
-		<bean class="org.faces.config.service.CustomUserDetailsService" />
-		<bean class="org.faces.config.service.CustomAuthenticationSuccessHandler" />
-		<bean class="org.faces.config.service.CustomAuthenticationFailureHandler" />
+		<bean class="org.rp.config.SecurityConfiguration" />
+		<bean class="org.rp.config.service.CustomUserDetailsService" />
+		<bean class="org.rp.config.service.CustomAuthenticationSuccessHandler" />
+		<bean class="org.rp.config.service.CustomAuthenticationFailureHandler" />
 
 		<import resource="rp-mail.xml"/>
 
@@ -26,7 +26,7 @@ http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 		</bean>
 
 		<bean id="gzServices"
-			class="org.faces.services.GzServices" init-method="initServices" >
+			class="org.rp.services.GzServices" init-method="initServices" >
 			<property name="transactionManager" ref="transactionManager"/>
 			<property name="gzProperties" value="/home/pmk/w2/redpacket/rp-properties/rp.properties"/>
 			<property name="mail" ref="mail" />

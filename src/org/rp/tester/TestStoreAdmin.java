@@ -17,7 +17,7 @@ public class TestStoreAdmin
 	{
 		@SuppressWarnings("resource")
 		ApplicationContext context = new ClassPathXmlApplicationContext(
-				"gz-service.xml");
+				"rp-service.xml");
 
 		GzServices gzServices = (GzServices) context.getBean("gzServices");
 		GzHome gzHome = gzServices.getGzHome();
