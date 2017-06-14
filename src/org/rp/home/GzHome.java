@@ -1,6 +1,5 @@
 package org.rp.home;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
@@ -13,7 +12,6 @@ import org.rp.account.GzTransaction;
 import org.rp.account.persistence.GzTransactionRowMapperPaginated;
 import org.rp.account.persistence.GzXactionRowMapperPaginated;
 import org.rp.admin.GzAdmin;
-import org.rp.admin.GzAdminProperties;
 import org.rp.agent.GzAgent;
 import org.rp.baseuser.GzBaseUser;
 import org.rp.baseuser.GzRole;
@@ -34,8 +32,6 @@ public interface GzHome
 	public GzAgent getAgentByEmail(String email) throws GzPersistenceException;
 	public GzAdmin getAdminByEmail(String email) throws GzPersistenceException;
 	public void storeTransaction(GzTransaction transaction) throws GzPersistenceException;
-	public void storeAdmin(GzAdmin admin) throws GzPersistenceException;
-	public void updateAdmin(GzAdmin currUser) throws GzPersistenceException;
 	public void updateAccount(GzAccount account) throws GzPersistenceException;
 	public void storeAgent(GzAgent agent) throws GzPersistenceException;
 	public double getDownStreamCreditAsPlayer(GzBaseUser user, GzBaseUser parent);
@@ -75,16 +71,10 @@ public interface GzHome
 	public void updateAccountBalance(GzAccount account,double amount) throws GzPersistenceException;
 	public GzAccount getAccount(GzBaseUser baseUser) throws GzPersistenceException;
 	public void setDefaultPasswordForAll(String encoded);
-	public boolean getScheduledDownTimeSet() throws GzPersistenceException;
-	public void setScheduledDownTime(boolean set) throws GzPersistenceException;
-	public void storeScheduledDownTime(Date date) throws GzPersistenceException;
-	public Date getScheduledDownTime() throws GzPersistenceException;
 	public Map<UUID, Double> getOutstandingInvoiceAmounts(GzBaseUser user) throws GzPersistenceException;
-	public GzAdminProperties getAdminProperties() throws GzPersistenceException;
 	public double getDownStreamAccountBalance(GzBaseUser user, GzBaseUser parent) throws GzPersistenceException;
 	public void updateLeafInstance(GzBaseUser bu);
-	public void updateVersionCode(UUID uuid) throws GzPersistenceException;
-	public UUID getVersionCode() throws GzPersistenceException;
+	
 	public void overrideDataSourceUrl(String url);
 
 	public List<String> getColumns(String table) throws GzPersistenceException;

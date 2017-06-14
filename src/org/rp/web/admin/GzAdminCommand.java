@@ -10,10 +10,6 @@ public class GzAdminCommand implements Serializable
 	private static final long serialVersionUID = -804903870498969809L;
 	private String verifyPassword;
 	private GzProfile profile;
-	private List<String> durations;
-	private String gameId;
-	private int durationIndex;
-	
 
 	public GzAdminCommand()
 	{
@@ -35,28 +31,4 @@ public class GzAdminCommand implements Serializable
 		this.profile = profile;
 	}
 
-	public List<String> getDurations() {
-		return durations;
-	}
-
-	public void setDurations(List<String> durations) {
-		this.durations = durations;
-	}
-
-	public String getGameId() {
-		return gameId;
-	}
-
-	public void setGameId(String gameId) {
-		this.gameId = gameId;
-	}
-
-	public int getDurationIndex() {
-		return durationIndex;
-	}
-
-	public void setDurationIndex(int durationIndex) {
-		this.durationIndex = durationIndex;
-	}
-	
 }

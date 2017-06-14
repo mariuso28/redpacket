@@ -14,7 +14,6 @@ import org.apache.log4j.Logger;
 import org.rp.account.GzAccountMgr;
 import org.rp.account.GzInvoice;
 import org.rp.account.GzPayment;
-import org.rp.admin.GzAdminProperties;
 import org.rp.baseuser.GzBaseUser;
 import org.rp.framework.Mail;
 import org.rp.home.GzHome;
@@ -45,7 +44,6 @@ public class GzServices
 	private String gzProperties;
 	private Properties properties;
 	private Semaphore updateInvoiceSem = new Semaphore(1);
-	private GzAdminProperties gzAdminProperties;
 	
 	public GzServices()
 	{
@@ -79,15 +77,6 @@ public class GzServices
 			e.printStackTrace();
 			System.exit(5);
 		} 
-		
-		try {
-			setGzAdminProperties(gzHome.getAdminProperties());
-		} catch (GzPersistenceException e1) {
-			log.fatal("FATAL ERROR GETTING ADMIN");
-			e1.printStackTrace();
-			log.fatal("EXITING");
-		}
-		
 		
 		mail.setMailCcNotifications(properties.getProperty("mailCcNotifications"));
 		mail.setMailSendFilter(properties.getProperty("mailSendFilter"));
@@ -378,13 +367,6 @@ public class GzServices
 		return "";
 	}
 	
-	public Date getNextDownTime() throws GzPersistenceException {
-		boolean set = gzHome.getScheduledDownTimeSet();
-		if (!set)
-			return null;
-		return gzHome.getScheduledDownTime();
-	}
-	
 	public PasswordEncoder getPasswordEncoder() {
 		return passwordEncoder;
 	}
@@ -416,14 +398,5 @@ public class GzServices
 	public void setProperties(Properties properties) {
 		this.properties = properties;
 	}
-
-	public GzAdminProperties getGzAdminProperties() {
-		return gzAdminProperties;
-	}
-
-	public void setGzAdminProperties(GzAdminProperties gzAdminProperties) {
-		this.gzAdminProperties = gzAdminProperties;
-	}
-
 
 }

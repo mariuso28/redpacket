@@ -7,8 +7,6 @@ public class GzAdminForm implements Serializable
 {
 	private static final long serialVersionUID = -3663041507565608823L;
 	private GzAdminCommand command;
-	private Date scheduledDownTime;
-	private boolean downTimeSet;
 	private String errMsg;
 	private String infoMsg;
 	
@@ -40,20 +38,4 @@ public class GzAdminForm implements Serializable
 		this.infoMsg = infoMsg;
 	}
 
-	public Date getScheduledDownTime() {
-		return scheduledDownTime;
-	}
-
-	public void setScheduledDownTime(Date scheduledDownTime) {
-		this.scheduledDownTime = scheduledDownTime;
-	}
-
-	public boolean isDownTimeSet() {
-		return downTimeSet;
-	}
-
-	public void setDownTimeSet(boolean downTimeSet) {
-		this.downTimeSet = downTimeSet;
-	}
-	
 }

@@ -150,59 +150,27 @@ public class AccountDetailsForm{
 			throw new GzFormValidationException("Max Payment Days exceeded - should be less/equal to :" + MAXPAYMENTDAYS);
 		}
 		
-		if (gzServices.getGzAdminProperties().isCreditAsPlayerOn()==false)
+		double available = gzHome.getDownStreamCreditAsPlayer(user,parent);
+		if (account.getCreditAsPlayer() > available)
 		{
-			if (account.getCreditAsPlayer() != 0.0)
-				throw new GzFormValidationException("Credit for Player not enabled");
-		}
-		else
-		{
-			double available = gzHome.getDownStreamCreditAsPlayer(user,parent);
-			if (account.getCreditAsPlayer() > available)
-			{
-				account.setCreditAsPlayer(0.0);
-				throw new GzFormValidationException("Max Credit for Player exceeded - should be less/equal to: " 
-						+ String.format("%1$,.2f",available));
-			}
+			account.setCreditAsPlayer(0.0);
+			throw new GzFormValidationException("Max Credit for Player exceeded - should be less/equal to: " 
+					+ String.format("%1$,.2f",available));
 		}
 		
-		if (gzServices.getGzAdminProperties().isCreditAsBankerOn()==false)
+		available = gzHome.getDownStreamCreditAsBanker(user,parent);
+		if (account.getCreditAsBanker() > available)
 		{
-			if (account.getCreditAsBanker() != 0.0)
-				throw new GzFormValidationException("Credit for Banker not enabled");
-		}
-		else
-		{
-			double available = gzHome.getDownStreamCreditAsBanker(user,parent);
-			if (account.getCreditAsBanker() > available)
-			{
-				account.setCreditAsBanker(0.0);
-				throw new GzFormValidationException("Max Credit for Banker exceeded - should be less/equal to: " 
-						+ String.format("%1$,.2f",available));
-			}
+			account.setCreditAsBanker(0.0);
+			throw new GzFormValidationException("Max Credit for Banker exceeded - should be less/equal to: " 
+					+ String.format("%1$,.2f",available));
 		}
 		
-		if (gzServices.getGzAdminProperties().isBetCommissionOn()==false)
-		{
-			if (account.getBetCommission() != 0.0)
-				throw new GzFormValidationException("Bet Commission not enabled");
-		}
-		else
-		{
-			if (account.getBetCommission()>parent.getAccount().getBetCommission())
-				throw new GzFormValidationException("Maximum Bet Commission cannot be exceeded");
-		}
+		if (account.getBetCommission()>parent.getAccount().getBetCommission())
+			throw new GzFormValidationException("Maximum Bet Commission cannot be exceeded");
 		
-		if (gzServices.getGzAdminProperties().isWinCommissionOn()==false)
-		{
-			if (account.getWinCommission() != 0.0)
-				throw new GzFormValidationException("Win Commission not enabled");
-		}
-		else
-		{
-			if (account.getWinCommission()>parent.getAccount().getWinCommission())
-				throw new GzFormValidationException("Maximum Win Commission cannot be exceeded");
-		}
+		if (account.getWinCommission()>parent.getAccount().getWinCommission())
+			throw new GzFormValidationException("Maximum Win Commission cannot be exceeded");
 		
 		checkDownstreamCommissions(gzHome,user,account);
 	}
@@ -257,6 +225,7 @@ public class AccountDetailsForm{
 			return;
 		}
 		
+		// deposit
 		if (user.getAccount().getBalance()>0 || (user.getAccount().getBalance()*-1.0 < dwAmount))
 		{
 			throw new GzFormValidationException("Can only deposit into a negative balance up to : " + user.getAccount().getBalance());

@@ -1,0 +1,1053 @@
+09:35:35,844  INFO http-bio-8080-exec-4 GzServices:348 - Received request to password 
+09:35:36,194 ERROR http-bio-8080-exec-4 GzLogonController:82 - error trying reset password : User : zma@test.com has not been registered - please consult your agent
+09:35:36,194  INFO http-bio-8080-exec-4 GzLogonController:59 - Received request to signin
+09:36:05,387  INFO http-bio-8080-exec-6 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:36:05,392 ERROR http-bio-8080-exec-6 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:36:05,480  INFO http-bio-8080-exec-6 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:36:05,481 ERROR http-bio-8080-exec-6 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:36:05,485  INFO http-bio-8080-exec-6 CustomAuthenticationFailureHandler:30 - Failure on : zma1@test.com
+09:36:05,485  INFO http-bio-8080-exec-6 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+09:36:05,496  INFO http-bio-8080-exec-6 GzLogonController:72 - Received request to signin - error
+09:36:09,546  INFO http-bio-8080-exec-6 GzServices:348 - Received request to password 
+09:36:09,551  INFO http-bio-8080-exec-6 GzServices:336 - New password for : rpadmin@test.com is : HL4l6cEK8H
+09:36:09,662  INFO http-bio-8080-exec-6 Mail:207 - #### sending email to rpadmin@test.com#######
+09:36:09,662  INFO http-bio-8080-exec-6 Mail:208 - subject : RedPacket Gaming Password Reset
+09:36:09,663  INFO http-bio-8080-exec-6 Mail:209 - message : Hi pmk
+Your password has been reset to
+HL4l6cEK8H
+ - please logon with your email and change at your convenience.
+Kind regards - RedPacket Gaming Support Team.
+09:36:09,663  INFO http-bio-8080-exec-6 Mail:210 - #####################################################
+09:36:09,664  INFO http-bio-8080-exec-6 Mail:122 - Message to : rpadmin@test.com filtered..
+09:36:09,664  INFO http-bio-8080-exec-6 Mail:142 - Sending Filtered Message to : rpadmin@test.com to cc: mariuso.pk@gmail.com
+09:36:09,665  INFO http-bio-8080-exec-6 GzLogonController:59 - Received request to signin
+09:36:09,679  INFO Thread-3 Mail:56 - creating message
+09:36:09,699  INFO Thread-3 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
+09:36:14,910  INFO Thread-3 Mail:80 - sended message
+09:36:33,946  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:36:33,949 ERROR http-bio-8080-exec-9 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:36:34,040  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:36:34,041 ERROR http-bio-8080-exec-9 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:36:34,042  INFO http-bio-8080-exec-9 CustomAuthenticationFailureHandler:30 - Failure on : zma1@test.com
+09:36:34,042  INFO http-bio-8080-exec-9 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+09:36:34,050  INFO http-bio-8080-exec-9 GzLogonController:72 - Received request to signin - error
+09:36:44,140  INFO http-bio-8080-exec-8 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:36:44,143 ERROR http-bio-8080-exec-8 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:36:44,236  INFO http-bio-8080-exec-8 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:36:44,237 ERROR http-bio-8080-exec-8 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:36:44,238  INFO http-bio-8080-exec-8 CustomAuthenticationFailureHandler:30 - Failure on : zma1@test.com
+09:36:44,238  INFO http-bio-8080-exec-8 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+09:36:44,246  INFO http-bio-8080-exec-8 GzLogonController:72 - Received request to signin - error
+09:37:08,570  INFO http-bio-8080-exec-7 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:37:08,573 ERROR http-bio-8080-exec-7 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:37:08,662  INFO http-bio-8080-exec-7 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:37:08,663 ERROR http-bio-8080-exec-7 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:37:08,664  INFO http-bio-8080-exec-7 CustomAuthenticationFailureHandler:30 - Failure on : zma1@test.com
+09:37:08,664  INFO http-bio-8080-exec-7 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+09:37:08,671  INFO http-bio-8080-exec-7 GzLogonController:72 - Received request to signin - error
+09:37:13,775  INFO http-bio-8080-exec-10 GzServices:348 - Received request to password 
+09:37:13,778  INFO http-bio-8080-exec-10 GzServices:336 - New password for : rpadmin@test.com is : O31mkn8kSY
+09:37:13,877  INFO http-bio-8080-exec-10 Mail:207 - #### sending email to rpadmin@test.com#######
+09:37:13,878  INFO http-bio-8080-exec-10 Mail:208 - subject : RedPacket Gaming Password Reset
+09:37:13,879  INFO http-bio-8080-exec-10 Mail:209 - message : Hi pmk
+Your password has been reset to
+O31mkn8kSY
+ - please logon with your email and change at your convenience.
+Kind regards - RedPacket Gaming Support Team.
+09:37:13,880  INFO http-bio-8080-exec-10 Mail:210 - #####################################################
+09:37:13,881  INFO http-bio-8080-exec-10 Mail:122 - Message to : rpadmin@test.com filtered..
+09:37:13,881  INFO http-bio-8080-exec-10 Mail:142 - Sending Filtered Message to : rpadmin@test.com to cc: mariuso.pk@gmail.com
+09:37:13,882  INFO http-bio-8080-exec-10 GzLogonController:59 - Received request to signin
+09:37:13,882  INFO Thread-4 Mail:56 - creating message
+09:37:13,885  INFO Thread-4 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
+09:37:18,706  INFO Thread-4 Mail:80 - sended message
+09:37:38,773  INFO http-bio-8080-exec-7 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:37:38,775 ERROR http-bio-8080-exec-7 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:37:38,864  INFO http-bio-8080-exec-7 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:37:38,866 ERROR http-bio-8080-exec-7 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:37:38,866  INFO http-bio-8080-exec-7 CustomAuthenticationFailureHandler:30 - Failure on : zma1@test.com
+09:37:38,866  INFO http-bio-8080-exec-7 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+09:37:38,873  INFO http-bio-8080-exec-7 GzLogonController:72 - Received request to signin - error
+09:38:48,512  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:38:48,514 ERROR http-bio-8080-exec-9 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:38:48,609  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : zma1@test.com
+09:38:48,610 ERROR http-bio-8080-exec-9 CustomUserDetailsService:50 - User : zma1@test.com not found
+09:38:48,610  INFO http-bio-8080-exec-9 CustomAuthenticationFailureHandler:30 - Failure on : zma1@test.com
+09:38:48,610  INFO http-bio-8080-exec-9 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+09:38:48,618  INFO http-bio-8080-exec-9 GzLogonController:72 - Received request to signin - error
+09:39:06,283  INFO http-bio-8080-exec-2 GzServices:348 - Received request to password 
+09:39:06,286 ERROR http-bio-8080-exec-2 GzLogonController:82 - error trying reset password : User : zma1@test.com has not been registered - please consult your agent
+09:39:06,286  INFO http-bio-8080-exec-2 GzLogonController:59 - Received request to signin
+09:40:48,257  INFO http-bio-8080-exec-7 CustomUserDetailsService:30 - loadUserByUsername email : sma1@test.com
+09:40:48,260  INFO http-bio-8080-exec-7 CustomUserDetailsService:53 - User : sma1@test.com found with role :ROLE_SMA
+09:40:48,267  INFO http-bio-8080-exec-7 CustomUserDetailsService:60 - Using User : sma1@test.com with authorities :[ROLE_SMA]
+09:40:48,354  INFO http-bio-8080-exec-7 CustomUserDetailsService:30 - loadUserByUsername email : sma1@test.com
+09:40:48,356  INFO http-bio-8080-exec-7 CustomUserDetailsService:53 - User : sma1@test.com found with role :ROLE_SMA
+09:40:48,356  INFO http-bio-8080-exec-7 CustomUserDetailsService:60 - Using User : sma1@test.com with authorities :[ROLE_SMA]
+09:40:48,357  INFO http-bio-8080-exec-7 CustomAuthenticationFailureHandler:30 - Failure on : sma1@test.com
+09:40:48,357  INFO http-bio-8080-exec-7 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+09:40:48,365  INFO http-bio-8080-exec-7 GzLogonController:72 - Received request to signin - error
+09:40:57,964  INFO http-bio-8080-exec-7 GzServices:348 - Received request to password 
+09:40:57,968  INFO http-bio-8080-exec-7 GzServices:336 - New password for : sma1@test.com is : jjAcnc56qr
+09:40:58,070  INFO http-bio-8080-exec-7 Mail:207 - #### sending email to sma1@test.com#######
+09:40:58,070  INFO http-bio-8080-exec-7 Mail:208 - subject : RedPacket Gaming Password Reset
+09:40:58,070  INFO http-bio-8080-exec-7 Mail:209 - message : Hi sma1
+Your password has been reset to
+jjAcnc56qr
+ - please logon with your email and change at your convenience.
+Kind regards - RedPacket Gaming Support Team.
+09:40:58,071  INFO http-bio-8080-exec-7 Mail:210 - #####################################################
+09:40:58,071  INFO http-bio-8080-exec-7 Mail:122 - Message to : sma1@test.com filtered..
+09:40:58,071  INFO http-bio-8080-exec-7 Mail:142 - Sending Filtered Message to : sma1@test.com to cc: mariuso.pk@gmail.com
+09:40:58,072  INFO http-bio-8080-exec-7 GzLogonController:59 - Received request to signin
+09:40:58,072  INFO Thread-5 Mail:56 - creating message
+09:40:58,073  INFO Thread-5 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
+09:41:03,123  INFO Thread-5 Mail:80 - sended message
+09:41:18,769  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : sma1@test.com
+09:41:18,772  INFO http-bio-8080-exec-9 CustomUserDetailsService:53 - User : sma1@test.com found with role :ROLE_SMA
+09:41:18,773  INFO http-bio-8080-exec-9 CustomUserDetailsService:60 - Using User : sma1@test.com with authorities :[ROLE_SMA]
+09:41:18,865  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+09:41:18,865  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:29 - got user : sma1@test.com authorities : [ROLE_SMA]
+09:41:18,866  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+09:41:56,203  INFO http-bio-8080-exec-3 GzLogonController:47 - Received request to signin XXX
+09:42:04,340  INFO http-bio-8080-exec-7 CustomUserDetailsService:30 - loadUserByUsername email : co1@test.com
+09:42:04,344  INFO http-bio-8080-exec-7 CustomUserDetailsService:53 - User : co1@test.com found with role :ROLE_COMP
+09:42:04,344  INFO http-bio-8080-exec-7 CustomUserDetailsService:60 - Using User : co1@test.com with authorities :[ROLE_COMP]
+09:42:04,435  INFO http-bio-8080-exec-7 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+09:42:04,436  INFO http-bio-8080-exec-7 CustomAuthenticationSuccessHandler:29 - got user : co1@test.com authorities : [ROLE_COMP]
+09:42:04,436  INFO http-bio-8080-exec-7 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+09:43:03,645  INFO http-bio-8080-exec-1 AccountDetailsForm:135 -  validatenull
+09:43:03,646  INFO http-bio-8080-exec-1 GzAccountValues:36 - Creating account from : GzAccountValues [creditAsPlayer=1000000000.00, creditAsBanker=10000000.00, betCommission=4.00, winCommission=4.00, paymentDays=5]
+09:43:28,045  INFO http-bio-8080-exec-6 AccountDetailsForm:135 -  validatenull
+09:43:28,045  INFO http-bio-8080-exec-6 GzAccountValues:36 - Creating account from : GzAccountValues [creditAsPlayer=10000000.00, creditAsBanker=10000000.00, betCommission=4.00, winCommission=4.00, paymentDays=5]
+09:43:28,047  INFO http-bio-8080-exec-6 GzAccountDaoImpl:767 - SELECT MAX(wincommission) FROM account JOIN  baseuser AS b ON b.id=account.baseuserid WHERE b.parentcode = 'c0s0'
+09:43:28,048  INFO http-bio-8080-exec-6 GzAccountDaoImpl:767 - SELECT MAX(betcommission) FROM account JOIN  baseuser AS b ON b.id=account.baseuserid WHERE b.parentcode = 'c0s0'
+09:43:28,049  INFO http-bio-8080-exec-6 GzAccountValues:36 - Creating account from : GzAccountValues [creditAsPlayer=10000000.00, creditAsBanker=10000000.00, betCommission=4.00, winCommission=4.00, paymentDays=5]
+09:43:41,197  INFO http-bio-8080-exec-3 GzLogonController:47 - Received request to signin XXX
+09:43:49,000  INFO http-bio-8080-exec-8 CustomUserDetailsService:30 - loadUserByUsername email : sma1@test.com
+09:43:49,003  INFO http-bio-8080-exec-8 CustomUserDetailsService:53 - User : sma1@test.com found with role :ROLE_SMA
+09:43:49,003  INFO http-bio-8080-exec-8 CustomUserDetailsService:60 - Using User : sma1@test.com with authorities :[ROLE_SMA]
+09:43:49,093  INFO http-bio-8080-exec-8 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+09:43:49,094  INFO http-bio-8080-exec-8 CustomAuthenticationSuccessHandler:29 - got user : sma1@test.com authorities : [ROLE_SMA]
+09:43:49,094  INFO http-bio-8080-exec-8 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+09:44:26,410  INFO http-bio-8080-exec-2 GzAgentController:182 - Storing member : GzProfile [contact=ma1, phone=020819172, password=null, nickname=null, email=ma1@test.com, icon=null]
+09:44:26,492  INFO http-bio-8080-exec-2 GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+09:44:26,494  INFO http-bio-8080-exec-2 GzBaseUserDaoImpl:142 - Got next leaf instance : null
+09:44:26,594  INFO http-bio-8080-exec-2 GzServices:336 - New password for : ma1@test.com is : 6qP6Q7UD3m
+09:44:26,693  INFO http-bio-8080-exec-2 Mail:180 - #### sending email to ma1@test.com#######
+09:44:26,693  INFO http-bio-8080-exec-2 Mail:181 - subject : RedPacket Gaming Registration Notification
+09:44:26,694  INFO http-bio-8080-exec-2 Mail:182 - message : Hi ma1
+You have successfully been registered with RedPacket Gaming as a Master Agent.
+Your password has been generated as:
+6qP6Q7UD3m
+ - please logon with your email and change at your convenience.
+Kind regards - RedPacket Gaming Support Team.
+09:44:26,694  INFO http-bio-8080-exec-2 Mail:183 - #####################################################
+09:44:26,694  INFO http-bio-8080-exec-2 Mail:122 - Message to : ma1@test.com filtered..
+09:44:26,695  INFO http-bio-8080-exec-2 Mail:142 - Sending Filtered Message to : ma1@test.com to cc: mariuso.pk@gmail.com
+09:44:26,695  INFO Thread-6 Mail:56 - creating message
+09:44:26,696  INFO Thread-6 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
+09:44:32,368  INFO Thread-6 Mail:80 - sended message
+09:45:16,257  INFO http-bio-8080-exec-1 AccountDetailsForm:135 -  validatenull
+09:45:16,257  INFO http-bio-8080-exec-1 GzAccountValues:36 - Creating account from : GzAccountValues [creditAsPlayer=10000000.00, creditAsBanker=10000000.00, betCommission=3.50, winCommission=3.50, paymentDays=5]
+09:45:16,259  INFO http-bio-8080-exec-1 GzAccountDaoImpl:767 - SELECT MAX(wincommission) FROM account JOIN  baseuser AS b ON b.id=account.baseuserid WHERE b.parentcode = 'c0s0m0'
+09:45:16,260  INFO http-bio-8080-exec-1 GzAccountDaoImpl:767 - SELECT MAX(betcommission) FROM account JOIN  baseuser AS b ON b.id=account.baseuserid WHERE b.parentcode = 'c0s0m0'
+09:45:16,261  INFO http-bio-8080-exec-1 GzAccountValues:36 - Creating account from : GzAccountValues [creditAsPlayer=10000000.00, creditAsBanker=10000000.00, betCommission=3.50, winCommission=3.50, paymentDays=5]
+09:45:29,264  INFO http-bio-8080-exec-1 GzLogonController:47 - Received request to signin XXX
+09:45:52,527  INFO http-bio-8080-exec-2 CustomUserDetailsService:30 - loadUserByUsername email : ma1@test.com
+09:45:52,529  INFO http-bio-8080-exec-2 CustomUserDetailsService:53 - User : ma1@test.com found with role :ROLE_MA
+09:45:52,529  INFO http-bio-8080-exec-2 CustomUserDetailsService:60 - Using User : ma1@test.com with authorities :[ROLE_MA]
+09:45:52,615  INFO http-bio-8080-exec-2 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+09:45:52,615  INFO http-bio-8080-exec-2 CustomAuthenticationSuccessHandler:29 - got user : ma1@test.com authorities : [ROLE_MA]
+09:45:52,615  INFO http-bio-8080-exec-2 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+09:46:31,645  INFO http-bio-8080-exec-5 GzAgentController:182 - Storing member : GzProfile [contact=a1, phone=020819172, password=null, nickname=null, email=a1@test.com, icon=null]
+09:46:31,737  INFO http-bio-8080-exec-5 GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+09:46:31,738  INFO http-bio-8080-exec-5 GzBaseUserDaoImpl:142 - Got next leaf instance : null
+09:46:31,802  INFO http-bio-8080-exec-5 GzServices:336 - New password for : a1@test.com is : fxpQvUVd6w
+09:46:31,913  INFO http-bio-8080-exec-5 Mail:180 - #### sending email to a1@test.com#######
+09:46:31,913  INFO http-bio-8080-exec-5 Mail:181 - subject : RedPacket Gaming Registration Notification
+09:46:31,914  INFO http-bio-8080-exec-5 Mail:182 - message : Hi a1
+You have successfully been registered with RedPacket Gaming as a Agent.
+Your password has been generated as:
+fxpQvUVd6w
+ - please logon with your email and change at your convenience.
+Kind regards - RedPacket Gaming Support Team.
+09:46:31,914  INFO http-bio-8080-exec-5 Mail:183 - #####################################################
+09:46:31,914  INFO http-bio-8080-exec-5 Mail:122 - Message to : a1@test.com filtered..
+09:46:31,914  INFO http-bio-8080-exec-5 Mail:142 - Sending Filtered Message to : a1@test.com to cc: mariuso.pk@gmail.com
+09:46:31,915  INFO Thread-7 Mail:56 - creating message
+09:46:31,915  INFO Thread-7 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
+09:46:37,083  INFO Thread-7 Mail:80 - sended message
+09:47:10,659  INFO http-bio-8080-exec-2 AccountDetailsForm:135 -  validatenull
+09:47:10,659  INFO http-bio-8080-exec-2 GzAccountValues:36 - Creating account from : GzAccountValues [creditAsPlayer=1000000.00, creditAsBanker=1000000.00, betCommission=3.00, winCommission=3.00, paymentDays=5]
+09:47:10,661  INFO http-bio-8080-exec-2 GzAccountDaoImpl:767 - SELECT MAX(wincommission) FROM account JOIN  baseuser AS b ON b.id=account.baseuserid WHERE b.parentcode = 'c0s0m0a0'
+09:47:10,662  INFO http-bio-8080-exec-2 GzAccountDaoImpl:767 - SELECT MAX(betcommission) FROM account JOIN  baseuser AS b ON b.id=account.baseuserid WHERE b.parentcode = 'c0s0m0a0'
+09:47:10,663  INFO http-bio-8080-exec-2 GzAccountValues:36 - Creating account from : GzAccountValues [creditAsPlayer=1000000.00, creditAsBanker=1000000.00, betCommission=3.00, winCommission=3.00, paymentDays=5]
+09:47:20,225  INFO http-bio-8080-exec-2 GzLogonController:47 - Received request to signin XXX
+09:47:54,942  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : a1@test.com
+09:47:54,946  INFO http-bio-8080-exec-9 CustomUserDetailsService:53 - User : a1@test.com found with role :ROLE_AGENT
+09:47:54,946  INFO http-bio-8080-exec-9 CustomUserDetailsService:60 - Using User : a1@test.com with authorities :[ROLE_AGENT]
+09:47:55,034  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+09:47:55,034  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:29 - got user : a1@test.com authorities : [ROLE_AGENT]
+09:47:55,034  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+09:48:13,401  INFO http-bio-8080-exec-6 GzLogonController:47 - Received request to signin XXX
+10:53:45,760  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+10:53:45,761  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv
+10:55:47,814  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+10:55:52,731  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv
+10:56:32,925  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+10:56:32,931  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv
+10:58:03,221  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+10:58:03,223  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv
+10:58:03,543  INFO main CsvImportMgr:91 - $$$ Importing recs from : /home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv  file#: 0 of: 1
+10:58:03,546  INFO main CsvImporter:63 - ImportRec [contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+10:58:03,546  INFO main CsvImporter:63 - ImportRec [contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+10:58:03,546  INFO main CsvImporter:63 - ImportRec [contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+10:58:03,547  INFO main CsvImporter:63 - ImportRec [contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+10:58:03,547  INFO main CsvImporter:63 - ImportRec [contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+10:58:03,547  INFO main CsvImporter:63 - ImportRec [contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+10:58:03,547  INFO main CsvImporter:63 - ImportRec [contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+10:58:03,547  INFO main CsvImporter:63 - ImportRec [contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+10:58:03,547  INFO main CsvImporter:63 - ImportRec [contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+10:58:03,547  INFO main CsvImporter:63 - ImportRec [contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+10:58:03,547  INFO main CsvImporter:63 - ImportRec [contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+10:58:03,547  INFO main CsvImporter:63 - ImportRec [contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+10:58:03,548  INFO main CsvImporter:63 - ImportRec [contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+10:58:03,548  INFO main CsvImporter:63 - ImportRec [contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+10:58:03,548  INFO main CsvImporter:63 - ImportRec [contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+10:58:03,549  INFO main CsvImporter:63 - ImportRec [contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+10:58:03,549  INFO main CsvImporter:63 - ImportRec [contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+10:58:03,549  INFO main CsvImporter:63 - ImportRec [contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+10:58:03,549  INFO main CsvImporter:63 - ImportRec [contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+10:58:03,549  INFO main CsvImporter:63 - ImportRec [contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+10:58:03,549  INFO main CsvImporter:63 - ImportRec [contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+10:58:03,549  INFO main CsvImporter:63 - ImportRec [contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+10:58:03,549  INFO main CsvImporter:63 - ImportRec [contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+10:58:03,549  INFO main CsvImporter:63 - ImportRec [contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+10:58:03,550  INFO main CsvImporter:63 - ImportRec [contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+10:58:03,550  INFO main CsvImporter:63 - ImportRec [contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+10:58:03,550  INFO main CsvImporter:63 - ImportRec [contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+10:58:03,550  INFO main CsvImporter:63 - ImportRec [contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+10:58:03,550  INFO main CsvImporter:63 - ImportRec [contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+10:58:03,550  INFO main CsvImporter:63 - ImportRec [contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+10:58:03,550  INFO main CsvImporter:63 - ImportRec [contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+10:58:03,550  INFO main CsvImporter:63 - ImportRec [contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+10:58:03,550  INFO main CsvImporter:63 - ImportRec [contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+10:58:03,551  INFO main CsvImporter:63 - ImportRec [contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+10:58:03,551  INFO main CsvImporter:63 - ImportRec [contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+10:58:03,551  INFO main CsvImporter:63 - ImportRec [contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+10:58:03,551  INFO main CsvImporter:63 - ImportRec [contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+10:58:03,551  INFO main CsvImporter:63 - ImportRec [contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+10:58:03,551  INFO main CsvImporter:63 - ImportRec [contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+10:58:03,551  INFO main CsvImporter:63 - ImportRec [contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+10:58:03,551  INFO main CsvImporter:72 - Read 43 Recs
+10:58:03,551  INFO main CsvImporter:78 - %%% Importing transactions %%%
+10:58:03,552  INFO main CsvImporter:82 - ImportRec [contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+10:58:03,552  INFO main CsvImporter:82 - ImportRec [contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+10:58:03,552  INFO main CsvImporter:82 - ImportRec [contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+10:58:03,552  INFO main CsvImporter:82 - ImportRec [contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+10:58:03,552  INFO main CsvImporter:82 - ImportRec [contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+10:58:03,553  INFO main CsvImporter:82 - ImportRec [contact=NY/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+10:58:03,553  INFO main CsvImporter:82 - ImportRec [contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+10:58:03,553  INFO main CsvImporter:82 - ImportRec [contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+10:58:03,553  INFO main CsvImporter:82 - ImportRec [contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+10:58:03,553  INFO main CsvImporter:82 - ImportRec [contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+10:58:03,554  INFO main CsvImporter:82 - ImportRec [contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+10:58:03,554  INFO main CsvImporter:82 - ImportRec [contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+10:58:03,554  INFO main CsvImporter:82 - ImportRec [contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+10:58:03,554  INFO main CsvImporter:82 - ImportRec [contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+10:58:03,554  INFO main CsvImporter:82 - ImportRec [contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+10:58:03,555  INFO main CsvImporter:82 - ImportRec [contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+10:58:03,555  INFO main CsvImporter:82 - ImportRec [contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+10:58:03,555  INFO main CsvImporter:82 - ImportRec [contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+10:58:03,555  INFO main CsvImporter:82 - ImportRec [contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+10:58:03,555  INFO main CsvImporter:82 - ImportRec [contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+10:58:03,555  INFO main CsvImporter:82 - ImportRec [contact=jU/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+10:58:03,556  INFO main CsvImporter:82 - ImportRec [contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+10:58:03,556  INFO main CsvImporter:82 - ImportRec [contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+10:58:03,556  INFO main CsvImporter:82 - ImportRec [contact=Allan Goh/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+10:58:03,556  INFO main CsvImporter:82 - ImportRec [contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+10:58:03,556  INFO main CsvImporter:82 - ImportRec [contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+10:58:03,556  INFO main CsvImporter:82 - ImportRec [contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+10:58:03,557  INFO main CsvImporter:82 - ImportRec [contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+10:58:03,557  INFO main CsvImporter:82 - ImportRec [contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+10:58:03,557  INFO main CsvImporter:82 - ImportRec [contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+10:58:03,557  INFO main CsvImporter:82 - ImportRec [contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+10:58:03,557  INFO main CsvImporter:82 - ImportRec [contact=Carol/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+10:58:03,557  INFO main CsvImporter:82 - ImportRec [contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+10:58:03,557  INFO main CsvImporter:82 - ImportRec [contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+10:58:03,558  INFO main CsvImporter:82 - ImportRec [contact=pkim khor/>/>/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+10:58:03,558  INFO main CsvImporter:82 - ImportRec [contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+10:58:03,558  INFO main CsvImporter:82 - ImportRec [contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+10:58:03,558  INFO main CsvImporter:82 - ImportRec [contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+10:58:03,558  INFO main CsvImporter:82 - ImportRec [contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+10:58:03,558  INFO main CsvImporter:82 - ImportRec [contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+10:58:51,788  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+10:58:51,790  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv
+10:58:52,093  INFO main CsvImportMgr:91 - $$$ Importing recs from : /home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv  file#: 0 of: 1
+10:58:52,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+10:58:52,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+10:58:52,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+10:58:52,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+10:58:52,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+10:58:52,098  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+10:58:52,098  INFO main CsvImporter:63 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+10:58:52,098  INFO main CsvImporter:63 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+10:58:52,098  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+10:58:52,098  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+10:58:52,098  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+10:58:52,098  INFO main CsvImporter:63 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+10:58:52,098  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+10:58:52,099  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+10:58:52,099  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+10:58:52,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+10:58:52,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+10:58:52,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+10:58:52,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+10:58:52,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+10:58:52,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+10:58:52,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+10:58:52,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+10:58:52,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+10:58:52,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+10:58:52,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+10:58:52,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+10:58:52,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+10:58:52,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+10:58:52,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+10:58:52,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+10:58:52,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+10:58:52,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+10:58:52,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+10:58:52,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+10:58:52,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+10:58:52,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+10:58:52,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+10:58:52,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+10:58:52,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+10:58:52,103  INFO main CsvImporter:72 - Read 43 Recs
+10:58:52,103  INFO main CsvImporter:78 - %%% Importing transactions %%%
+10:58:52,103  INFO main CsvImporter:82 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+10:58:52,103  INFO main CsvImporter:82 - PlayerRec [email=Bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+10:58:52,103  INFO main CsvImporter:82 - PlayerRec [email=Typing...@rpco.com, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+10:58:52,103  INFO main CsvImporter:82 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+10:58:52,104  INFO main CsvImporter:82 - PlayerRec [email=Chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+10:58:52,104  INFO main CsvImporter:82 - PlayerRec [email=NY/NickYeap@rpco.com, contact=NY/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+10:58:52,104  INFO main CsvImporter:82 - PlayerRec [email=DAVIDHONG@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+10:58:52,104  INFO main CsvImporter:82 - PlayerRec [email=HanWoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+10:58:52,104  INFO main CsvImporter:82 - PlayerRec [email=NICKLeong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+10:58:52,105  INFO main CsvImporter:82 - PlayerRec [email=LeonLee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+10:58:52,105  INFO main CsvImporter:82 - PlayerRec [email=LST@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+10:58:52,105  INFO main CsvImporter:82 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+10:58:52,105  INFO main CsvImporter:82 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+10:58:52,105  INFO main CsvImporter:82 - PlayerRec [email=ThienHua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+10:58:52,106  INFO main CsvImporter:82 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+10:58:52,106  INFO main CsvImporter:82 - PlayerRec [email=LCY@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+10:58:52,106  INFO main CsvImporter:82 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+10:58:52,106  INFO main CsvImporter:82 - PlayerRec [email=CY@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+10:58:52,106  INFO main CsvImporter:82 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+10:58:52,106  INFO main CsvImporter:82 - PlayerRec [email=HendriKioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+10:58:52,107  INFO main CsvImporter:82 - PlayerRec [email=jU/@rpco.com, contact=jU/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+10:58:52,107  INFO main CsvImporter:82 - PlayerRec [email=MR.LIM@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+10:58:52,107  INFO main CsvImporter:82 - PlayerRec [email=J@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+10:58:52,107  INFO main CsvImporter:82 - PlayerRec [email=AllanGoh/@rpco.com, contact=Allan Goh/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+10:58:52,107  INFO main CsvImporter:82 - PlayerRec [email=Jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+10:58:52,107  INFO main CsvImporter:82 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+10:58:52,107  INFO main CsvImporter:82 - PlayerRec [email=JasonLoh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+10:58:52,108  INFO main CsvImporter:82 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+10:58:52,108  INFO main CsvImporter:82 - PlayerRec [email=Jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+10:58:52,108  INFO main CsvImporter:82 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+10:58:52,108  INFO main CsvImporter:82 - PlayerRec [email=Oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+10:58:52,108  INFO main CsvImporter:82 - PlayerRec [email=Carol/@rpco.com, contact=Carol/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+10:58:52,108  INFO main CsvImporter:82 - PlayerRec [email=GregoryNg@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+10:58:52,108  INFO main CsvImporter:82 - PlayerRec [email=NICK999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+10:58:52,109  INFO main CsvImporter:82 - PlayerRec [email=pkimkhor///@rpco.com, contact=pkim khor/>/>/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+10:58:52,109  INFO main CsvImporter:82 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+10:58:52,109  INFO main CsvImporter:82 - PlayerRec [email=@rpco.com, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+10:58:52,109  INFO main CsvImporter:82 - PlayerRec [email=MKT.VinceNT@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+10:58:52,109  INFO main CsvImporter:82 - PlayerRec [email=KenTan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+10:58:52,110  INFO main CsvImporter:82 - PlayerRec [email=YHLAU@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+11:00:41,822  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+11:00:41,824  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/.~lock.a1@rpco.com-2017-05-19 - 2017-05-19.csv#
+11:00:42,151 ERROR main GzBaseUserDaoImpl:285 - Could not execute : Incorrect result size: expected 1, actual 0
+11:01:45,941  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+11:01:45,943  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/.~lock.a1@rpco.com-2017-05-19 - 2017-05-19.csv#
+11:02:10,377  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+11:02:10,379  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/.~lock.a1@rpco.com-2017-05-19 - 2017-05-19.csv#
+11:03:31,002  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+11:03:31,004  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/.~lock.a1@rpco.com-2017-05-19 - 2017-05-19.csv#
+11:06:33,525  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+11:06:33,527  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/.~lock.a1@rpco.com-2017-05-19 - 2017-05-19.csv#
+11:06:33,858 ERROR main GzBaseUserDaoImpl:285 - Could not execute : Incorrect result size: expected 1, actual 0
+11:07:17,135  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+11:07:17,137  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/.~lock.a1@rpco.com-2017-05-19 - 2017-05-19.csv#
+11:10:33,308  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+11:12:11,137  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+11:13:03,953  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/.~lock.a1@rpco.com-2017-05-19 - 2017-05-19.csv#
+11:14:32,073  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+11:14:32,075  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv
+11:14:32,399  INFO main CsvImportMgr:91 - $$$ Importing recs from : /home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv  file#: 0 of: 1
+11:14:32,403  INFO main CsvImporter:63 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+11:14:32,403  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+11:14:32,404  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+11:14:32,404  INFO main CsvImporter:63 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+11:14:32,404  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+11:14:32,404  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+11:14:32,404  INFO main CsvImporter:63 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+11:14:32,404  INFO main CsvImporter:63 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+11:14:32,404  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+11:14:32,404  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+11:14:32,405  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+11:14:32,405  INFO main CsvImporter:63 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+11:14:32,405  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+11:14:32,405  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+11:14:32,406  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+11:14:32,406  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+11:14:32,406  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+11:14:32,406  INFO main CsvImporter:63 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+11:14:32,406  INFO main CsvImporter:63 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+11:14:32,406  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+11:14:32,407  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+11:14:32,407  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+11:14:32,407  INFO main CsvImporter:63 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+11:14:32,407  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+11:14:32,407  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+11:14:32,407  INFO main CsvImporter:63 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+11:14:32,408  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+11:14:32,408  INFO main CsvImporter:63 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+11:14:32,408  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+11:14:32,408  INFO main CsvImporter:63 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+11:14:32,408  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+11:14:32,408  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+11:14:32,409  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+11:14:32,409  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+11:14:32,409  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+11:14:32,409  INFO main CsvImporter:63 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+11:14:32,409  INFO main CsvImporter:63 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+11:14:32,409  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+11:14:32,409  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+11:14:32,409  INFO main CsvImporter:63 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+11:14:32,410  INFO main CsvImporter:72 - Read 43 Recs
+11:14:32,410  INFO main CsvImporter:78 - %%% Importing transactions %%%
+11:14:32,410  INFO main CsvImporter:82 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+11:14:32,410  INFO main CsvImporter:82 - PlayerRec [email=Bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+11:14:32,411  INFO main CsvImporter:82 - PlayerRec [email=Typing...@rpco.com, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+11:14:32,411  INFO main CsvImporter:82 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+11:14:32,411  INFO main CsvImporter:82 - PlayerRec [email=Chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+11:14:32,412  INFO main CsvImporter:82 - PlayerRec [email=NYNickYeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+11:14:32,412  INFO main CsvImporter:82 - PlayerRec [email=DAVIDHONG@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+11:14:32,412  INFO main CsvImporter:82 - PlayerRec [email=HanWoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+11:14:32,412  INFO main CsvImporter:82 - PlayerRec [email=NICKLeong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+11:14:32,413  INFO main CsvImporter:82 - PlayerRec [email=LeonLee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+11:14:32,413  INFO main CsvImporter:82 - PlayerRec [email=LST@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+11:14:32,413  INFO main CsvImporter:82 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+11:14:32,413  INFO main CsvImporter:82 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+11:14:32,414  INFO main CsvImporter:82 - PlayerRec [email=ThienHua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+11:14:32,414  INFO main CsvImporter:82 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+11:14:32,414  INFO main CsvImporter:82 - PlayerRec [email=LCY@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+11:14:32,414  INFO main CsvImporter:82 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+11:14:32,415  INFO main CsvImporter:82 - PlayerRec [email=CY@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+11:14:32,415  INFO main CsvImporter:82 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+11:14:32,415  INFO main CsvImporter:82 - PlayerRec [email=HendriKioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+11:14:32,415  INFO main CsvImporter:82 - PlayerRec [email=jU@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+11:14:32,415  INFO main CsvImporter:82 - PlayerRec [email=MR.LIM@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+11:14:32,416  INFO main CsvImporter:82 - PlayerRec [email=J@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+11:14:32,416  INFO main CsvImporter:82 - PlayerRec [email=AllanGoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+11:14:32,416  INFO main CsvImporter:82 - PlayerRec [email=Jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+11:14:32,416  INFO main CsvImporter:82 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+11:14:32,416  INFO main CsvImporter:82 - PlayerRec [email=JasonLoh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+11:14:32,417  INFO main CsvImporter:82 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+11:14:32,417  INFO main CsvImporter:82 - PlayerRec [email=Jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+11:14:32,417  INFO main CsvImporter:82 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+11:14:32,417  INFO main CsvImporter:82 - PlayerRec [email=Oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+11:14:32,417  INFO main CsvImporter:82 - PlayerRec [email=Carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+11:14:32,417  INFO main CsvImporter:82 - PlayerRec [email=GregoryNg@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+11:14:32,417  INFO main CsvImporter:82 - PlayerRec [email=NICK999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+11:14:32,417  INFO main CsvImporter:82 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+11:14:32,418  INFO main CsvImporter:82 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+11:14:32,418  INFO main CsvImporter:82 - PlayerRec [email=@rpco.com, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+11:14:32,418  INFO main CsvImporter:82 - PlayerRec [email=MKT.VinceNT@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+11:14:32,418  INFO main CsvImporter:82 - PlayerRec [email=KenTan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+11:14:32,418  INFO main CsvImporter:82 - PlayerRec [email=YHLAU@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+12:46:57,446  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+12:46:57,448  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv
+12:46:57,766  INFO main CsvImportMgr:91 - $$$ Importing recs from : /home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv  file#: 0 of: 1
+12:46:57,770  INFO main CsvImporter:63 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+12:46:57,770  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+12:46:57,771  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+12:46:57,771  INFO main CsvImporter:63 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+12:46:57,771  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+12:46:57,771  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+12:46:57,771  INFO main CsvImporter:63 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+12:46:57,771  INFO main CsvImporter:63 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+12:46:57,771  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+12:46:57,771  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+12:46:57,772  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+12:46:57,772  INFO main CsvImporter:63 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+12:46:57,772  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+12:46:57,773  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+12:46:57,773  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+12:46:57,773  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+12:46:57,773  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+12:46:57,773  INFO main CsvImporter:63 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+12:46:57,773  INFO main CsvImporter:63 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+12:46:57,773  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+12:46:57,773  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+12:46:57,773  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+12:46:57,774  INFO main CsvImporter:63 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+12:46:57,774  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+12:46:57,774  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+12:46:57,774  INFO main CsvImporter:63 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+12:46:57,774  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+12:46:57,774  INFO main CsvImporter:63 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+12:46:57,774  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+12:46:57,774  INFO main CsvImporter:63 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+12:46:57,774  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+12:46:57,775  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+12:46:57,775  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+12:46:57,775  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+12:46:57,775  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+12:46:57,775  INFO main CsvImporter:63 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+12:46:57,775  INFO main CsvImporter:63 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+12:46:57,775  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+12:46:57,775  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+12:46:57,775  INFO main CsvImporter:63 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+12:46:57,776  INFO main CsvImporter:72 - Read 43 Recs
+12:46:57,776  INFO main CsvImporter:78 - %%% Importing transactions %%%
+12:46:57,776  INFO main CsvImporter:86 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+12:46:57,776  INFO main CsvImporter:86 - PlayerRec [email=Bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+12:46:57,776 ERROR main CsvImporter:84 - Could not create valid email from : Typing... Contact : Typing... ignored
+12:46:57,776  INFO main CsvImporter:86 - PlayerRec [email=Typing...@rpco.com, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+12:46:57,777  INFO main CsvImporter:86 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+12:46:57,777  INFO main CsvImporter:86 - PlayerRec [email=Chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+12:46:57,777  INFO main CsvImporter:86 - PlayerRec [email=NYNickYeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+12:46:57,777  INFO main CsvImporter:86 - PlayerRec [email=DAVIDHONG@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+12:46:57,778  INFO main CsvImporter:86 - PlayerRec [email=HanWoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+12:46:57,778  INFO main CsvImporter:86 - PlayerRec [email=NICKLeong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+12:46:57,778  INFO main CsvImporter:86 - PlayerRec [email=LeonLee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+12:46:57,778  INFO main CsvImporter:86 - PlayerRec [email=LST@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+12:46:57,778  INFO main CsvImporter:86 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+12:46:57,779  INFO main CsvImporter:86 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+12:46:57,779  INFO main CsvImporter:86 - PlayerRec [email=ThienHua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+12:46:57,779  INFO main CsvImporter:86 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+12:46:57,779  INFO main CsvImporter:86 - PlayerRec [email=LCY@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+12:46:57,779  INFO main CsvImporter:86 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+12:46:57,779  INFO main CsvImporter:86 - PlayerRec [email=CY@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+12:46:57,780  INFO main CsvImporter:86 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+12:46:57,780  INFO main CsvImporter:86 - PlayerRec [email=HendriKioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+12:46:57,780  INFO main CsvImporter:86 - PlayerRec [email=jU@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+12:46:57,780  INFO main CsvImporter:86 - PlayerRec [email=MR.LIM@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+12:46:57,780  INFO main CsvImporter:86 - PlayerRec [email=J@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+12:46:57,781  INFO main CsvImporter:86 - PlayerRec [email=AllanGoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+12:46:57,781  INFO main CsvImporter:86 - PlayerRec [email=Jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+12:46:57,781  INFO main CsvImporter:86 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+12:46:57,781  INFO main CsvImporter:86 - PlayerRec [email=JasonLoh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+12:46:57,781  INFO main CsvImporter:86 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+12:46:57,781  INFO main CsvImporter:86 - PlayerRec [email=Jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+12:46:57,781  INFO main CsvImporter:86 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+12:46:57,782  INFO main CsvImporter:86 - PlayerRec [email=Oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+12:46:57,782  INFO main CsvImporter:86 - PlayerRec [email=Carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+12:46:57,782  INFO main CsvImporter:86 - PlayerRec [email=GregoryNg@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+12:46:57,782  INFO main CsvImporter:86 - PlayerRec [email=NICK999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+12:46:57,782  INFO main CsvImporter:86 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+12:46:57,782  INFO main CsvImporter:86 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+12:46:57,783 ERROR main CsvImporter:84 - Could not create valid email from : 陈晨 Contact : 陈晨 ignored
+12:46:57,783  INFO main CsvImporter:86 - PlayerRec [email=@rpco.com, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+12:46:57,783  INFO main CsvImporter:86 - PlayerRec [email=MKT.VinceNT@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+12:46:57,783  INFO main CsvImporter:86 - PlayerRec [email=KenTan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+12:46:57,783  INFO main CsvImporter:86 - PlayerRec [email=YHLAU@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+12:47:48,840  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+12:47:48,842  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv
+12:47:49,157  INFO main CsvImportMgr:91 - $$$ Importing recs from : /home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv  file#: 0 of: 1
+12:47:49,162  INFO main CsvImporter:63 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+12:47:49,162  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+12:47:49,162  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+12:47:49,162  INFO main CsvImporter:63 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+12:47:49,163  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+12:47:49,163  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+12:47:49,163  INFO main CsvImporter:63 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+12:47:49,163  INFO main CsvImporter:63 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+12:47:49,163  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+12:47:49,163  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+12:47:49,163  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+12:47:49,163  INFO main CsvImporter:63 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+12:47:49,164  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+12:47:49,164  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+12:47:49,164  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+12:47:49,165  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+12:47:49,165  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+12:47:49,165  INFO main CsvImporter:63 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+12:47:49,165  INFO main CsvImporter:63 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+12:47:49,165  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+12:47:49,165  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+12:47:49,165  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+12:47:49,165  INFO main CsvImporter:63 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+12:47:49,166  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+12:47:49,166  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+12:47:49,166  INFO main CsvImporter:63 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+12:47:49,166  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+12:47:49,166  INFO main CsvImporter:63 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+12:47:49,166  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+12:47:49,166  INFO main CsvImporter:63 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+12:47:49,166  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+12:47:49,167  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+12:47:49,167  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+12:47:49,167  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+12:47:49,167  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+12:47:49,167  INFO main CsvImporter:63 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+12:47:49,167  INFO main CsvImporter:63 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+12:47:49,167  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+12:47:49,167  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+12:47:49,167  INFO main CsvImporter:63 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+12:47:49,167  INFO main CsvImporter:72 - Read 43 Recs
+12:47:49,168  INFO main CsvImporter:78 - %%% Importing transactions %%%
+12:47:49,168  INFO main CsvImporter:86 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+12:47:49,168  INFO main CsvImporter:86 - PlayerRec [email=Bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+12:47:49,168 ERROR main CsvImporter:84 - Could not create valid email from : Typing... Contact : Typing... ignored
+12:47:49,168  INFO main CsvImporter:86 - PlayerRec [email=Typing...@rpco.com, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+12:47:49,169  INFO main CsvImporter:86 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+12:47:49,169  INFO main CsvImporter:86 - PlayerRec [email=Chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+12:47:49,169  INFO main CsvImporter:86 - PlayerRec [email=NYNickYeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+12:47:49,169  INFO main CsvImporter:86 - PlayerRec [email=DAVIDHONG@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+12:47:49,170  INFO main CsvImporter:86 - PlayerRec [email=HanWoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+12:47:49,170  INFO main CsvImporter:86 - PlayerRec [email=NICKLeong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+12:47:49,170  INFO main CsvImporter:86 - PlayerRec [email=LeonLee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+12:47:49,170  INFO main CsvImporter:86 - PlayerRec [email=LST@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+12:47:49,171  INFO main CsvImporter:86 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+12:47:49,171  INFO main CsvImporter:86 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+12:47:49,171  INFO main CsvImporter:86 - PlayerRec [email=ThienHua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+12:47:49,171  INFO main CsvImporter:86 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+12:47:49,171  INFO main CsvImporter:86 - PlayerRec [email=LCY@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+12:47:49,171  INFO main CsvImporter:86 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+12:47:49,172  INFO main CsvImporter:86 - PlayerRec [email=CY@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+12:47:49,172  INFO main CsvImporter:86 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+12:47:49,172  INFO main CsvImporter:86 - PlayerRec [email=HendriKioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+12:47:49,172  INFO main CsvImporter:86 - PlayerRec [email=jU@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+12:47:49,173  INFO main CsvImporter:86 - PlayerRec [email=MR.LIM@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+12:47:49,173  INFO main CsvImporter:86 - PlayerRec [email=J@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+12:47:49,173  INFO main CsvImporter:86 - PlayerRec [email=AllanGoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+12:47:49,174  INFO main CsvImporter:86 - PlayerRec [email=Jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+12:47:49,174  INFO main CsvImporter:86 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+12:47:49,174  INFO main CsvImporter:86 - PlayerRec [email=JasonLoh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+12:47:49,174  INFO main CsvImporter:86 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+12:47:49,175  INFO main CsvImporter:86 - PlayerRec [email=Jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+12:47:49,175  INFO main CsvImporter:86 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+12:47:49,175  INFO main CsvImporter:86 - PlayerRec [email=Oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+12:47:49,175  INFO main CsvImporter:86 - PlayerRec [email=Carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+12:47:49,175  INFO main CsvImporter:86 - PlayerRec [email=GregoryNg@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+12:47:49,175  INFO main CsvImporter:86 - PlayerRec [email=NICK999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+12:47:49,176  INFO main CsvImporter:86 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+12:47:49,176  INFO main CsvImporter:86 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+12:47:49,176 ERROR main CsvImporter:84 - Could not create valid email from : 陈晨 Contact : 陈晨 ignored
+12:47:49,176  INFO main CsvImporter:86 - PlayerRec [email=@rpco.com, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+12:47:49,176  INFO main CsvImporter:86 - PlayerRec [email=MKT.VinceNT@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+12:47:49,176  INFO main CsvImporter:86 - PlayerRec [email=KenTan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+12:47:49,177  INFO main CsvImporter:86 - PlayerRec [email=YHLAU@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+12:48:58,756  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+12:48:58,757  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv
+12:48:59,089  INFO main CsvImportMgr:91 - $$$ Importing recs from : /home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv  file#: 0 of: 1
+12:48:59,095  INFO main CsvImporter:63 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+12:48:59,095  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+12:48:59,096  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+12:48:59,096  INFO main CsvImporter:63 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+12:48:59,096  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+12:48:59,096  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+12:48:59,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+12:48:59,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+12:48:59,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+12:48:59,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+12:48:59,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+12:48:59,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+12:48:59,097  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+12:48:59,098  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+12:48:59,098  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+12:48:59,098  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+12:48:59,099  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+12:48:59,099  INFO main CsvImporter:63 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+12:48:59,099  INFO main CsvImporter:63 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+12:48:59,099  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+12:48:59,099  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+12:48:59,099  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+12:48:59,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+12:48:59,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+12:48:59,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+12:48:59,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+12:48:59,100  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+12:48:59,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+12:48:59,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+12:48:59,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+12:48:59,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+12:48:59,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+12:48:59,101  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+12:48:59,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+12:48:59,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+12:48:59,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+12:48:59,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+12:48:59,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+12:48:59,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+12:48:59,102  INFO main CsvImporter:63 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+12:48:59,103  INFO main CsvImporter:72 - Read 43 Recs
+12:48:59,103  INFO main CsvImporter:78 - %%% Importing transactions %%%
+12:48:59,103  INFO main CsvImporter:86 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+12:48:59,104  INFO main CsvImporter:86 - PlayerRec [email=Bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+12:48:59,104 ERROR main CsvImporter:84 - Could not create valid email from : Typing... Contact : Typing... ignored
+12:48:59,104  INFO main CsvImporter:86 - PlayerRec [email=Typing...@rpco.com, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+12:48:59,104  INFO main CsvImporter:86 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+12:48:59,105  INFO main CsvImporter:86 - PlayerRec [email=Chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+12:48:59,105  INFO main CsvImporter:86 - PlayerRec [email=NYNickYeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+12:48:59,105  INFO main CsvImporter:86 - PlayerRec [email=DAVIDHONG@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+12:48:59,105  INFO main CsvImporter:86 - PlayerRec [email=HanWoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+12:48:59,106  INFO main CsvImporter:86 - PlayerRec [email=NICKLeong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+12:48:59,106  INFO main CsvImporter:86 - PlayerRec [email=LeonLee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+12:48:59,106  INFO main CsvImporter:86 - PlayerRec [email=LST@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+12:48:59,107  INFO main CsvImporter:86 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+12:48:59,107  INFO main CsvImporter:86 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+12:48:59,107  INFO main CsvImporter:86 - PlayerRec [email=ThienHua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+12:48:59,108  INFO main CsvImporter:86 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+12:48:59,108  INFO main CsvImporter:86 - PlayerRec [email=LCY@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+12:48:59,108  INFO main CsvImporter:86 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+12:48:59,108  INFO main CsvImporter:86 - PlayerRec [email=CY@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+12:48:59,109  INFO main CsvImporter:86 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+12:48:59,109  INFO main CsvImporter:86 - PlayerRec [email=HendriKioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+12:48:59,109  INFO main CsvImporter:86 - PlayerRec [email=jU@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+12:48:59,109  INFO main CsvImporter:86 - PlayerRec [email=MR.LIM@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+12:48:59,110  INFO main CsvImporter:86 - PlayerRec [email=J@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+12:48:59,110  INFO main CsvImporter:86 - PlayerRec [email=AllanGoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+12:48:59,110  INFO main CsvImporter:86 - PlayerRec [email=Jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+12:48:59,110  INFO main CsvImporter:86 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+12:48:59,111  INFO main CsvImporter:86 - PlayerRec [email=JasonLoh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+12:48:59,111  INFO main CsvImporter:86 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+12:48:59,111  INFO main CsvImporter:86 - PlayerRec [email=Jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+12:48:59,111  INFO main CsvImporter:86 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+12:48:59,112  INFO main CsvImporter:86 - PlayerRec [email=Oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+12:48:59,112  INFO main CsvImporter:86 - PlayerRec [email=Carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+12:48:59,112  INFO main CsvImporter:86 - PlayerRec [email=GregoryNg@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+12:48:59,112  INFO main CsvImporter:86 - PlayerRec [email=NICK999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+12:48:59,113  INFO main CsvImporter:86 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+12:48:59,113  INFO main CsvImporter:86 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+12:48:59,113 ERROR main CsvImporter:84 - Could not create valid email from : 陈晨 Contact : 陈晨 ignored
+12:48:59,113  INFO main CsvImporter:86 - PlayerRec [email=@rpco.com, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+12:48:59,114  INFO main CsvImporter:86 - PlayerRec [email=MKT.VinceNT@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+12:48:59,114  INFO main CsvImporter:86 - PlayerRec [email=KenTan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+12:48:59,114  INFO main CsvImporter:86 - PlayerRec [email=YHLAU@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+13:25:51,390  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+13:25:51,392  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv
+13:25:51,712  INFO main CsvImportMgr:91 - $$$ Importing recs from : /home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv  file#: 0 of: 1
+13:25:51,717  INFO main CsvImporter:63 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+13:25:51,717  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+13:25:51,717  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+13:25:51,717  INFO main CsvImporter:63 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+13:25:51,718  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+13:25:51,718  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+13:25:51,718  INFO main CsvImporter:63 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+13:25:51,718  INFO main CsvImporter:63 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+13:25:51,718  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+13:25:51,718  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+13:25:51,718  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+13:25:51,718  INFO main CsvImporter:63 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+13:25:51,718  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+13:25:51,719  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+13:25:51,719  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+13:25:51,719  INFO main CsvImporter:63 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+13:25:51,720  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+13:25:51,720  INFO main CsvImporter:63 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+13:25:51,720  INFO main CsvImporter:63 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+13:25:51,720  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+13:25:51,720  INFO main CsvImporter:63 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+13:25:51,720  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+13:25:51,720  INFO main CsvImporter:63 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+13:25:51,720  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+13:25:51,721  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+13:25:51,721  INFO main CsvImporter:63 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+13:25:51,721  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+13:25:51,721  INFO main CsvImporter:63 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+13:25:51,721  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+13:25:51,721  INFO main CsvImporter:63 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+13:25:51,721  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+13:25:51,721  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+13:25:51,721  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+13:25:51,722  INFO main CsvImporter:63 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+13:25:51,722  INFO main CsvImporter:63 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+13:25:51,722  INFO main CsvImporter:63 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+13:25:51,722  INFO main CsvImporter:63 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+13:25:51,722  INFO main CsvImporter:63 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+13:25:51,722  INFO main CsvImporter:63 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+13:25:51,722  INFO main CsvImporter:63 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+13:25:51,722  INFO main CsvImporter:72 - Read 43 Recs
+13:25:51,722  INFO main CsvImporter:78 - %%% Importing transactions %%%
+13:25:51,723  INFO main CsvImporter:83 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+13:25:51,723  INFO main CsvImporter:83 - PlayerRec [email=Bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+13:25:51,723 ERROR main CsvImporter:85 - Could not create valid email from : Typing... Contact : Typing... ignored
+13:25:51,723  INFO main CsvImporter:83 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+13:25:51,724  INFO main CsvImporter:83 - PlayerRec [email=Chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+13:25:51,724  INFO main CsvImporter:83 - PlayerRec [email=NYNickYeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+13:25:51,724  INFO main CsvImporter:83 - PlayerRec [email=DAVIDHONG@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+13:25:51,724  INFO main CsvImporter:83 - PlayerRec [email=HanWoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+13:25:51,724  INFO main CsvImporter:83 - PlayerRec [email=NICKLeong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+13:25:51,725  INFO main CsvImporter:83 - PlayerRec [email=LeonLee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+13:25:51,725  INFO main CsvImporter:83 - PlayerRec [email=LST@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+13:25:51,725  INFO main CsvImporter:83 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+13:25:51,725  INFO main CsvImporter:83 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+13:25:51,726  INFO main CsvImporter:83 - PlayerRec [email=ThienHua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+13:25:51,726  INFO main CsvImporter:83 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+13:25:51,726  INFO main CsvImporter:83 - PlayerRec [email=LCY@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+13:25:51,726  INFO main CsvImporter:83 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+13:25:51,726  INFO main CsvImporter:83 - PlayerRec [email=CY@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+13:25:51,726  INFO main CsvImporter:83 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+13:25:51,727  INFO main CsvImporter:83 - PlayerRec [email=HendriKioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+13:25:51,727  INFO main CsvImporter:83 - PlayerRec [email=jU@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+13:25:51,727  INFO main CsvImporter:83 - PlayerRec [email=MR.LIM@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+13:25:51,727  INFO main CsvImporter:83 - PlayerRec [email=J@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+13:25:51,727  INFO main CsvImporter:83 - PlayerRec [email=AllanGoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+13:25:51,727  INFO main CsvImporter:83 - PlayerRec [email=Jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+13:25:51,728  INFO main CsvImporter:83 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+13:25:51,728  INFO main CsvImporter:83 - PlayerRec [email=JasonLoh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+13:25:51,728  INFO main CsvImporter:83 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+13:25:51,728  INFO main CsvImporter:83 - PlayerRec [email=Jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+13:25:51,728  INFO main CsvImporter:83 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+13:25:51,728  INFO main CsvImporter:83 - PlayerRec [email=Oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+13:25:51,729  INFO main CsvImporter:83 - PlayerRec [email=Carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+13:25:51,729  INFO main CsvImporter:83 - PlayerRec [email=GregoryNg@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+13:25:51,729  INFO main CsvImporter:83 - PlayerRec [email=NICK999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+13:25:51,729  INFO main CsvImporter:83 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+13:25:51,729  INFO main CsvImporter:83 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+13:25:51,729 ERROR main CsvImporter:85 - Could not create valid email from : 陈晨 Contact : 陈晨 ignored
+13:25:51,729  INFO main CsvImporter:83 - PlayerRec [email=MKT.VinceNT@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+13:25:51,730  INFO main CsvImporter:83 - PlayerRec [email=KenTan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+13:25:51,730  INFO main CsvImporter:83 - PlayerRec [email=YHLAU@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+14:45:51,907  INFO main CsvImportMgr:125 - Running with folder : /home/pmk/w2/redpacket/import/ loaded dir : /home/pmk/w2/redpacket/import/
+14:45:51,908  INFO main CsvImportMgr:86 - Importing :/home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv
+14:45:52,250  INFO main CsvImportMgr:91 - $$$ Importing recs from : /home/pmk/w2/redpacket/import/a1@rpco.com-2017-05-19 - 2017-05-19.csv  file#: 0 of: 1
+14:45:52,254  INFO main CsvImporter:70 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+14:45:52,255  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+14:45:52,255  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+14:45:52,255  INFO main CsvImporter:70 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+14:45:52,256  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+14:45:52,256  INFO main CsvImporter:70 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+14:45:52,256  INFO main CsvImporter:70 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+14:45:52,256  INFO main CsvImporter:70 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+14:45:52,256  INFO main CsvImporter:70 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+14:45:52,256  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+14:45:52,256  INFO main CsvImporter:70 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+14:45:52,256  INFO main CsvImporter:70 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+14:45:52,256  INFO main CsvImporter:70 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+14:45:52,257  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+14:45:52,257  INFO main CsvImporter:70 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+14:45:52,257  INFO main CsvImporter:70 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+14:45:52,258  INFO main CsvImporter:70 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+14:45:52,258  INFO main CsvImporter:70 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+14:45:52,258  INFO main CsvImporter:70 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+14:45:52,258  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+14:45:52,258  INFO main CsvImporter:70 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+14:45:52,258  INFO main CsvImporter:70 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+14:45:52,258  INFO main CsvImporter:70 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+14:45:52,258  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+14:45:52,259  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+14:45:52,259  INFO main CsvImporter:70 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+14:45:52,259  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+14:45:52,259  INFO main CsvImporter:70 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+14:45:52,259  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+14:45:52,259  INFO main CsvImporter:70 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+14:45:52,259  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+14:45:52,259  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+14:45:52,259  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+14:45:52,260  INFO main CsvImporter:70 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+14:45:52,260  INFO main CsvImporter:70 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+14:45:52,260  INFO main CsvImporter:70 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+14:45:52,260  INFO main CsvImporter:70 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+14:45:52,260  INFO main CsvImporter:70 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+14:45:52,260  INFO main CsvImporter:70 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+14:45:52,260  INFO main CsvImporter:70 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+14:45:52,260  INFO main CsvImporter:79 - Read 43 Recs
+14:45:52,260  INFO main CsvImporter:85 - %%% Importing transactions %%%
+14:45:52,261  INFO main CsvImporter:90 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+14:45:52,262  INFO main CsvImporter:104 - Creating player : benny@rpco.com for : a1@rpco.com
+14:45:52,336  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:52,337  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : null
+14:45:52,360  INFO main CsvImporter:90 - PlayerRec [email=Bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+14:45:52,361  INFO main CsvImporter:104 - Creating player : Bigshow@rpco.com for : a1@rpco.com
+14:45:52,440  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:52,440  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 0
+14:45:52,441  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 1
+14:45:52,449 ERROR main CsvImporter:95 - Could not create valid email from : Typing... Contact : Typing... ignored
+14:45:52,449  INFO main CsvImporter:90 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+14:45:52,451  INFO main CsvImporter:104 - Creating player : alanhoho@rpco.com for : a1@rpco.com
+14:45:52,526  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:52,527  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 1
+14:45:52,527  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 2
+14:45:52,538  INFO main CsvImporter:90 - PlayerRec [email=Chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+14:45:52,539  INFO main CsvImporter:104 - Creating player : Chochia@rpco.com for : a1@rpco.com
+14:45:52,614  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:52,614  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 2
+14:45:52,614  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 3
+14:45:52,627  INFO main CsvImporter:90 - PlayerRec [email=NYNickYeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+14:45:52,628  INFO main CsvImporter:104 - Creating player : NYNickYeap@rpco.com for : a1@rpco.com
+14:45:52,704  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:52,705  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 3
+14:45:52,705  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 5
+14:45:52,716  INFO main CsvImporter:90 - PlayerRec [email=DAVIDHONG@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+14:45:52,717  INFO main CsvImporter:104 - Creating player : DAVIDHONG@rpco.com for : a1@rpco.com
+14:45:52,798  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:52,798  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 5
+14:45:52,799  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 6
+14:45:52,805  INFO main CsvImporter:90 - PlayerRec [email=HanWoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+14:45:52,806  INFO main CsvImporter:104 - Creating player : HanWoei@rpco.com for : a1@rpco.com
+14:45:52,878  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:52,879  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 6
+14:45:52,879  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 7
+14:45:52,882  INFO main CsvImporter:90 - PlayerRec [email=NICKLeong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+14:45:52,883  INFO main CsvImporter:104 - Creating player : NICKLeong@rpco.com for : a1@rpco.com
+14:45:52,961  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:52,962  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 7
+14:45:52,962  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 8
+14:45:52,971  INFO main CsvImporter:90 - PlayerRec [email=LeonLee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+14:45:52,972  INFO main CsvImporter:104 - Creating player : LeonLee@rpco.com for : a1@rpco.com
+14:45:53,050  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:53,051  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 8
+14:45:53,052  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 9
+14:45:53,060  INFO main CsvImporter:90 - PlayerRec [email=LST@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+14:45:53,061  INFO main CsvImporter:104 - Creating player : LST@rpco.com for : a1@rpco.com
+14:45:53,137  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:53,138  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 9
+14:45:53,139  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 10
+14:45:53,149  INFO main CsvImporter:90 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+14:45:53,150  INFO main CsvImporter:104 - Creating player : thyemaishoo@rpco.com for : a1@rpco.com
+14:45:53,228  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:53,229  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 10
+14:45:53,229  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 11
+14:45:53,238  INFO main CsvImporter:90 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+14:45:53,239  INFO main CsvImporter:104 - Creating player : patpat@rpco.com for : a1@rpco.com
+14:45:53,317  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:53,317  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 11
+14:45:53,317  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 12
+14:45:53,327  INFO main CsvImporter:90 - PlayerRec [email=ThienHua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+14:45:53,328  INFO main CsvImporter:104 - Creating player : ThienHua@rpco.com for : a1@rpco.com
+14:45:53,404  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:53,404  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 12
+14:45:53,404  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 13
+14:45:53,494  INFO main CsvImporter:90 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+14:45:53,496  INFO main CsvImporter:104 - Creating player : jingjing@rpco.com for : a1@rpco.com
+14:45:53,604  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:53,605  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 13
+14:45:53,605  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 15
+14:45:53,616  INFO main CsvImporter:90 - PlayerRec [email=LCY@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+14:45:53,617  INFO main CsvImporter:104 - Creating player : LCY@rpco.com for : a1@rpco.com
+14:45:53,696  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:53,697  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 15
+14:45:53,697  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 16
+14:45:53,704  INFO main CsvImporter:90 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+14:45:53,706  INFO main CsvImporter:104 - Creating player : jingjieooi@rpco.com for : a1@rpco.com
+14:45:53,782  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:53,783  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 16
+14:45:53,783  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 17
+14:45:53,793  INFO main CsvImporter:90 - PlayerRec [email=CY@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+14:45:53,794  INFO main CsvImporter:104 - Creating player : CY@rpco.com for : a1@rpco.com
+14:45:53,869  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:53,870  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 17
+14:45:53,870  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 18
+14:45:53,882  INFO main CsvImporter:90 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+14:45:53,883  INFO main CsvImporter:104 - Creating player : chochuan@rpco.com for : a1@rpco.com
+14:45:53,961  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:53,962  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 18
+14:45:53,962  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 19
+14:45:53,971  INFO main CsvImporter:90 - PlayerRec [email=HendriKioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+14:45:53,972  INFO main CsvImporter:104 - Creating player : HendriKioe@rpco.com for : a1@rpco.com
+14:45:54,048  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:54,049  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 19
+14:45:54,049  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 20
+14:45:54,060  INFO main CsvImporter:90 - PlayerRec [email=jU@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+14:45:54,061  INFO main CsvImporter:104 - Creating player : jU@rpco.com for : a1@rpco.com
+14:45:54,133  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:54,134  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 20
+14:45:54,134  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 21
+14:45:54,138  INFO main CsvImporter:90 - PlayerRec [email=MR.LIM@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+14:45:54,139  INFO main CsvImporter:104 - Creating player : MR.LIM@rpco.com for : a1@rpco.com
+14:45:54,219  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:54,219  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 21
+14:45:54,220  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 22
+14:45:54,227  INFO main CsvImporter:90 - PlayerRec [email=J@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+14:45:54,228  INFO main CsvImporter:104 - Creating player : J@rpco.com for : a1@rpco.com
+14:45:54,301  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:54,302  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 22
+14:45:54,302  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 23
+14:45:54,305  INFO main CsvImporter:90 - PlayerRec [email=AllanGoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+14:45:54,306  INFO main CsvImporter:104 - Creating player : AllanGoh@rpco.com for : a1@rpco.com
+14:45:54,381  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:54,381  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 23
+14:45:54,381  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 25
+14:45:54,394  INFO main CsvImporter:90 - PlayerRec [email=Jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+14:45:54,395  INFO main CsvImporter:104 - Creating player : Jack@rpco.com for : a1@rpco.com
+14:45:54,471  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:54,471  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 25
+14:45:54,471  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 26
+14:45:54,482  INFO main CsvImporter:90 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+14:45:54,483  INFO main CsvImporter:104 - Creating player : kwen@rpco.com for : a1@rpco.com
+14:45:54,559  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:54,559  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 26
+14:45:54,560  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 27
+14:45:54,572  INFO main CsvImporter:90 - PlayerRec [email=JasonLoh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+14:45:54,573  INFO main CsvImporter:104 - Creating player : JasonLoh@rpco.com for : a1@rpco.com
+14:45:54,658  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:54,658  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 27
+14:45:54,658  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 28
+14:45:54,671  INFO main CsvImporter:90 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+14:45:54,672  INFO main CsvImporter:104 - Creating player : johntte@rpco.com for : a1@rpco.com
+14:45:54,747  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:54,748  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 28
+14:45:54,748  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 29
+14:45:54,760  INFO main CsvImporter:90 - PlayerRec [email=Jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+14:45:54,761  INFO main CsvImporter:104 - Creating player : Jason@rpco.com for : a1@rpco.com
+14:45:54,836  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:54,836  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 29
+14:45:54,836  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 30
+14:45:54,849  INFO main CsvImporter:90 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+14:45:54,850  INFO main CsvImporter:104 - Creating player : 123@rpco.com for : a1@rpco.com
+14:45:54,926  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:54,927  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 30
+14:45:54,927  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 31
+14:45:54,938  INFO main CsvImporter:90 - PlayerRec [email=Oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+14:45:54,939  INFO main CsvImporter:104 - Creating player : Oswin@rpco.com for : a1@rpco.com
+14:45:55,017  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:55,018  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 31
+14:45:55,018  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 32
+14:45:55,027  INFO main CsvImporter:90 - PlayerRec [email=Carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+14:45:55,028  INFO main CsvImporter:104 - Creating player : Carol@rpco.com for : a1@rpco.com
+14:45:55,103  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:55,104  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 32
+14:45:55,104  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 33
+14:45:55,116  INFO main CsvImporter:90 - PlayerRec [email=GregoryNg@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+14:45:55,117  INFO main CsvImporter:104 - Creating player : GregoryNg@rpco.com for : a1@rpco.com
+14:45:55,193  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:55,194  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 33
+14:45:55,194  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 35
+14:45:55,205  INFO main CsvImporter:90 - PlayerRec [email=NICK999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+14:45:55,206  INFO main CsvImporter:104 - Creating player : NICK999@rpco.com for : a1@rpco.com
+14:45:55,288  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:55,289  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 35
+14:45:55,289  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 36
+14:45:55,294  INFO main CsvImporter:90 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+14:45:55,295  INFO main CsvImporter:104 - Creating player : pkimkhor@rpco.com for : a1@rpco.com
+14:45:55,378  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:55,379  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 36
+14:45:55,379  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 37
+14:45:55,383  INFO main CsvImporter:90 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+14:45:55,384  INFO main CsvImporter:104 - Creating player : khangieekhang@rpco.com for : a1@rpco.com
+14:45:55,460  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:55,461  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 37
+14:45:55,461  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 38
+14:45:55,472 ERROR main CsvImporter:95 - Could not create valid email from : 陈晨 Contact : 陈晨 ignored
+14:45:55,472  INFO main CsvImporter:90 - PlayerRec [email=MKT.VinceNT@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+14:45:55,473  INFO main CsvImporter:104 - Creating player : MKT.VinceNT@rpco.com for : a1@rpco.com
+14:45:55,547  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:55,548  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 38
+14:45:55,548  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 39
+14:45:55,560  INFO main CsvImporter:90 - PlayerRec [email=KenTan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+14:45:55,562  INFO main CsvImporter:104 - Creating player : KenTan@rpco.com for : a1@rpco.com
+14:45:55,639  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:55,639  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 39
+14:45:55,639  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 50
+14:45:55,649  INFO main CsvImporter:90 - PlayerRec [email=YHLAU@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+14:45:55,650  INFO main CsvImporter:104 - Creating player : YHLAU@rpco.com for : a1@rpco.com
+14:45:55,727  INFO main GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+14:45:55,728  INFO main GzBaseUserDaoImpl:142 - Got next leaf instance : 50
+14:45:55,728  INFO main GzBaseUserDaoImpl:154 - Using leaf instance : 51

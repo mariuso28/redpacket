@@ -5,7 +5,6 @@ import java.sql.DatabaseMetaData;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
@@ -21,7 +20,6 @@ import org.rp.account.persistence.GzAccountDao;
 import org.rp.account.persistence.GzTransactionRowMapperPaginated;
 import org.rp.account.persistence.GzXactionRowMapperPaginated;
 import org.rp.admin.GzAdmin;
-import org.rp.admin.GzAdminProperties;
 import org.rp.admin.persistence.GzAdminDao;
 import org.rp.agent.GzAgent;
 import org.rp.agent.persistence.GzAgentDao;
@@ -117,23 +115,6 @@ public class GzHomeDaoImpl implements GzHome {
 		this.gzBaseUserDao = gzBaseUserDao;
 	}
 
-	public GzAdminDao getGzAdminDao() {
-		return gzAdminDao;
-	}
-
-	public void setGzAdminDao(GzAdminDao gzAdminDao) {
-		this.gzAdminDao = gzAdminDao;
-	}
-
-	@Override
-	public void storeAdmin(GzAdmin admin) throws GzPersistenceException {
-		gzAdminDao.store(admin);
-	}
-
-	@Override
-	public void updateAdmin(GzAdmin admin) throws GzPersistenceException {
-		gzAdminDao.update(admin);
-	}
 	
 	@Override
 	public GzAgent getAgentByCode(String code) throws GzPersistenceException {
@@ -143,12 +124,6 @@ public class GzHomeDaoImpl implements GzHome {
 	@Override
 	public void storeTransaction(GzTransaction transaction) throws GzPersistenceException {
 		gzAccountDao.storeTransaction(transaction);
-	}
-
-	@Override
-	public GzAdmin getAdminByEmail(String email) throws GzPersistenceException {
-		
-		return gzAdminDao.getAdminByEmail(email);
 	}
 
 	@Override
@@ -368,33 +343,8 @@ public class GzHomeDaoImpl implements GzHome {
 	}
 
 	@Override
-	public boolean getScheduledDownTimeSet() throws GzPersistenceException {
-		return gzAdminDao.getScheduledDownTimeSet();
-	}
-
-	@Override
-	public void setScheduledDownTime(boolean set) throws GzPersistenceException {
-		gzAdminDao.setScheduledDownTime(set);
-	}
-
-	@Override
-	public void storeScheduledDownTime(Date date) throws GzPersistenceException {
-		gzAdminDao.storeScheduledDownTime(date);
-	}
-
-	@Override
-	public Date getScheduledDownTime() throws GzPersistenceException {
-		return gzAdminDao.getScheduledDownTime();
-	}
-
-	@Override
 	public Map<UUID, Double> getOutstandingInvoiceAmounts(GzBaseUser user) throws GzPersistenceException {
 		return gzAccountDao.getOutstandingInvoiceAmounts(user);
-	}
-
-	@Override
-	public GzAdminProperties getAdminProperties() throws GzPersistenceException {
-		return gzAdminDao.getAdminProperties();
 	}
 
 	@Override
@@ -407,17 +357,6 @@ public class GzHomeDaoImpl implements GzHome {
 		gzBaseUserDao.updateLeafInstance(bu);
 	}
 
-	@Override
-	public void updateVersionCode(UUID uuid) throws GzPersistenceException {
-		gzAdminDao.updateVersionCode(uuid);
-	}
-
-	@Override
-	public UUID getVersionCode() throws GzPersistenceException {
-		return gzAdminDao.getVersionCode();
-	}
-
-	
 	@Override
 	public List<String> getColumns(String table) throws GzPersistenceException{
 
@@ -440,4 +379,18 @@ public class GzHomeDaoImpl implements GzHome {
         return cols;
     }
 
+	@Override
+	public GzAdmin getAdminByEmail(String email) throws GzPersistenceException {
+		return gzAdminDao.getAdminByEmail(email);
+	}
+
+	public GzAdminDao getGzAdminDao() {
+		return gzAdminDao;
+	}
+
+	public void setGzAdminDao(GzAdminDao gzAdminDao) {
+		this.gzAdminDao = gzAdminDao;
+	}
+
+	
 }

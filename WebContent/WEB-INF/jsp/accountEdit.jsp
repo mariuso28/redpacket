@@ -207,7 +207,7 @@ function isNumber(s , checkFloat, checkNegative) {
 
       <tr>
     	<td width="70%">Bet Commission:</td>
-    		<td width="30%"><input type="text" name="command.newAccount.betCommission" size="10px" readonly
+    		<td width="30%"><input type="text" name="command.newAccount.betCommission" size="10px"
     		value="${accountDetailsForm.prevAccount.betCommission}" />
     		</td>
     	</tr>

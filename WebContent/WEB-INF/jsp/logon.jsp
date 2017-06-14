@@ -49,7 +49,7 @@ function submitForgotPassword()
           return false;
       if (!confirm('A reset password will be sent to your email account: ' + email))
         return false;
-      window.location.replace("/jack/gz/logon/password?user&email="+email);
+      window.location.replace("/redpacket/rp/logon/password?user&email="+email);
       return false;
     }
 
@@ -58,7 +58,7 @@ function submitForgotPassword()
 </head>
 <body>
   <div class="main">
-    <form action="<c:url value="/gz/logon/signin" />" method="POST">
+    <form action="<c:url value="/rp/logon/signin" />" method="POST">
       <input type="hidden" name="${_csrf.parameterName}"  value="${_csrf.token}" />
         <div id="header">
           <div class="bg"></div>
@@ -69,7 +69,7 @@ function submitForgotPassword()
     					<tr>
     						<td><font style="color:#aaa; font-size:14px; font-weight:700;">Email Address:</font></td>
               	<td><input id="emailDefault" class="inTable form-control" type="text"
-    							name="email" value="goldmine@test.com" style="height:24px;"/></td>
+    							name="email" value="rpadmin@test.com" style="height:24px;"/></td>
     					</tr>
               <tr>
                 <td>&nbsp;</td>

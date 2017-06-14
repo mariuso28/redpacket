@@ -1,11 +1,10 @@
 package org.rp.tester;
 
 import org.apache.log4j.Logger;
+import org.rp.admin.GzAdmin;
 import org.rp.home.GzHome;
 import org.rp.home.persistence.GzPersistenceException;
 import org.rp.services.GzServices;
-import org.rp.admin.GzAdmin;
-import org.rp.baseuser.GzBaseUser;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -23,11 +22,11 @@ public class TestStoreAdmin
 		GzHome gzHome = gzServices.getGzHome();
 		
 		try {
-				GzAdmin admin = new GzAdmin("gzAdmin@test.com");
+				GzAdmin admin = new GzAdmin("rpAdmin@test.com");
 				admin.setPassword("88888888");
-				gzHome.storeAdmin(admin);
+				gzHome.storeBaseUser(admin);
 				
-				GzBaseUser bu = gzHome.getBaseUserByCode(admin.getCode());
+				GzAdmin bu = gzHome.getAdminByEmail(admin.getEmail());
 				log.info("DONE : " + bu.getCode() + " " + bu.getClass());
 			} catch (GzPersistenceException e) {
 				// TODO Auto-generated catch block

@@ -43,7 +43,7 @@ public class Mail
 			 + "to immediately notify the sender by a reply email and to delete the "
 			 + "transmission including all attachment. In such instances you are further "
 			 + "prohibited from reproducing, disclosing, distributing or taking any "
-			 + "action in reliance on it. Please be cautioned that Goldmine PARADIGM SDN BHD "
+			 + "action in reliance on it. Please be cautioned that URBAN PARADIGM SDN BHD "
 			 + "will not be responsible for any viruses or other interfering or damaging "
 			 + "elements which may be contained in this e-mail (including any attachments hereto).";
 	}
@@ -166,10 +166,10 @@ public class Mail
 	
 	public void notifyRegistration(GzBaseUser baseUser,String imagePath, String password) throws Exception {
 		
-		String subject = "Goldmine Gaming Registration Notification";
-		String msg = "Hi " + baseUser.getContact() + "\nYou have successfully been registered with Goldmine Gaming as a " + baseUser.getRole().getDesc() + ".\n"
+		String subject = "RedPacket Gaming Registration Notification";
+		String msg = "Hi " + baseUser.getContact() + "\nYou have successfully been registered with RedPacket Gaming as a " + baseUser.getRole().getDesc() + ".\n"
 				+"Your password has been generated as:\n" +
-				password + "\n - please logon with your email and change at your convenience.\nKind regards - Goldmine Gaming Support Team.";
+				password + "\n - please logon with your email and change at your convenience.\nKind regards - RedPacket Gaming Support Team.";
 		
 		List<String> attactments = new  ArrayList<String>();
 		if (imagePath != null)
@@ -194,9 +194,9 @@ public class Mail
 
 	public void notifyPasswordReset(GzBaseUser baseUser,String imagePath, String password) throws Exception {
 		
-		String subject = "Goldmine Gaming Password Reset";
+		String subject = "RedPacket Gaming Password Reset";
 		String msg = "Hi " + baseUser.getContact() + "\nYour password has been reset to\n" +
-				password + "\n - please logon with your email and change at your convenience.\nKind regards - Goldmine Gaming Support Team.";
+				password + "\n - please logon with your email and change at your convenience.\nKind regards - RedPacket Gaming Support Team.";
 		
 		List<String> attactments = new  ArrayList<String>();
 		if (imagePath != null)
@@ -223,12 +223,12 @@ public class Mail
 		String subject = "Please Verify Your Registration";
 		
 		// @RequestMapping(value = "/verify", params="code", method = RequestMethod.GET)
-		String link = "http://" + domainTarget+"/pkfz/px4/logon/verify?code&id=" + baseUser.getId().toString();
+		String link = "http://" + domainTarget+"/redpacket/rp/logon/verify?code&id=" + baseUser.getId().toString();
 		
-		String msg = "Hi " + baseUser.getContact() + "\nYour Goldmine Gaming Registration is set to your email : " + baseUser.getEmail() 
+		String msg = "Hi " + baseUser.getContact() + "\nYour RedPacket Gaming Registration is set to your email : " + baseUser.getEmail() 
 				+ ".\nPlease click on the link below to activate your registration.\n\n"
 				+ link
-				+"\n\nKind regards - Goldmine Gaming Support Team.";
+				+"\n\nKind regards - RedPacket Gaming Support Team.";
 		
 		List<String> attactments = new  ArrayList<String>();
 		attactments.add(imagePath);

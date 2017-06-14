@@ -278,7 +278,7 @@ public class GzBaseUserDaoImpl extends GzAccountDaoImpl implements GzBaseUserDao
 		String sql = "SELECT code FROM baseUser WHERE email = ?";
 		try
 		{
-			return getJdbcTemplate().queryForObject(sql,new Object[] { email }, String.class);
+			return getJdbcTemplate().queryForObject(sql,new Object[] { email.toLowerCase() }, String.class);
 		}
 		catch (DataAccessException e)
 		{

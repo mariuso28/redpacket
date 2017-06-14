@@ -15,6 +15,13 @@ public class GzProfile {
 	{
 	}
 	
+	public GzProfile(String contact,String email,String password)
+	{
+		setContact(contact);
+		setEmail(email);
+		setPassword(password);
+	}
+	
 	public String validate(String vPassword,boolean exist,GzRole role)
 	{
 		String msg = "";
