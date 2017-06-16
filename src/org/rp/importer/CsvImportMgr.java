@@ -7,7 +7,6 @@ import java.util.GregorianCalendar;
 
 import org.apache.log4j.Logger;
 import org.rp.agent.GzAgent;
-import org.rp.home.GzHome;
 import org.rp.home.persistence.GzPersistenceException;
 import org.rp.importer.util.MoveFile;
 import org.rp.services.GzServices;
@@ -46,6 +45,12 @@ public class CsvImportMgr {
 	{
 		// ie: a1@rpco.com-2017-05-19 - 2017-05-19.csv
 		
+		int pos = filename.indexOf(".csv");
+		if (pos > 0)
+		{
+			filename = filename.substring(0,pos).trim();
+		}
+		
 		String[] toks = filename.split("-");
 		GregorianCalendar gc = new GregorianCalendar();
 	    gc.clear();
@@ -78,7 +83,7 @@ public class CsvImportMgr {
 	            log.info("Importing :" +  fileEntry.getAbsolutePath());
 	            
 	            AgentRec agentRec = createAgentRec(fileEntry.getName());
-	            CsvImporter csv = new CsvImporter(fileEntry.getAbsolutePath(),gzServices);
+	            CsvImporter csv = new CsvImporter(fileEntry.getAbsolutePath(),gzServices,agentRec.getDate().toString());
 	    		try {
 	    			log.info("$$$ Importing recs from : " + fileEntry.getAbsolutePath() + "  file#: " + currentFile + " of: " + fileNum);
 	    			csv.readRecs(agentRec);
@@ -103,6 +108,17 @@ public class CsvImportMgr {
 		this.gzServices = gzServices;
 	}
 
+	public void importFiles() throws CsvImporterException
+	{
+		String folder = "/home/pmk/w2/redpacket/import/";
+		String loaded = "/home/pmk/w2/redpacket/import/";	
+		
+		folder = gzServices.getProperties().getProperty("importFolder", folder);
+		loaded = gzServices.getProperties().getProperty("loadedFolder", loaded);
+		
+		importFilesForFolder(folder,loaded);
+	}
+	
 	
 	public static void main(String[] args)
 	{

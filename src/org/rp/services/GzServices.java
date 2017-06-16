@@ -2,6 +2,7 @@ package org.rp.services;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -14,10 +15,12 @@ import org.apache.log4j.Logger;
 import org.rp.account.GzAccountMgr;
 import org.rp.account.GzInvoice;
 import org.rp.account.GzPayment;
+import org.rp.account.ss.InvoiceAnalytic;
 import org.rp.baseuser.GzBaseUser;
 import org.rp.framework.Mail;
 import org.rp.home.GzHome;
 import org.rp.home.persistence.GzPersistenceException;
+import org.rp.importer.CsvImportMgr;
 import org.rp.util.NumberUtil;
 import org.rp.util.StackDump;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -55,18 +58,6 @@ public class GzServices
 	
 	public void initServices()
 	{
-		properties = new Properties();
-		try {
-			properties.load(new FileInputStream(gzProperties));
-		} catch (IOException e) {
-			e.printStackTrace();
-			System.exit(5);
-		} 
-		
-//		String dataSourceUrl = properties.getProperty("dataSourceUrl");
-//		if (dataSourceUrl!=null)
-//			gzHome.overrideDataSourceUrl(dataSourceUrl);
-		
 		gzAccountMgr.setServices(this);
 		gzAccountMgr.setHome(gzHome);
 		
@@ -82,7 +73,7 @@ public class GzServices
 		mail.setMailSendFilter(properties.getProperty("mailSendFilter"));
 		mail.setMailDisabled(properties.getProperty("mailDisabled"));
 		
-		scheduleCloseOpenInvoices();
+//		scheduleCloseOpenInvoices();
 	}
 	
 
@@ -108,6 +99,7 @@ public class GzServices
 	}
 
 	
+	@SuppressWarnings("unused")
 	private void scheduleCloseOpenInvoices() 
 	{	
 		gzHome.setCloseInvoiceAfter(Integer.parseInt(gzHome.getCloseInvoiceAfterMins()));
@@ -199,17 +191,20 @@ public class GzServices
 		gzHome.performWithdrawlDeposit(currAccountUser,dwType,dwAmount);
 	}
 	
-	/*
-	public synchronized void createTransactionsForGame(final GzBetRollup rollup, final GzParticipant banker,final boolean isHouseBanker,final GzGamePlay currentPlay) throws GzPersistenceException {
+	TransactionStatus ts;
+	public synchronized void performImport() throws GzServicesException {
 
 		try {
 			updateInvoiceSem.acquire();
-
+			
 			new TransactionTemplate(getTransactionManager()).execute(new TransactionCallbackWithoutResult() {
 				@Override
 				protected void doInTransactionWithoutResult(TransactionStatus arg0) {
-					doCreateTransactionsForGame(rollup, banker, isHouseBanker, currentPlay);
+					
+					doPerformImport();
+					ts = arg0;
 				}
+				
 			});
 			
 			updateInvoiceSem.release();
@@ -217,39 +212,27 @@ public class GzServices
 			if (gzHome.getCloseInvoiceAfter()<0)
 				closeOpenInvoices();
 			
-		} catch (InterruptedException e1) {
+		} catch (InterruptedException | GzPersistenceException e1) {
 			log.error(e1.getMessage());
 			e1.printStackTrace();
 		} 
+		
+		if (ts.isCompleted()==false)
+			throw new GzServicesException("performImport failed");
+			
 	}
 
-	private void doCreateTransactionsForGame(GzBetRollup rollup, GzParticipant banker,boolean isHouseBanker,GzGamePlay currentPlay) {
+	public void doPerformImport() throws RuntimeException{
 		
-		try
-		{
-			for (GzBetRollupElement element : rollup.getStakeRollups().values())
-			{
-				getGzAccountMgr().collectStake(element.getStake(), element.getPlayer(),banker,isHouseBanker,currentPlay.getId());
-			}
-			
-			for (GzBetRollupElement element : rollup.getWinRollups().values())
-			{
-				getGzAccountMgr().distributeWin(element, element.getPlayer(), banker, isHouseBanker, currentPlay.getId());
-			}
-			
-			for (GzBetRollupElement element : rollup.getTieRollups().values())
-			{
-				getGzAccountMgr().distributeTie(element, element.getPlayer(), banker, isHouseBanker, currentPlay.getId());
-			}
-		}
-		catch (Exception e)
-		{
+		CsvImportMgr cim = new CsvImportMgr(this);
+		try {
+			cim.importFiles();
+		} catch (Exception e) {
 			e.printStackTrace();
-			log.fatal(e.getMessage());
-			throw new RuntimeException("HHH");
+			throw new RuntimeException(e.getMessage());
 		}
 	}
-	*/
+	
 	public synchronized void updateEnabled(final GzBaseUser user,final boolean flag)		 // looks wrong
 	{
 		log.trace("%%%perform updateEnabled for:" + user.getEmail());
@@ -303,6 +286,20 @@ public class GzServices
 		GzPayment payment = new GzPayment(invoice,now,invoice.getNetAmount());
 		gzHome.storePayment(payment);							// invoice payment id set in here too
 		invoice.setPaymentId(payment.getId());
+	}
+	
+	public void generateAndSendXls(long id,GzBaseUser currUser) throws Exception{
+		
+		InvoiceAnalytic ia = new InvoiceAnalytic(this);
+		ia.createWorkBook(id);
+		String subject = "Dear " + currUser.getContact() + ", please find xls workbook for invoice : #" + id;
+		String content = "Dear " + currUser.getContact() + ", please find xls workbook for invoice : #" + id 
+				+ " for you to review. \nKind regards - Goldmine Gaming Support Team.";
+		
+		List<String> attachments = new ArrayList<String>();
+		attachments.add(ia.getXlsPath());
+		getMail().sendMail(currUser,subject, content, attachments );
+		log.info("Sucessfully sent xls path");
 	}
 	
 	public void resetPassword(GzBaseUser baseUser,boolean first) throws Exception {
@@ -398,5 +395,7 @@ public class GzServices
 	public void setProperties(Properties properties) {
 		this.properties = properties;
 	}
+
+	
 
 }

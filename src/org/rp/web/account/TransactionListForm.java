@@ -1,5 +1,6 @@
 package org.rp.web.account;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -19,6 +20,7 @@ public class TransactionListForm
 	private String code;
 	private GzRole role;
 	private String email;
+	private List<GzTransaction> displayList = new ArrayList<GzTransaction>();
 	
 	public TransactionListForm(GzBaseUser currUser,GzInvoice invoice,GzHome gzHome) throws GzPersistenceException
 	{
@@ -29,12 +31,8 @@ public class TransactionListForm
 		List<GzTransaction> trans = gzHome.getTransactionsForInvoice(invoice);
 		for (GzTransaction tran : trans)
 		{
-			addInTrans(gzHome,tran,currUser);
+			displayList.add(tran);
 		}
-	}
-	
-	private void addInTrans(GzHome gzHome,GzTransaction tran,GzBaseUser currUser) throws GzPersistenceException {
-		
 	}
 	
 	public void setInvoice(GzInvoice invoice) {
@@ -68,6 +66,14 @@ public class TransactionListForm
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public List<GzTransaction> getDisplayList() {
+		return displayList;
+	}
+
+	public void setDisplayList(List<GzTransaction> displayList) {
+		this.displayList = displayList;
 	}
 
 

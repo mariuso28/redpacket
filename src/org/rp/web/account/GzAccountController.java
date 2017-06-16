@@ -4,7 +4,6 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
-import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -621,6 +620,32 @@ public class GzAccountController {
         return new ModelAndView("accountMaintain" , "accountDetailsForm", accountDetailsForm);
 	}
 	
+	@RequestMapping(value = "/processAccount", params=("emailXls"), method = RequestMethod.GET)
+	public Object emailXls(ModelMap model,String invoiceId) {
+       
+		log.info("emailXls for : " + invoiceId);
+		
+		GzBaseUser currBaseUser =  (GzBaseUser) model.get("currBaseUser");
+
+		String errMsg = "";
+		String infoMsg = "";
+		try
+		{
+			long id = Long.parseLong(invoiceId);
+			gzServices.generateAndSendXls(id,currBaseUser);
+			infoMsg = "Xls workbook for invoice : " + invoiceId + " successfully sent to : " + currBaseUser.getEmail() + ". Please check your inbox.";
+			log.info(infoMsg);
+		}
+		catch (Exception e)
+		{
+			e.printStackTrace();
+			errMsg = "Xls workbook could not be sent - please try later.";
+			log.error("Xls workbook could not be sent - please try later. - " + e.getMessage());
+		}	
+				
+        return backViewInvoiceDetails(model,infoMsg,errMsg);
+	}
+
 	
 	private void payInvoices(AccountCommand command) throws GzExceptionFatal, GzPersistenceException
 	{

@@ -79,6 +79,14 @@ public class GzAgentController {
 		return "redirect:backtoMemberHome";
     }
 	
+	// backtoMemberHome&errMes=
+	@RequestMapping(value = "/backtoMemberHomeErr", method = RequestMethod.GET)
+	public ModelAndView backtoMemberHomeErr(String errMsg,ModelMap model,HttpServletRequest request)
+	{
+		model.addAttribute("errMsg",errMsg);
+		return backtoMemberHome(model,request);
+	}
+	
 	@RequestMapping(value = "/backtoMemberHome", method = RequestMethod.GET)
 	public ModelAndView backtoMemberHome(ModelMap model,HttpServletRequest request)
 	{
@@ -101,6 +109,14 @@ public class GzAgentController {
 		setUpOutstandingInvoiceMap(currUser,model);
 		
 		GzMemberForm memberForm = new GzMemberForm();
+		
+		String errMsg = (String) model.get("errMsg");
+		if (errMsg != null)
+		{
+			memberForm.setErrMsg(errMsg);
+			model.remove("errMsg");
+		}
+		
 		return new ModelAndView("memberHome","memberForm",memberForm);
 	}
 	
@@ -326,9 +342,24 @@ public class GzAgentController {
 		} catch (Exception e) {
 			String stackDump = StackDump.toString(e);
 			log.error(stackDump);
+			return "redirect:backtoMemberHomeErr?errMsg=Close Open Invoices Failed please contact support".replace(" ","%20");
 		}
 		
 		return "redirect:backtoMemberHome";
+    }
+	
+	@RequestMapping(value = "/processAgent", params = "importCsvs", method = RequestMethod.GET)
+    public Object importCsvs(ModelMap model)
+    {
+		try {
+			gzServices.performImport();
+		} catch (Exception e) {
+			String stackDump = StackDump.toString(e);
+			log.error(stackDump);
+			return "redirect:backtoMemberHomeErr?errMsg=Import Cvs Failed please contact support".replace(" ","%20");
+		}
+		
+		return "redirect:backtoMemberHome?";
     }
 	
 	@Autowired

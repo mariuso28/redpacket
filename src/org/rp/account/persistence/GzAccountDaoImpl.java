@@ -40,7 +40,7 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 		final Timestamp t1 = new Timestamp(trans.getTimestamp().getTime());
 		try
 		{
-			getJdbcTemplate().update("INSERT INTO transaction (payer,payee,type,amount,invoiceid,timestamp,playGameId) "
+			getJdbcTemplate().update("INSERT INTO transaction (payer,payee,type,amount,invoiceid,timestamp,source) "
 					+ "VALUES( ?, ?, ?, ?, ?, ?, ?)"
 					, new PreparedStatementSetter() {
 						public void setValues(PreparedStatement psStoreTransaction) throws SQLException {
@@ -50,7 +50,7 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 							psStoreTransaction.setDouble(4,trans.getAmount());
 							psStoreTransaction.setLong(5,trans.getInvoiceId());
 							psStoreTransaction.setTimestamp(6,t1);
-							psStoreTransaction.setObject(7,trans.getPlayGameId());
+							psStoreTransaction.setString(7,trans.getSource());
 						}
 					});
 		}
@@ -163,27 +163,6 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 		{
 			return new ArrayList<GzInvoice>();
 		}
-		/*
-		try
-		{
-			List<GzInvoice> invoices = getJdbcTemplate().query("SELECT * FROM xaction WHERE ((payer = ? AND payee = ?) " +
-						"OR (payee = ? AND payer = ?)) AND type='I' AND paymentid < 0"
-			        , new PreparedStatementSetter() {
-						public void setValues(PreparedStatement psGetOutstandingInvoices) throws SQLException {
-							psGetOutstandingInvoices.setString(1,payer.getEmail());
-							psGetOutstandingInvoices.setString(2,payee.getEmail());
-							psGetOutstandingInvoices.setString(3,payer.getEmail());
-							psGetOutstandingInvoices.setString(4,payee.getEmail());
-			      }
-			    },new GzInvoiceRowMapper());
-			return invoices;
-		}
-		catch (DataAccessException e)
-		{
-			log.error("Could not execute : " + e.getMessage());
-			throw new GzPersistenceException("Could not execute : " + e.getMessage());
-		}	
-		*/
 	}
 	
 	@Override
@@ -256,8 +235,8 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 		
 		try
 		{
-			getJdbcTemplate().update("INSERT INTO xaction (payer,payee,type,amount,commission,netamount,timestamp,duedate,status,paymentid,stake,winstake)"
-					+ "VALUES( ?,?,?,?,?,?,?,?,?,?,?,? )"
+			getJdbcTemplate().update("INSERT INTO xaction (payer,payee,type,amount,commission,netamount,timestamp,duedate,status,paymentid)"
+					+ "VALUES( ?,?,?,?,?,?,?,?,?,? )"
 					, new PreparedStatementSetter() {
 						public void setValues(PreparedStatement psStoreInvoice) throws SQLException {
 							psStoreInvoice.setString(1,invoice.getPayer());
@@ -270,8 +249,6 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 							psStoreInvoice.setTimestamp(8,dueDate);
 							psStoreInvoice.setString(9,String.valueOf('O'));
 							psStoreInvoice.setLong(10,-1L);
-							psStoreInvoice.setDouble(11,invoice.getStake());
-							psStoreInvoice.setString(12,String.valueOf(invoice.getWinstake()));
 
 						}
 					});
@@ -395,75 +372,6 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 		return rollup;
 	}
 	
-	/*
-	@Override
-	public GzRollup getRollupForUser(String userId,String code,GzRole role)
-	{	
-		GzRollup rollup = new GzRollup(userId,code,role);
-		
-		try
-		{
-			String sql = "SELECT SUM(amount) FROM xaction WHERE TYPE='I' AND payee=? AND paymentId>0";
-			rollup.setPaidIn(getRollupValuePs(userId,sql));
-			
-			sql = "SELECT SUM(amount) FROM xaction WHERE TYPE='I' AND payer=? AND paymentId>0";
-			rollup.setPaidOut(getRollupValuePs(userId,sql));
-		
-			sql = "SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee=? AND paymentId<=0";
-			rollup.setOwed(getRollupValuePs(userId,sql));
-			
-			sql = "SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payer=? AND paymentId<=0";
-			rollup.setOwing(getRollupValuePs(userId,sql));
-			
-			sql = "SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee=? AND paymentId<=0";
-			rollup.setWithdrawl(getRollupValuePs(userId,sql));
-			
-			sql = "SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee=? AND paymentId<=0";
-			rollup.setDeposit(getRollupValuePs(userId,sql));
-		}
-		catch (GzPersistenceException e)
-		{
-			log.error(e.getMessage());
-		}
-		
-		rollup.calcTotal();
-		return rollup;
-	}
-	
-	private double getRollupValuePs(String email,String sql) throws GzPersistenceException {
-		
-		PreparedStatement ps = null;
-		ResultSet rs = null;
-		Double value = null;
-		try
-		{
-			ps = getConnection().prepareStatement(sql);
-			ps.setString(1,email);
-			rs = ps.executeQuery();
-			rs.next();
-			value = rs.getDouble(1);
-		}
-		catch (Exception e)
-		{
-			log.error("Could not execute : PS : " + sql + " - " + e.getMessage());
-			throw new GzPersistenceException("PS : " + sql + " - " + e.getMessage());
-		}	
-		finally
-		{
-			try {
-				if (rs!=null)
-					rs.close();
-				if (ps!=null)
-					ps.close();
-			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-		return value;
-	}
-	*/
-	
 	private double getRollupValue(String sql)
 	{
 		try
@@ -550,17 +458,16 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 	}
 
 	@Override
-	public GzInvoice getOpenInvoice(final String payer, final String payee,final char winstake) throws GzPersistenceException {
+	public GzInvoice getOpenInvoice(final String payer, final String payee) throws GzPersistenceException {
 		
 		try
 		{
 			List<GzInvoice> invoices = getJdbcTemplate().query("SELECT * FROM xaction WHERE payer = ? "
-					+ "AND payee = ? AND  winstake = ? AND TYPE='I' AND status ='O' LIMIT 1"
+					+ "AND payee = ? AND TYPE='I' AND status ='O' LIMIT 1"
 			        , new PreparedStatementSetter() {
 						public void setValues(PreparedStatement psGetOpenInvoice) throws SQLException {
 							psGetOpenInvoice.setString(1,payer);
 							psGetOpenInvoice.setString(2,payee);
-							psGetOpenInvoice.setString(3,Character.toString(winstake));
 			      }
 			    },new GzInvoiceRowMapper());
 			if (invoices.size()==0)
@@ -579,13 +486,12 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 		
 		try
 		{
-			getJdbcTemplate().update("UPDATE xaction SET amount=?,commission=?,netAmount=?,stake=? WHERE id=?"
+			getJdbcTemplate().update("UPDATE xaction SET amount=?,commission=?,netAmount=? WHERE id=?"
 					, new PreparedStatementSetter() {
 						public void setValues(PreparedStatement psUpdateInvoice) throws SQLException {
 							psUpdateInvoice.setDouble(1,invoice.getAmount());
 							psUpdateInvoice.setDouble(2,invoice.getCommission());
 							psUpdateInvoice.setDouble(3,invoice.getNetAmount());
-							psUpdateInvoice.setDouble(4,invoice.getStake());
 							psUpdateInvoice.setLong(5,invoice.getId());
 						}
 					});
@@ -598,19 +504,18 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 	}
 	
 	@Override
-	public void updateInvoice(final double amount,final double commission,final double netAmount,final double stake,
+	public void updateInvoice(final double amount,final double commission,final double netAmount,
 											final long id) throws GzPersistenceException {
 		
 		try
 		{
-			getJdbcTemplate().update("UPDATE xaction SET amount=amount + ?,commission=commission + ?,netAmount=netAmount + ?,stake=stake + ? WHERE id=?"
+			getJdbcTemplate().update("UPDATE xaction SET amount=amount + ?,commission=commission + ?,netAmount=netAmount + ? WHERE id=?"
 					, new PreparedStatementSetter() {
 						public void setValues(PreparedStatement psUpdateInvoice) throws SQLException {
 							psUpdateInvoice.setDouble(1,amount);
 							psUpdateInvoice.setDouble(2,commission);
 							psUpdateInvoice.setDouble(3,netAmount);
-							psUpdateInvoice.setDouble(4,stake);
-							psUpdateInvoice.setLong(5,id);
+							psUpdateInvoice.setLong(4,id);
 						}
 					});
 		}
@@ -624,6 +529,7 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 	@Override
 	public void updateSubInvoice(final GzInvoice subInvoice, final GzInvoice invoice) throws GzPersistenceException {
 		
+//		log.info("subId : " + subInvoice.getId() + " id: " + invoice.getId());
 		try
 		{
 			getJdbcTemplate().update("UPDATE xaction SET parentid=? WHERE id=?"
@@ -737,9 +643,9 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 		String sql = "SELECT * FROM transaction WHERE invoiceid = " + invoice.getId();
 		try
 		{
-			log.info(sql);
+//			log.info(sql);
 			List<GzTransaction> ac = getJdbcTemplate().query(sql,new GzTransactionRowMapper());
-			log.info("got : " + ac.size() + " transactions");
+//			log.info("got : " + ac.size() + " transactions");
 			return ac;
 		}
 		catch (EmptyResultDataAccessException e)

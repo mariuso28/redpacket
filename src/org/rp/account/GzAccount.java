@@ -5,6 +5,7 @@ import org.rp.baseuser.GzBaseUser;
 
 public class GzAccount 
 {
+	@SuppressWarnings("unused")
 	private static final Logger log = Logger.getLogger(GzAccount.class);	
 	private GzBaseUser baseUser;
 	private double balance;

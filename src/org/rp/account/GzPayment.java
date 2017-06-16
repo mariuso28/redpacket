@@ -18,7 +18,7 @@ public class GzPayment extends GzInvoice {
 	
 	public GzPayment(String payer,String payee,double amount,Date timestamp,long invoiceId)
 	{
-		super(payer,payee,amount,0,0,timestamp,null,0,'X');
+		super(payer,payee,amount,0,0,timestamp,null);
 		setType(GzXaction.XTYPEPAYMENT);
 		setInvoiceId(invoiceId);
 	}

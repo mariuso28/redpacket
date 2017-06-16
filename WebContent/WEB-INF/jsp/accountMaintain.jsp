@@ -357,25 +357,21 @@
       <div style="height:400px; overflow:auto">
       <table border="0" style="width:100%;" align="left" cellspacing="0">
   	  <colgroup>
-    		<col span="1" style="width: 9%;">
-        <col span="1" style="width: 12%;">
-        <col span="1" style="width: 7%;">
-        <col span="1" style="width: 3%;">
     		<col span="1" style="width: 8%;">
-        <col span="1" style="width: 11%;">
+        <col span="1" style="width: 12%;">
         <col span="1" style="width: 8%;">
-      	<col span="1" style="width: 11%;">
-    		<col span="1" style="width: 16%;">
-    		<col span="1" style="width: 3%;">
-    		<col span="1" style="width: 6%;">
-        <col span="1" style="width: 6%;">
+        <col span="1" style="width: 12%;">
+    		<col span="1" style="width: 8%;">
+        <col span="1" style="width: 12%;">
+        <col span="1" style="width: 20%;">
+      	<col span="1" style="width: 10%;">
+    		<col span="1" style="width: 10%;">
+    		<col span="1" style="width: 10%;">
   		</colgroup>
   	    <tr style="color:FFF; background-color:B5B5B5">
   		<td>Invoice</td>
   	  <td>Issue Date</td>
   		<td>Due Date</td>
-      <td align="center">Type</td>
-      <td align="right">Stake</td>
   		<td align="right">Amount</td>
       <td align="right">Comm</td>
       <td align="right">Pay</td>
@@ -423,13 +419,6 @@
     		</c:when>
     		</c:choose>
   		  <td><font color=${linkColor}><fmt:formatDate value="${invoice.dueDate}" pattern="dd-MMM-yy"/></td>
-        <td align="center">${invoice.winstake}</td>
-        <c:if test="${invoice.stake>0}">
-          <td align="right"><fmt:formatNumber value="${invoice.stake}" type="number" maxFractionDigits="2" minFractionDigits="2" /></td>
-        </c:if>
-        <c:if test="${invoice.stake==0}">
-          <td align="right">N/A</td>
-        </c:if>
   		  <td align="right"><fmt:formatNumber value="${invoice.amount}"  type="number" maxFractionDigits="2" minFractionDigits="2" /></td>
         <td align="right"><fmt:formatNumber value="${invoice.commission}"  type="number" maxFractionDigits="2" minFractionDigits="2" /></td>
         <td align="right"><fmt:formatNumber value="${invoice.netAmount}"  type="number" maxFractionDigits="2" minFractionDigits="2" /></td>

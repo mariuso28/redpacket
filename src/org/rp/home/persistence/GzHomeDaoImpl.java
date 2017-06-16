@@ -176,7 +176,8 @@ public class GzHomeDaoImpl implements GzHome {
 
 	@Override
 	public GzBaseUser getParentForUser(GzBaseUser currUser) throws GzPersistenceException{
-		return gzBaseUserDao.getBaseUserByCode(currUser.getParentCode());
+		currUser.setParent(gzBaseUserDao.getBaseUserByCode(currUser.getParentCode()));
+		return currUser.getParent();
 	}
 
 	@Override
@@ -213,8 +214,8 @@ public class GzHomeDaoImpl implements GzHome {
 	}
 
 	@Override
-	public GzInvoice getOpenInvoice(String payer, String payee,char winstake) throws GzPersistenceException {
-		return gzAccountDao.getOpenInvoice(payer,payee, winstake);
+	public GzInvoice getOpenInvoice(String payer, String payee) throws GzPersistenceException {
+		return gzAccountDao.getOpenInvoice(payer,payee);
 	}
 
 	@Override
@@ -223,9 +224,9 @@ public class GzHomeDaoImpl implements GzHome {
 	}
 	
 	@Override
-	public void updateInvoice(double amount, double commission, double netAmount, double stake, long id)
+	public void updateInvoice(double amount, double commission, double netAmount,  long id)
 			throws GzPersistenceException {
-		gzAccountDao.updateInvoice(amount, commission, netAmount, stake, id);		
+		gzAccountDao.updateInvoice(amount, commission, netAmount, id);		
 	}
 
 	@Override

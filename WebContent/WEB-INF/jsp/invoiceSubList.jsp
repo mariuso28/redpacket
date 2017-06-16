@@ -55,18 +55,14 @@ ls
         <col span="1" style="width: 10%;">
         <col span="1" style="width: 6%;">
         <col span="1" style="width: 10%;">
-    		<col span="1" style="width: 10%;">    		<col span="1" style="width: 8%;">
-    		<col span="1" style="width: 12%;">
-	  </colgroup>
+    		<col span="1" style="width: 10%;">	  </colgroup>
 	  <tr style="color:purple; background-color:#aaa;">
 		<td>Invoice</td>
 		<td>Payer</td>
     <td>Pay To</td>
 		<td>Issue Date</td>
 		<td>Due Date</td>
-    <td>Type</td>
-    <td>Stake</td>
-		<td>Amount</td>
+    <td>Amount</td>
 		<td>Comm</td>
 		<td>Net Amount</td>
 	  </tr>
@@ -75,13 +71,6 @@ ls
       		<td><a href="processAccount?invoiceDetails&invoiceId=${invoice.id}">#${invoice.id}</td>
       		<td>${invoice.payer}</td>          <td>${invoice.payee}</td>      		<td><fmt:formatDate value="${invoice.timestamp}" pattern="dd-MMM-yy HH:mm"/></td>
       		<td><fmt:formatDate value="${invoice.dueDate}" pattern="dd-MMM-yy"/></td>
-          <td>${invoice.winstake}</td>
-          <c:if test="${invoice.stake>0}">
-            <td><fmt:formatNumber value="${invoice.stake}" type="number" maxFractionDigits="2" minFractionDigits="2"/></td>
-          </c:if>
-          <c:if test="${invoice.stake==0}">
-            <td>N/A</td>
-          </c:if>
       		<td><fmt:formatNumber value="${invoice.amount}" type="number" maxFractionDigits="2" minFractionDigits="2"/></td>
       		<td><fmt:formatNumber value="${invoice.commission}" type="number" maxFractionDigits="2" minFractionDigits="2"/></td>
       		<td><fmt:formatNumber value="${invoice.netAmount}" type="number" maxFractionDigits="2" minFractionDigits="2"/></td>

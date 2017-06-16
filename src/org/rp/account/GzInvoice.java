@@ -10,24 +10,18 @@ public class GzInvoice extends GzDeposit {
 	public static final char STATUSCLOSED = 'C';
 	public static final char STATUSSETTLED = 'S';
 	
-	public static final char WINSTAKEWIN = 'W';
-	public static final char WINSTAKETIE = 'T';
-	public static final char WINSTAKESTAKE = 'S';
-	
 	private double commission;
 	private double netAmount;
 	private long parentId;
 	private Date dueDate;
 	private long paymentId;
 	private char status;
-	private double stake;
-	private char winstake;
 	
 	public GzInvoice()
 	{
 	}
 
-	public GzInvoice(String payer,String payee,double amount,double commission,double netAmount,Date timestamp,Date dueDate,double stake, char winstake)
+	public GzInvoice(String payer,String payee,double amount,double commission,double netAmount,Date timestamp,Date dueDate)
 	{
 		setPayer(payer);
 		setPayee(payee);
@@ -38,8 +32,6 @@ public class GzInvoice extends GzDeposit {
 		setCommission(commission);
 		setNetAmount(netAmount);
 		setPaymentId(-1L);
-		setStake(stake);
-		setWinstake(winstake);
 	}
 
 	public double getCommission() {
@@ -92,28 +84,9 @@ public class GzInvoice extends GzDeposit {
 
 	public void update(double amount2, double commission2, double netAmount2,double stake2,char winstake) {
 		amount += amount2;
-		if (winstake==GzInvoice.WINSTAKEWIN)
-			amount+=stake2;
 		commission += commission2;
 		netAmount += netAmount2;
-		stake += stake2;
 	}
 
-	public double getStake() {
-		return stake;
-	}
-
-	public void setStake(double stake) {
-		this.stake = stake;
-	}
-
-	public char getWinstake() {
-		return winstake;
-	}
-
-	public void setWinstake(char winstake) {
-		this.winstake = winstake;
-	}
-	
 	
 }

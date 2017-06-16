@@ -21,11 +21,13 @@ public class CsvImporter {
 	private String path;
 	private GzBaseUser agent;
 	private GzServices gzServices;
+	private String source;
 	
-	public CsvImporter(String path, GzServices gzServices)
+	public CsvImporter(String path, GzServices gzServices,String source)
 	{
 		setPath(path);
 		setGzServices(gzServices);
+		setSource(source);
 	}
 	
 	public String getPath() {
@@ -107,7 +109,19 @@ public class CsvImporter {
 	
 	private void createTransactionBet(List<PlayerRec> list, AgentRec agentRec)
 	{
-		// GOT HERE 
+		for (PlayerRec pr : list)
+		{
+			if (pr.getPlayer()==null)
+				continue;
+			
+			try {
+				GzBaseUser player = gzServices.getGzHome().getBaseUserByEmail(pr.getPlayer().getEmail());
+				gzServices.getGzHome().getParentForUser(player);
+				gzServices.getGzAccountMgr().createTransactions(player, pr.getTurnover(), pr.getBankerTurnover(), source);
+			} catch (GzPersistenceException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 
 	private GzBaseUser createPlayer(PlayerRec pr, GzAgent agent) {
@@ -154,5 +168,12 @@ public class CsvImporter {
 		this.gzServices = gzServices;
 	}
 
+	public String getSource() {
+		return source;
+	}
+
+	public void setSource(String source) {
+		this.source = source;
+	}
 
 }

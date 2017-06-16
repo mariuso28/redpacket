@@ -29,9 +29,6 @@ public class GzInvoiceRowMapper implements RowMapper<GzInvoice> {
 		invoice.setNetAmount(rs.getDouble("netAmount"));
 		String status = rs.getString("status");
 		invoice.setStatus(status.charAt(0));
-		String winstake = rs.getString("winstake");
-		invoice.setWinstake(winstake.charAt(0));
-		invoice.setStake(rs.getDouble("stake"));
 	}
 	
 }

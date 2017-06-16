@@ -47,9 +47,9 @@ public interface GzHome
 	public GzBaseUser getBaseUserByCode(String code) throws GzPersistenceException;
 	public void updateEnabled(GzBaseUser currAccountUser) throws GzPersistenceException;
 	public void getDownstreamForParent(GzBaseUser currUser);
-	public GzInvoice getOpenInvoice(String payer, String payee, char winstake) throws GzPersistenceException;
+	public GzInvoice getOpenInvoice(String payer, String payee) throws GzPersistenceException;
 	public void updateInvoice(GzInvoice invoice) throws GzPersistenceException;
-	public void updateInvoice(double amount, double commission, double netAmount, double stake, long id) throws GzPersistenceException;
+	public void updateInvoice(double amount, double commission, double netAmount, long id) throws GzPersistenceException;
 	public void updateSubInvoice(GzInvoice subInvoice, GzInvoice invoice) throws GzPersistenceException;
 	public void storeInvoice(GzInvoice invoice) throws GzPersistenceException;
 	public void storePayment(GzPayment payment) throws GzPersistenceException;

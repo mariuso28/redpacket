@@ -38,7 +38,7 @@ public class PlayerRec{
 	private void createEmail(String suffix) throws CsvImporterException{
 		String EMAIl_PATTERN = "[^a-zA-Z0-9!#$%&@'*+-/=?^_`{|}~.]+";
 		email = contact.replaceAll(EMAIl_PATTERN, "") + suffix;
-		
+		email = email.toLowerCase();
 		if (!ev.validate(email))
 			throw new CsvImporterException("Could not create valid email from : " + contact);
 	}

@@ -237,6 +237,11 @@
 							</div>
 						</a>
 						<c:if test="${currUser.role.rank == 5}">
+							<a href="processAgent?importCsvs">
+								<div class="lozengeButton" style="background-color:orange;">
+								 Import Cvs
+								</div>
+							</a>
 							<a href="processAgent?closeOpenInvoices">
 								<div class="lozengeButton" style="background-color:orange;">
 									Close Open Invoices
@@ -253,7 +258,9 @@
 			</c:choose>
 		</tr>
 	</table>
-
+		<br/>
+		<font color="red">${memberForm.errMsg}</font>
+		<br/>
 
 	</form:form>
 	</br>

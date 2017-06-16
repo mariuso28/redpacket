@@ -37,34 +37,31 @@
 <div style="height:400px; overflow:auto">
 <table border="0" style="width:100%;" align="left">
 	    <colgroup>
-		      <col span="1" style="width: 8%;">
+		      <col span="1" style="width: 5%;">
        		<col span="1" style="width: 20%;">
-       		<col span="1" style="width: 10%;">
-		      <col span="1" style="width: 18%;">
-       		<col span="1" style="width: 18%;">
-      		<col span="1" style="width: 12%;">		      <col span="1" style="width: 12%;">
+       		<col span="1" style="width: 20%;">
+		      <col span="1" style="width: 20%;">
+       		<col span="1" style="width: 5%;">
+      		<col span="1" style="width: 10%;">		      <col span="1" style="width: 30%;">
 	   </colgroup>
 	  <tr style="color:purple; background-color:#aaa">
-      <td>#</td>
-		<td>Game Name</td>
-		<td>Game</td>
+    <td>#</td>
     <td>Made</td>
-		<td>Player</td>
-		<td>Banker</td>
-    <td>Stake</td>
-    <td>Win</td>
-
+    <td>Payer</td>
+		<td>Payee</td>
+		<td>Type</td>
+    <td>Amount</td>
+    <td>Source</td>
 	  </tr>
-	  <c:forEach items="${transactionListForm.displayList}" var="bw" varStatus="status">
+	  <c:forEach items="${transactionListForm.displayList}" var="tx" varStatus="status">
     <tr style="color:#333; background-color:#ccc">
-          <td>${bw.bet.id}</td>
-          <td><a href="processAccount?gameDetails&gamePlayId=${bw.bet.gamePlayId}">${bw.gameName}</td>
-          <td>${bw.type}</td>
-          <td><fmt:formatDate value="${bw.bet.made}" pattern="dd-MMM-yy HH:mm:ss"/></td>
-          <td>${bw.bet.playerEmail}</td>
-          <td>${bw.bet.bankerEmail}</td>
-      	  <td><fmt:formatNumber value="${bw.bet.stake}" type="number" maxFractionDigits="2" minFractionDigits="2"/></td>
-          <td><fmt:formatNumber value="${bw.bet.win}" type="number" maxFractionDigits="2" minFractionDigits="2"/></td>
+          <td>${tx.id}</td>
+          <td><fmt:formatDate value="${tx.timestamp}" pattern="dd-MMM-yy HH:mm:ss"/></td>
+          <td>${tx.payer}</td>
+          <td>${tx.payee}</td>
+          <td>${tx.type}</td>
+      	  <td><fmt:formatNumber value="${tx.amount}" type="number" maxFractionDigits="2" minFractionDigits="2"/></td>
+          <td>${tx.source}</td>
 	  </tr>
 	  </c:forEach>
 </table>
