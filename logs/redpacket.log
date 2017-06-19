@@ -7445,3 +7445,410 @@ Kind regards - RedPacket Gaming Support Team.
 14:24:22,580  INFO Thread-5 Mail:56 - creating message
 14:24:22,581  INFO Thread-5 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
 14:24:28,018  INFO Thread-5 Mail:80 - sended message
+11:13:30,896  INFO http-bio-8080-exec-4 GzLogonController:47 - Received request to signin XXX
+11:13:50,627  INFO http-bio-8080-exec-8 CustomUserDetailsService:30 - loadUserByUsername email : rpadmin@test.com
+11:13:51,830  INFO http-bio-8080-exec-8 CustomUserDetailsService:53 - User : rpadmin@test.com found with role :ROLE_ADMIN
+11:13:51,831  INFO http-bio-8080-exec-8 CustomUserDetailsService:60 - Using User : rpadmin@test.com with authorities :[ROLE_ADMIN]
+11:13:51,938  INFO http-bio-8080-exec-8 CustomUserDetailsService:30 - loadUserByUsername email : rpadmin@test.com
+11:13:51,941  INFO http-bio-8080-exec-8 CustomUserDetailsService:53 - User : rpadmin@test.com found with role :ROLE_ADMIN
+11:13:51,941  INFO http-bio-8080-exec-8 CustomUserDetailsService:60 - Using User : rpadmin@test.com with authorities :[ROLE_ADMIN]
+11:13:51,953  INFO http-bio-8080-exec-8 CustomAuthenticationFailureHandler:30 - Failure on : rpadmin@test.com
+11:13:51,953  INFO http-bio-8080-exec-8 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+11:13:52,039  INFO http-bio-8080-exec-8 GzLogonController:72 - Received request to signin - error
+11:15:10,052  INFO http-bio-8080-exec-2 CustomUserDetailsService:30 - loadUserByUsername email : rpadmin@test.com
+11:15:10,057  INFO http-bio-8080-exec-2 CustomUserDetailsService:53 - User : rpadmin@test.com found with role :ROLE_ADMIN
+11:15:10,057  INFO http-bio-8080-exec-2 CustomUserDetailsService:60 - Using User : rpadmin@test.com with authorities :[ROLE_ADMIN]
+11:15:10,148  INFO http-bio-8080-exec-2 CustomUserDetailsService:30 - loadUserByUsername email : rpadmin@test.com
+11:15:10,150  INFO http-bio-8080-exec-2 CustomUserDetailsService:53 - User : rpadmin@test.com found with role :ROLE_ADMIN
+11:15:10,150  INFO http-bio-8080-exec-2 CustomUserDetailsService:60 - Using User : rpadmin@test.com with authorities :[ROLE_ADMIN]
+11:15:10,151  INFO http-bio-8080-exec-2 CustomAuthenticationFailureHandler:30 - Failure on : rpadmin@test.com
+11:15:10,151  INFO http-bio-8080-exec-2 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+11:15:10,172  INFO http-bio-8080-exec-2 GzLogonController:72 - Received request to signin - error
+11:15:20,404  INFO http-bio-8080-exec-2 GzServices:345 - Received request to password 
+11:15:20,407  INFO http-bio-8080-exec-2 GzServices:333 - New password for : rpadmin@test.com is : A8gBvXWsi7
+11:15:20,573  INFO http-bio-8080-exec-2 Mail:207 - #### sending email to rpadmin@test.com#######
+11:15:20,574  INFO http-bio-8080-exec-2 Mail:208 - subject : RedPacket Gaming Password Reset
+11:15:20,575  INFO http-bio-8080-exec-2 Mail:209 - message : Hi pmk
+Your password has been reset to
+A8gBvXWsi7
+ - please logon with your email and change at your convenience.
+Kind regards - RedPacket Gaming Support Team.
+11:15:20,576  INFO http-bio-8080-exec-2 Mail:210 - #####################################################
+11:15:20,577  INFO http-bio-8080-exec-2 Mail:122 - Message to : rpadmin@test.com filtered..
+11:15:20,578  INFO http-bio-8080-exec-2 Mail:142 - Sending Filtered Message to : rpadmin@test.com to cc: mariuso.pk@gmail.com
+11:15:20,582  INFO http-bio-8080-exec-2 GzLogonController:59 - Received request to signin
+11:15:20,631  INFO Thread-3 Mail:56 - creating message
+11:15:20,658  INFO Thread-3 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
+11:15:26,535  INFO Thread-3 Mail:80 - sended message
+11:16:01,450  INFO http-bio-8080-exec-2 CustomUserDetailsService:30 - loadUserByUsername email : rpadmin@test.com
+11:16:01,454  INFO http-bio-8080-exec-2 CustomUserDetailsService:53 - User : rpadmin@test.com found with role :ROLE_ADMIN
+11:16:01,455  INFO http-bio-8080-exec-2 CustomUserDetailsService:60 - Using User : rpadmin@test.com with authorities :[ROLE_ADMIN]
+11:16:01,563  INFO http-bio-8080-exec-2 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+11:16:01,563  INFO http-bio-8080-exec-2 CustomAuthenticationSuccessHandler:29 - got user : rpadmin@test.com authorities : [ROLE_ADMIN]
+11:16:01,564  INFO http-bio-8080-exec-2 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/admin/logon?user&email=rpadmin@test.com
+11:16:01,590  INFO http-bio-8080-exec-2 GzAdminController:37 - Received request to logon
+11:17:11,144  INFO http-bio-8080-exec-5 GzAgentController:198 - Storing member : GzProfile [contact=company2, phone=020819172, password=null, nickname=null, email=c2@rpco.com, icon=null]
+11:17:11,229  INFO http-bio-8080-exec-5 GzBaseUserDaoImpl:140 - SELECT MAX(leafinstance) FROM baseuser WHERE role = ? AND PARENTCODE=?
+11:17:11,278  INFO http-bio-8080-exec-5 GzBaseUserDaoImpl:142 - Got next leaf instance : 0
+11:17:11,279  INFO http-bio-8080-exec-5 GzBaseUserDaoImpl:154 - Using leaf instance : 1
+11:17:11,434  INFO http-bio-8080-exec-5 GzServices:333 - New password for : c2@rpco.com is : iU6eDo1Wq1
+11:17:11,522  INFO http-bio-8080-exec-5 Mail:180 - #### sending email to c2@rpco.com#######
+11:17:11,523  INFO http-bio-8080-exec-5 Mail:181 - subject : RedPacket Gaming Registration Notification
+11:17:11,523  INFO http-bio-8080-exec-5 Mail:182 - message : Hi company2
+You have successfully been registered with RedPacket Gaming as a Company.
+Your password has been generated as:
+iU6eDo1Wq1
+ - please logon with your email and change at your convenience.
+Kind regards - RedPacket Gaming Support Team.
+11:17:11,523  INFO http-bio-8080-exec-5 Mail:183 - #####################################################
+11:17:11,523  INFO http-bio-8080-exec-5 Mail:122 - Message to : c2@rpco.com filtered..
+11:17:11,524  INFO http-bio-8080-exec-5 Mail:142 - Sending Filtered Message to : c2@rpco.com to cc: mariuso.pk@gmail.com
+11:17:11,524  INFO Thread-4 Mail:56 - creating message
+11:17:11,525  INFO Thread-4 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
+11:17:16,457  INFO Thread-4 Mail:80 - sended message
+11:17:56,080  INFO http-bio-8080-exec-9 GzLogonController:47 - Received request to signin XXX
+11:18:05,195  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : c2@rpco.com
+11:18:05,199  INFO http-bio-8080-exec-9 CustomUserDetailsService:53 - User : c2@rpco.com found with role :ROLE_COMP
+11:18:05,199  INFO http-bio-8080-exec-9 CustomUserDetailsService:60 - Using User : c2@rpco.com with authorities :[ROLE_COMP]
+11:18:05,285  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : c2@rpco.com
+11:18:05,286  INFO http-bio-8080-exec-9 CustomUserDetailsService:53 - User : c2@rpco.com found with role :ROLE_COMP
+11:18:05,286  INFO http-bio-8080-exec-9 CustomUserDetailsService:60 - Using User : c2@rpco.com with authorities :[ROLE_COMP]
+11:18:05,286  INFO http-bio-8080-exec-9 CustomAuthenticationFailureHandler:30 - Failure on : c2@rpco.com
+11:18:05,286  INFO http-bio-8080-exec-9 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+11:18:05,299  INFO http-bio-8080-exec-9 GzLogonController:72 - Received request to signin - error
+11:18:16,044  INFO http-bio-8080-exec-2 CustomUserDetailsService:30 - loadUserByUsername email : c2@rpco.com
+11:18:16,047  INFO http-bio-8080-exec-2 CustomUserDetailsService:53 - User : c2@rpco.com found with role :ROLE_COMP
+11:18:16,048  INFO http-bio-8080-exec-2 CustomUserDetailsService:60 - Using User : c2@rpco.com with authorities :[ROLE_COMP]
+11:18:16,138  INFO http-bio-8080-exec-2 CustomUserDetailsService:30 - loadUserByUsername email : c2@rpco.com
+11:18:16,140  INFO http-bio-8080-exec-2 CustomUserDetailsService:53 - User : c2@rpco.com found with role :ROLE_COMP
+11:18:16,140  INFO http-bio-8080-exec-2 CustomUserDetailsService:60 - Using User : c2@rpco.com with authorities :[ROLE_COMP]
+11:18:16,141  INFO http-bio-8080-exec-2 CustomAuthenticationFailureHandler:30 - Failure on : c2@rpco.com
+11:18:16,141  INFO http-bio-8080-exec-2 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+11:18:16,154  INFO http-bio-8080-exec-2 GzLogonController:72 - Received request to signin - error
+11:18:26,186  INFO http-bio-8080-exec-2 GzServices:345 - Received request to password 
+11:18:26,187  INFO http-bio-8080-exec-2 GzServices:333 - New password for : c2@rpco.com is : j4NO56bXIh
+11:18:26,295  INFO http-bio-8080-exec-2 Mail:207 - #### sending email to c2@rpco.com#######
+11:18:26,295  INFO http-bio-8080-exec-2 Mail:208 - subject : RedPacket Gaming Password Reset
+11:18:26,296  INFO http-bio-8080-exec-2 Mail:209 - message : Hi company2
+Your password has been reset to
+j4NO56bXIh
+ - please logon with your email and change at your convenience.
+Kind regards - RedPacket Gaming Support Team.
+11:18:26,296  INFO http-bio-8080-exec-2 Mail:210 - #####################################################
+11:18:26,296  INFO http-bio-8080-exec-2 Mail:122 - Message to : c2@rpco.com filtered..
+11:18:26,297  INFO http-bio-8080-exec-2 Mail:142 - Sending Filtered Message to : c2@rpco.com to cc: mariuso.pk@gmail.com
+11:18:26,298  INFO http-bio-8080-exec-2 GzLogonController:59 - Received request to signin
+11:18:26,298  INFO Thread-5 Mail:56 - creating message
+11:18:26,299  INFO Thread-5 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
+11:18:32,033  INFO Thread-5 Mail:80 - sended message
+11:18:56,312  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : c2@rpco.com
+11:18:56,315  INFO http-bio-8080-exec-9 CustomUserDetailsService:53 - User : c2@rpco.com found with role :ROLE_COMP
+11:18:56,316  INFO http-bio-8080-exec-9 CustomUserDetailsService:60 - Using User : c2@rpco.com with authorities :[ROLE_COMP]
+11:18:56,408  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : c2@rpco.com
+11:18:56,410  INFO http-bio-8080-exec-9 CustomUserDetailsService:53 - User : c2@rpco.com found with role :ROLE_COMP
+11:18:56,410  INFO http-bio-8080-exec-9 CustomUserDetailsService:60 - Using User : c2@rpco.com with authorities :[ROLE_COMP]
+11:18:56,410  INFO http-bio-8080-exec-9 CustomAuthenticationFailureHandler:30 - Failure on : c2@rpco.com
+11:18:56,410  INFO http-bio-8080-exec-9 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+11:18:56,423  INFO http-bio-8080-exec-5 GzLogonController:72 - Received request to signin - error
+11:19:26,422  INFO http-bio-8080-exec-7 CustomUserDetailsService:30 - loadUserByUsername email : c2@rpco.com
+11:19:26,424  INFO http-bio-8080-exec-7 CustomUserDetailsService:53 - User : c2@rpco.com found with role :ROLE_COMP
+11:19:26,424  INFO http-bio-8080-exec-7 CustomUserDetailsService:60 - Using User : c2@rpco.com with authorities :[ROLE_COMP]
+11:19:26,510  INFO http-bio-8080-exec-7 CustomUserDetailsService:30 - loadUserByUsername email : c2@rpco.com
+11:19:26,511  INFO http-bio-8080-exec-7 CustomUserDetailsService:53 - User : c2@rpco.com found with role :ROLE_COMP
+11:19:26,511  INFO http-bio-8080-exec-7 CustomUserDetailsService:60 - Using User : c2@rpco.com with authorities :[ROLE_COMP]
+11:19:26,512  INFO http-bio-8080-exec-7 CustomAuthenticationFailureHandler:30 - Failure on : c2@rpco.com
+11:19:26,512  INFO http-bio-8080-exec-7 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+11:19:26,524  INFO http-bio-8080-exec-7 GzLogonController:72 - Received request to signin - error
+11:19:35,640  INFO http-bio-8080-exec-10 GzServices:345 - Received request to password 
+11:19:35,645  INFO http-bio-8080-exec-10 GzServices:333 - New password for : c2@rpco.com is : do6F4jlPpb
+11:19:35,745  INFO http-bio-8080-exec-10 Mail:207 - #### sending email to c2@rpco.com#######
+11:19:35,746  INFO http-bio-8080-exec-10 Mail:208 - subject : RedPacket Gaming Password Reset
+11:19:35,747  INFO http-bio-8080-exec-10 Mail:209 - message : Hi company2
+Your password has been reset to
+do6F4jlPpb
+ - please logon with your email and change at your convenience.
+Kind regards - RedPacket Gaming Support Team.
+11:19:35,747  INFO http-bio-8080-exec-10 Mail:210 - #####################################################
+11:19:35,748  INFO http-bio-8080-exec-10 Mail:122 - Message to : c2@rpco.com filtered..
+11:19:35,748  INFO http-bio-8080-exec-10 Mail:142 - Sending Filtered Message to : c2@rpco.com to cc: mariuso.pk@gmail.com
+11:19:35,749  INFO http-bio-8080-exec-10 GzLogonController:59 - Received request to signin
+11:19:35,749  INFO Thread-6 Mail:56 - creating message
+11:19:35,750  INFO Thread-6 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
+11:19:41,361  INFO Thread-6 Mail:80 - sended message
+11:20:07,183  INFO http-bio-8080-exec-7 CustomUserDetailsService:30 - loadUserByUsername email : c2@rpco.com
+11:20:07,186  INFO http-bio-8080-exec-7 CustomUserDetailsService:53 - User : c2@rpco.com found with role :ROLE_COMP
+11:20:07,186  INFO http-bio-8080-exec-7 CustomUserDetailsService:60 - Using User : c2@rpco.com with authorities :[ROLE_COMP]
+11:20:07,278  INFO http-bio-8080-exec-7 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+11:20:07,279  INFO http-bio-8080-exec-7 CustomAuthenticationSuccessHandler:29 - got user : c2@rpco.com authorities : [ROLE_COMP]
+11:20:07,279  INFO http-bio-8080-exec-7 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+11:21:00,012  INFO http-bio-8080-exec-5 AccountDetailsForm:135 -  validatenull
+11:21:00,013  INFO http-bio-8080-exec-5 GzAccountValues:36 - Creating account from : GzAccountValues [creditAsPlayer=1000000.00, creditAsBanker=1000000.00, betCommission=5.00, winCommission=5.00, paymentDays=5]
+11:21:00,013  INFO http-bio-8080-exec-5 GzAccountDaoImpl:673 - SELECT MAX(wincommission) FROM account JOIN  baseuser AS b ON b.id=account.baseuserid WHERE b.parentcode = 'c1'
+11:21:00,014  INFO http-bio-8080-exec-5 GzAccountDaoImpl:673 - SELECT MAX(betcommission) FROM account JOIN  baseuser AS b ON b.id=account.baseuserid WHERE b.parentcode = 'c1'
+11:21:00,015  INFO http-bio-8080-exec-5 GzAccountValues:36 - Creating account from : GzAccountValues [creditAsPlayer=1000000.00, creditAsBanker=1000000.00, betCommission=5.00, winCommission=5.00, paymentDays=5]
+11:21:06,440  INFO http-bio-8080-exec-8 GzLogonController:47 - Received request to signin XXX
+10:36:32,994  INFO http-bio-8080-exec-4 GzLogonController:47 - Received request to signin XXX
+10:36:35,991  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : c1@rpco.com
+10:36:36,577  INFO http-bio-8080-exec-9 CustomUserDetailsService:53 - User : c1@rpco.com found with role :ROLE_COMP
+10:36:36,577  INFO http-bio-8080-exec-9 CustomUserDetailsService:60 - Using User : c1@rpco.com with authorities :[ROLE_COMP]
+10:36:36,663  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+10:36:36,663  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:29 - got user : c1@rpco.com authorities : [ROLE_COMP]
+10:36:36,663  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+10:36:42,510  INFO http-bio-8080-exec-9 CsvImportMgr:83 - Importing :/home/pmk/redpacket/import/a1@rpco.com-2017-06-13.csv
+10:36:42,528  INFO http-bio-8080-exec-9 CsvImportMgr:88 - $$$ Importing recs from : /home/pmk/redpacket/import/a1@rpco.com-2017-06-13.csv  file#: 0 of: 2
+10:36:42,534  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+10:36:42,535  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+10:36:42,535  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+10:36:42,535  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+10:36:42,535  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+10:36:42,536  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+10:36:42,536  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+10:36:42,537  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+10:36:42,537  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+10:36:42,537  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+10:36:42,538  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+10:36:42,538  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+10:36:42,538  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+10:36:42,538  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+10:36:42,539  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+10:36:42,539  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+10:36:42,539  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+10:36:42,539  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+10:36:42,539  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+10:36:42,540  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+10:36:42,540  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+10:36:42,540  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+10:36:42,540  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+10:36:42,541  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+10:36:42,541  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+10:36:42,541  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+10:36:42,541  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+10:36:42,541  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+10:36:42,542  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+10:36:42,542  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+10:36:42,542  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+10:36:42,542  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+10:36:42,543  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+10:36:42,543  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+10:36:42,543  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+10:36:42,543  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+10:36:42,544  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+10:36:42,544  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+10:36:42,544  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+10:36:42,544  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+10:36:42,544  INFO http-bio-8080-exec-9 CsvImporter:81 - Read 43 Recs
+10:36:42,545  INFO http-bio-8080-exec-9 CsvImporter:88 - %%% Importing transactions %%%
+10:36:42,545  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+10:36:42,546  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+10:36:42,548 ERROR http-bio-8080-exec-9 CsvImporter:102 - Could not create valid email from : Typing... Contact : Typing... ignored
+10:36:42,548  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+10:36:42,549  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+10:36:42,550  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=nynickyeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+10:36:42,551  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=davidhong@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+10:36:42,552  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=hanwoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+10:36:42,553  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=nickleong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+10:36:42,554  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=leonlee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+10:36:42,555  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=lst@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+10:36:42,556  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+10:36:42,557  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+10:36:42,558  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=thienhua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+10:36:42,559  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+10:36:42,560  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=lcy@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+10:36:42,561  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+10:36:42,562  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=cy@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+10:36:42,563  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+10:36:42,564  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=hendrikioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+10:36:42,565  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=ju@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+10:36:42,566  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=mr.lim@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+10:36:42,567  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=j@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+10:36:42,568  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=allangoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+10:36:42,569  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+10:36:42,570  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+10:36:42,571  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=jasonloh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+10:36:42,571  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+10:36:42,572  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+10:36:42,573  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+10:36:42,574  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+10:36:42,575  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+10:36:42,576  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=gregoryng@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+10:36:42,577  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=nick999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+10:36:42,578  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+10:36:42,580  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+10:36:42,582 ERROR http-bio-8080-exec-9 CsvImporter:102 - Could not create valid email from : 陈晨 Contact : 陈晨 ignored
+10:36:42,583  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=mkt.vincent@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+10:36:42,584  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=kentan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+10:36:42,585  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=yhlau@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+10:36:42,588  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@25c046f8 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,775  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@561ba999 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,791  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@1b80bf0a source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,798  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@66489a5b source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,804  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@30f60b07 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,811  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@2e909afc source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,818  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@3f6cfbed source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,824  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@3f427134 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,829  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@15af4b5a source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,834  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@29c54fe1 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,838  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@71ae7aa7 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,845  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@5d496e77 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,850  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@32530b1f source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,857  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@316ae0f3 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,862  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@44523dc5 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,867  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@181e4042 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,871  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@2688a34b source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,876  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@73610e4a source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,884  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@19974c34 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,887  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@5a6dbffc source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,891  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@399ccd01 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,895  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@42f49726 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,902  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@612195a0 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,906  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@56044427 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,909  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@9af7f23 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,915  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@6f849497 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,921  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@2e58052 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,927  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@76b4c955 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,932  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@490e6c7 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,937  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@4ffbfaee source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,941  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@61b21453 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,945  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@311c8751 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,949  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@32b9f96b source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,956  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@22855958 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,969  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@5364c1d7 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,978  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@697f2e5 source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,983  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@7b1821fd source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,990  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@735fe85f source: Tue Jun 13 00:00:00 MYT 2017
+10:36:42,995  INFO http-bio-8080-exec-9 MoveFile:21 - Moving file : /home/pmk/redpacket/import/a1@rpco.com-2017-06-13.csv to: /home/pmk/redpacket/loaded//a1@rpco.com-2017-06-13.csv
+10:36:42,995  INFO http-bio-8080-exec-9 MoveFile:43 - File moved successful
+10:36:42,996  INFO http-bio-8080-exec-9 CsvImportMgr:83 - Importing :/home/pmk/redpacket/import/a1@rpco.com-2017-06-12.csv
+10:36:43,002  INFO http-bio-8080-exec-9 CsvImportMgr:88 - $$$ Importing recs from : /home/pmk/redpacket/import/a1@rpco.com-2017-06-12.csv  file#: 0 of: 2
+10:36:43,003  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+10:36:43,004  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+10:36:43,004  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+10:36:43,004  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+10:36:43,004  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+10:36:43,005  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+10:36:43,005  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+10:36:43,005  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+10:36:43,005  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+10:36:43,005  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+10:36:43,005  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+10:36:43,006  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+10:36:43,006  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+10:36:43,006  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+10:36:43,006  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+10:36:43,007  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+10:36:43,007  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+10:36:43,007  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+10:36:43,007  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+10:36:43,007  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+10:36:43,008  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+10:36:43,008  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+10:36:43,008  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+10:36:43,008  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+10:36:43,008  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+10:36:43,008  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+10:36:43,009  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+10:36:43,009  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+10:36:43,009  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+10:36:43,009  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+10:36:43,009  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+10:36:43,010  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+10:36:43,010  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+10:36:43,010  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+10:36:43,010  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+10:36:43,010  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+10:36:43,011  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+10:36:43,011  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+10:36:43,011  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+10:36:43,011  INFO http-bio-8080-exec-9 CsvImporter:72 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+10:36:43,012  INFO http-bio-8080-exec-9 CsvImporter:81 - Read 43 Recs
+10:36:43,012  INFO http-bio-8080-exec-9 CsvImporter:88 - %%% Importing transactions %%%
+10:36:43,012  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+10:36:43,015  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+10:36:43,017 ERROR http-bio-8080-exec-9 CsvImporter:102 - Could not create valid email from : Typing... Contact : Typing... ignored
+10:36:43,017  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+10:36:43,018  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+10:36:43,019  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=nynickyeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+10:36:43,020  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=davidhong@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+10:36:43,020  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=hanwoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+10:36:43,021  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=nickleong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+10:36:43,021  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=leonlee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+10:36:43,022  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=lst@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+10:36:43,023  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+10:36:43,024  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+10:36:43,025  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=thienhua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+10:36:43,025  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+10:36:43,026  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=lcy@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+10:36:43,027  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+10:36:43,028  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=cy@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+10:36:43,029  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+10:36:43,029  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=hendrikioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+10:36:43,031  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=ju@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+10:36:43,032  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=mr.lim@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+10:36:43,037  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=j@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+10:36:43,038  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=allangoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+10:36:43,039  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+10:36:43,041  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+10:36:43,043  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=jasonloh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+10:36:43,045  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+10:36:43,046  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+10:36:43,046  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+10:36:43,047  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+10:36:43,048  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+10:36:43,048  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=gregoryng@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+10:36:43,049  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=nick999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+10:36:43,050  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+10:36:43,051  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+10:36:43,051 ERROR http-bio-8080-exec-9 CsvImporter:102 - Could not create valid email from : 陈晨 Contact : 陈晨 ignored
+10:36:43,051  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=mkt.vincent@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+10:36:43,052  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=kentan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+10:36:43,052  INFO http-bio-8080-exec-9 CsvImporter:93 - PlayerRec [email=yhlau@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+10:36:43,054  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@3f793f7d source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,065  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@554f6a6 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,073  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@945eb43 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,077  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@8a823c4 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,081  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@7e5c677b source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,087  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@5c9f5fd0 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,091  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@7a26a8f3 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,097  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@33591270 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,102  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@2e23dcdf source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,106  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@8647714 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,111  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@474a37db source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,122  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@3cfb77d0 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,126  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@c8e81b4 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,132  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@27f98be6 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,136  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@319b842d source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,140  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@56b93039 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,148  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@2e42987b source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,153  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@458f80ee source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,160  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@28d8de9e source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,169  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@377f0b44 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,173  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@dc4cc90 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,180  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@3475b536 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,188  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@5a37b108 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,193  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@15ddb421 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,197  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@3e564a46 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,201  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@271384bf source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,208  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@404bcea4 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,215  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@384f1630 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,220  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@34477f05 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,224  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@fca234e source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,229  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@116af2fd source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,235  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@51548876 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,242  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@5e646a0e source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,252  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@eaf2df source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,258  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@46d10525 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,263  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@333322b1 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,268  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@4efa1ac3 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,273  INFO http-bio-8080-exec-9 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@195165c9 source: Mon Jun 12 00:00:00 MYT 2017
+10:36:43,275  INFO http-bio-8080-exec-9 MoveFile:21 - Moving file : /home/pmk/redpacket/import/a1@rpco.com-2017-06-12.csv to: /home/pmk/redpacket/loaded//a1@rpco.com-2017-06-12.csv
+10:36:43,275  INFO http-bio-8080-exec-9 MoveFile:43 - File moved successful
+10:36:47,365  INFO http-bio-8080-exec-9 GzAccountDaoImpl:566 - UPDATE xaction SET status='C' WHERE type ='I' and status='O'
+10:37:02,077  INFO http-bio-8080-exec-8 GzAccountController:626 - emailXls for : 247
+10:37:02,938  INFO http-bio-8080-exec-8 InvoiceAnalytic:99 - Sheet : /home/pmk/redpacket/xls/Invoice #247.xlsx created..
+10:37:02,939  INFO http-bio-8080-exec-8 Mail:122 - Message to : c1@rpco.com filtered..
+10:37:02,939  INFO http-bio-8080-exec-8 Mail:142 - Sending Filtered Message to : c1@rpco.com to cc: mariuso.pk@gmail.com
+10:37:02,940  INFO http-bio-8080-exec-8 GzServices:302 - Sucessfully sent xls path
+10:37:02,941  INFO http-bio-8080-exec-8 GzAccountController:637 - Xls workbook for invoice : 247 successfully sent to : c1@rpco.com. Please check your inbox.
+10:37:03,178  INFO Thread-3 Mail:56 - creating message
+10:37:03,267  INFO Thread-3 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
+10:37:09,358  INFO Thread-3 Mail:80 - sended message
