@@ -121,6 +121,8 @@ public class CsvImporter {
 			} catch (GzPersistenceException e) {
 				e.printStackTrace();
 			}
+			
+			break;					// USE FOR 1 TRANSACTION ONLY
 		}
 	}
 

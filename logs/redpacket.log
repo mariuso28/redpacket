@@ -7852,3 +7852,763 @@ Kind regards - RedPacket Gaming Support Team.
 10:37:03,178  INFO Thread-3 Mail:56 - creating message
 10:37:03,267  INFO Thread-3 Mail:78 - sending message to : mariuso.pk@gmail.com from : info@goldmine.online
 10:37:09,358  INFO Thread-3 Mail:80 - sended message
+04:13:31,298  INFO http-bio-8080-exec-4 GzLogonController:47 - Received request to signin XXX
+04:13:33,485  INFO http-bio-8080-exec-6 CustomUserDetailsService:30 - loadUserByUsername email : c1@rpco.com
+04:13:34,333  INFO http-bio-8080-exec-6 CustomUserDetailsService:53 - User : c1@rpco.com found with role :ROLE_COMP
+04:13:34,334  INFO http-bio-8080-exec-6 CustomUserDetailsService:60 - Using User : c1@rpco.com with authorities :[ROLE_COMP]
+04:13:34,429  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+04:13:34,430  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:29 - got user : c1@rpco.com authorities : [ROLE_COMP]
+04:13:34,430  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+04:16:17,516  INFO http-bio-8080-exec-1 GzLogonController:47 - Received request to signin XXX
+04:16:23,723  INFO http-bio-8080-exec-3 CustomUserDetailsService:30 - loadUserByUsername email : a1@rpco.com
+04:16:23,724  INFO http-bio-8080-exec-3 CustomUserDetailsService:53 - User : a1@rpco.com found with role :ROLE_AGENT
+04:16:23,724  INFO http-bio-8080-exec-3 CustomUserDetailsService:60 - Using User : a1@rpco.com with authorities :[ROLE_AGENT]
+04:16:23,817  INFO http-bio-8080-exec-3 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+04:16:23,817  INFO http-bio-8080-exec-3 CustomAuthenticationSuccessHandler:29 - got user : a1@rpco.com authorities : [ROLE_AGENT]
+04:16:23,817  INFO http-bio-8080-exec-3 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+04:21:23,865  INFO http-bio-8080-exec-4 GzLogonController:47 - Received request to signin XXX
+04:21:26,644  INFO http-bio-8080-exec-6 CustomUserDetailsService:30 - loadUserByUsername email : c1@rpco.com
+04:21:26,649  INFO http-bio-8080-exec-6 CustomUserDetailsService:53 - User : c1@rpco.com found with role :ROLE_COMP
+04:21:26,649  INFO http-bio-8080-exec-6 CustomUserDetailsService:60 - Using User : c1@rpco.com with authorities :[ROLE_COMP]
+04:21:26,745  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+04:21:26,745  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:29 - got user : c1@rpco.com authorities : [ROLE_COMP]
+04:21:26,746  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+04:21:42,978  INFO http-bio-8080-exec-5 GzAccountDaoImpl:566 - UPDATE xaction SET status='C' WHERE type ='I' and status='O'
+04:23:13,781  INFO http-bio-8080-exec-6 CsvImportMgr:83 - Importing :/home/pmk/redpacket/import/a1@rpco.com-2017-06-20.csv
+04:23:13,795  INFO http-bio-8080-exec-6 CsvImportMgr:88 - $$$ Importing recs from : /home/pmk/redpacket/import/a1@rpco.com-2017-06-20.csv  file#: 0 of: 1
+04:23:13,800  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+04:23:13,800  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+04:23:13,801  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+04:23:13,801  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+04:23:13,801  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+04:23:13,801  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+04:23:13,802  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+04:23:13,802  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+04:23:13,802  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+04:23:13,802  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+04:23:13,802  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+04:23:13,803  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+04:23:13,803  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+04:23:13,803  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+04:23:13,803  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+04:23:13,803  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+04:23:13,804  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+04:23:13,804  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+04:23:13,804  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+04:23:13,804  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+04:23:13,804  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+04:23:13,805  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+04:23:13,805  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+04:23:13,805  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+04:23:13,805  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+04:23:13,805  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+04:23:13,806  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+04:23:13,806  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+04:23:13,806  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+04:23:13,806  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+04:23:13,806  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+04:23:13,807  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+04:23:13,807  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+04:23:13,807  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+04:23:13,807  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+04:23:13,808  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+04:23:13,808  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+04:23:13,808  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+04:23:13,808  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+04:23:13,808  INFO http-bio-8080-exec-6 CsvImporter:72 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+04:23:13,809  INFO http-bio-8080-exec-6 CsvImporter:81 - Read 43 Recs
+04:23:13,809  INFO http-bio-8080-exec-6 CsvImporter:88 - %%% Importing transactions %%%
+04:23:13,810  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+04:23:13,813  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+04:23:13,814 ERROR http-bio-8080-exec-6 CsvImporter:102 - Could not create valid email from : Typing... Contact : Typing... ignored
+04:23:13,814  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+04:23:13,815  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+04:23:13,816  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=nynickyeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+04:23:13,817  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=davidhong@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+04:23:13,818  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=hanwoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+04:23:13,818  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=nickleong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+04:23:13,819  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=leonlee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+04:23:13,820  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=lst@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+04:23:13,820  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+04:23:13,821  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+04:23:13,822  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=thienhua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+04:23:13,823  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+04:23:13,824  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=lcy@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+04:23:13,824  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+04:23:13,825  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=cy@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+04:23:13,826  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+04:23:13,829  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=hendrikioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+04:23:13,830  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=ju@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+04:23:13,830  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=mr.lim@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+04:23:13,831  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=j@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+04:23:13,832  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=allangoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+04:23:13,832  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+04:23:13,833  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+04:23:13,834  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=jasonloh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+04:23:13,835  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+04:23:13,836  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+04:23:13,837  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+04:23:13,837  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+04:23:13,838  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+04:23:13,839  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=gregoryng@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+04:23:13,840  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=nick999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+04:23:13,841  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+04:23:13,841  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+04:23:13,842 ERROR http-bio-8080-exec-6 CsvImporter:102 - Could not create valid email from : 陈晨 Contact : 陈晨 ignored
+04:23:13,842  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=mkt.vincent@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+04:23:13,843  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=kentan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+04:23:13,844  INFO http-bio-8080-exec-6 CsvImporter:93 - PlayerRec [email=yhlau@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+04:23:13,845  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@78e58df5 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,860  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@423291fd source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,868  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@67f8bce0 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,872  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@6ef103a5 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,876  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@38f0ef3d source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,882  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@60a6f72a source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,892  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@766817d2 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,897  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@1e163683 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,902  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@79b8c04d source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,910  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@72024f5e source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,915  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@5d0fddb3 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,929  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@69a8977f source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,935  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@9304dab source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,946  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@2af1eb7b source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,951  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@1e683fae source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,956  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@33d64073 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,962  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@1d0f80ff source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,970  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@42c549bf source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,975  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@43115c4c source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,979  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@7bdc173f source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,985  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@1a3578c3 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,989  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@7255428b source: Tue Jun 20 00:00:00 MYT 2017
+04:23:13,996  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@3bef93b1 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,002  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@20910e1c source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,008  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@11d389ad source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,011  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@49cad006 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,019  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@e7fb095 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,028  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@26b6aea8 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,033  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@2ba5c532 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,038  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@34f06aa0 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,042  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@47788fb3 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,047  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@54a8aa1a source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,055  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@512179e8 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,060  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@6633bc06 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,072  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@65b5b264 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,080  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@745c3cb2 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,087  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@2ee8e5e8 source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,095  INFO http-bio-8080-exec-6 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@5540bfbf source: Tue Jun 20 00:00:00 MYT 2017
+04:23:14,099  INFO http-bio-8080-exec-6 MoveFile:21 - Moving file : /home/pmk/redpacket/import/a1@rpco.com-2017-06-20.csv to: /home/pmk/redpacket/loaded//a1@rpco.com-2017-06-20.csv
+04:23:14,100  INFO http-bio-8080-exec-6 MoveFile:43 - File moved successful
+04:23:16,996  INFO http-bio-8080-exec-3 GzAccountDaoImpl:566 - UPDATE xaction SET status='C' WHERE type ='I' and status='O'
+04:29:28,054  INFO http-bio-8080-exec-3 GzLogonController:47 - Received request to signin XXX
+04:30:31,331  INFO http-bio-8080-exec-6 CustomUserDetailsService:30 - loadUserByUsername email : c1@rpco.com
+04:30:31,884  INFO http-bio-8080-exec-6 CustomUserDetailsService:53 - User : c1@rpco.com found with role :ROLE_COMP
+04:30:31,885  INFO http-bio-8080-exec-6 CustomUserDetailsService:60 - Using User : c1@rpco.com with authorities :[ROLE_COMP]
+04:30:31,970  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+04:30:31,970  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:29 - got user : c1@rpco.com authorities : [ROLE_COMP]
+04:30:31,971  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+04:30:35,392  INFO http-bio-8080-exec-1 CsvImportMgr:83 - Importing :/home/pmk/redpacket/import/a1@rpco.com-2017-06-20.csv
+04:30:35,415  INFO http-bio-8080-exec-1 CsvImportMgr:88 - $$$ Importing recs from : /home/pmk/redpacket/import/a1@rpco.com-2017-06-20.csv  file#: 0 of: 1
+04:30:35,423  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+04:30:35,423  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+04:30:35,423  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+04:30:35,424  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+04:30:35,424  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+04:30:35,424  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+04:30:35,424  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+04:30:35,425  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+04:30:35,425  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+04:30:35,426  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+04:30:35,426  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+04:30:35,426  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+04:30:35,426  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+04:30:35,427  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+04:30:35,427  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+04:30:35,427  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+04:30:35,427  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+04:30:35,427  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+04:30:35,428  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+04:30:35,428  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+04:30:35,428  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+04:30:35,428  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+04:30:35,429  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+04:30:35,429  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+04:30:35,429  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+04:30:35,429  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+04:30:35,430  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+04:30:35,430  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+04:30:35,430  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+04:30:35,430  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+04:30:35,430  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+04:30:35,431  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+04:30:35,431  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+04:30:35,431  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+04:30:35,431  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+04:30:35,432  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+04:30:35,432  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+04:30:35,432  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+04:30:35,432  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+04:30:35,433  INFO http-bio-8080-exec-1 CsvImporter:72 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+04:30:35,433  INFO http-bio-8080-exec-1 CsvImporter:81 - Read 43 Recs
+04:30:35,433  INFO http-bio-8080-exec-1 CsvImporter:88 - %%% Importing transactions %%%
+04:30:35,433  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+04:30:35,435  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+04:30:35,436 ERROR http-bio-8080-exec-1 CsvImporter:102 - Could not create valid email from : Typing... Contact : Typing... ignored
+04:30:35,436  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+04:30:35,438  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+04:30:35,439  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=nynickyeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+04:30:35,440  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=davidhong@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+04:30:35,441  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=hanwoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+04:30:35,442  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=nickleong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+04:30:35,443  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=leonlee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+04:30:35,444  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=lst@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+04:30:35,445  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+04:30:35,446  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+04:30:35,447  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=thienhua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+04:30:35,448  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+04:30:35,449  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=lcy@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+04:30:35,450  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+04:30:35,451  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=cy@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+04:30:35,452  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+04:30:35,453  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=hendrikioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+04:30:35,454  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=ju@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+04:30:35,455  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=mr.lim@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+04:30:35,456  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=j@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+04:30:35,457  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=allangoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+04:30:35,458  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+04:30:35,459  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+04:30:35,460  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=jasonloh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+04:30:35,461  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+04:30:35,462  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+04:30:35,462  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+04:30:35,463  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+04:30:35,464  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+04:30:35,465  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=gregoryng@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+04:30:35,466  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=nick999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+04:30:35,466  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+04:30:35,467  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+04:30:35,469 ERROR http-bio-8080-exec-1 CsvImporter:102 - Could not create valid email from : 陈晨 Contact : 陈晨 ignored
+04:30:35,469  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=mkt.vincent@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+04:30:35,471  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=kentan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+04:30:35,473  INFO http-bio-8080-exec-1 CsvImporter:93 - PlayerRec [email=yhlau@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+04:31:03,040  INFO http-bio-8080-exec-1 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@f708246 source: Tue Jun 20 00:00:00 MYT 2017
+04:34:08,262  INFO http-bio-8080-exec-7 GzAccountDaoImpl:566 - UPDATE xaction SET status='C' WHERE type ='I' and status='O'
+04:46:25,228  INFO http-bio-8080-exec-4 GzLogonController:47 - Received request to signin XXX
+04:46:31,624  INFO http-bio-8080-exec-10 CustomUserDetailsService:30 - loadUserByUsername email : c1@rpco.com
+04:46:32,057  INFO http-bio-8080-exec-10 CustomUserDetailsService:53 - User : c1@rpco.com found with role :ROLE_COMP
+04:46:32,059  INFO http-bio-8080-exec-10 CustomUserDetailsService:60 - Using User : c1@rpco.com with authorities :[ROLE_COMP]
+04:46:32,141  INFO http-bio-8080-exec-10 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+04:46:32,142  INFO http-bio-8080-exec-10 CustomAuthenticationSuccessHandler:29 - got user : c1@rpco.com authorities : [ROLE_COMP]
+04:46:32,142  INFO http-bio-8080-exec-10 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+04:46:45,158  INFO http-bio-8080-exec-10 CsvImportMgr:83 - Importing :/home/pmk/redpacket/import/a1@rpco.com-2017-06-20.csv
+04:46:45,181  INFO http-bio-8080-exec-10 CsvImportMgr:88 - $$$ Importing recs from : /home/pmk/redpacket/import/a1@rpco.com-2017-06-20.csv  file#: 0 of: 1
+04:46:45,186  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+04:46:45,187  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+04:46:45,188  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+04:46:45,188  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+04:46:45,188  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+04:46:45,189  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+04:46:45,189  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+04:46:45,190  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+04:46:45,191  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+04:46:45,191  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+04:46:45,191  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+04:46:45,192  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+04:46:45,192  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+04:46:45,193  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+04:46:45,193  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+04:46:45,193  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+04:46:45,194  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+04:46:45,194  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+04:46:45,195  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+04:46:45,196  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+04:46:45,196  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+04:46:45,197  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+04:46:45,198  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+04:46:45,198  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+04:46:45,199  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+04:46:45,199  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+04:46:45,199  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+04:46:45,200  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+04:46:45,200  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+04:46:45,201  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+04:46:45,201  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+04:46:45,201  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+04:46:45,202  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+04:46:45,202  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+04:46:45,203  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+04:46:45,203  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+04:46:45,203  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+04:46:45,204  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+04:46:45,204  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+04:46:45,204  INFO http-bio-8080-exec-10 CsvImporter:72 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+04:46:45,205  INFO http-bio-8080-exec-10 CsvImporter:81 - Read 43 Recs
+04:46:45,205  INFO http-bio-8080-exec-10 CsvImporter:88 - %%% Importing transactions %%%
+04:46:45,206  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+04:46:45,207  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+04:46:45,209 ERROR http-bio-8080-exec-10 CsvImporter:102 - Could not create valid email from : Typing... Contact : Typing... ignored
+04:46:45,209  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+04:46:45,211  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+04:46:45,212  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=nynickyeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+04:46:45,213  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=davidhong@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+04:46:45,214  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=hanwoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+04:46:45,215  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=nickleong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+04:46:45,216  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=leonlee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+04:46:45,217  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=lst@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+04:46:45,218  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+04:46:45,219  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+04:46:45,220  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=thienhua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+04:46:45,221  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+04:46:45,222  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=lcy@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+04:46:45,223  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+04:46:45,224  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=cy@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+04:46:45,226  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+04:46:45,228  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=hendrikioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+04:46:45,230  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=ju@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+04:46:45,231  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=mr.lim@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+04:46:45,232  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=j@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+04:46:45,233  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=allangoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+04:46:45,234  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+04:46:45,235  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+04:46:45,236  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=jasonloh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+04:46:45,237  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+04:46:45,237  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+04:46:45,238  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+04:46:45,239  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+04:46:45,240  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+04:46:45,240  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=gregoryng@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+04:46:45,241  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=nick999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+04:46:45,242  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+04:46:45,243  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+04:46:45,244 ERROR http-bio-8080-exec-10 CsvImporter:102 - Could not create valid email from : 陈晨 Contact : 陈晨 ignored
+04:46:45,244  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=mkt.vincent@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+04:46:45,245  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=kentan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+04:46:45,246  INFO http-bio-8080-exec-10 CsvImporter:93 - PlayerRec [email=yhlau@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+04:46:45,248  INFO http-bio-8080-exec-10 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@54406492 source: Tue Jun 20 00:00:00 MYT 2017
+04:46:54,089  INFO http-bio-8080-exec-10 GzAccountDaoImpl:568 - UPDATE xaction SET status='C' WHERE type ='I' and status='O'
+04:49:10,557  INFO http-bio-8080-exec-10 GzLogonController:47 - Received request to signin XXX
+04:49:18,231  INFO http-bio-8080-exec-6 CustomUserDetailsService:30 - loadUserByUsername email : s1@rpco.com
+04:49:18,233 ERROR http-bio-8080-exec-6 CustomUserDetailsService:50 - User : s1@rpco.com not found
+04:49:18,326  INFO http-bio-8080-exec-6 CustomUserDetailsService:30 - loadUserByUsername email : s1@rpco.com
+04:49:18,327 ERROR http-bio-8080-exec-6 CustomUserDetailsService:50 - User : s1@rpco.com not found
+04:49:18,358  INFO http-bio-8080-exec-6 CustomAuthenticationFailureHandler:30 - Failure on : s1@rpco.com
+04:49:18,358  INFO http-bio-8080-exec-6 CustomAuthenticationFailureHandler:34 - Forwarding to : /rp/logon/signin?error&message=Authentication%20Error
+04:49:18,369  INFO http-bio-8080-exec-6 GzLogonController:72 - Received request to signin - error
+04:49:25,028  INFO http-bio-8080-exec-6 CustomUserDetailsService:30 - loadUserByUsername email : sma1@rpco.com
+04:49:25,030  INFO http-bio-8080-exec-6 CustomUserDetailsService:53 - User : sma1@rpco.com found with role :ROLE_SMA
+04:49:25,031  INFO http-bio-8080-exec-6 CustomUserDetailsService:60 - Using User : sma1@rpco.com with authorities :[ROLE_SMA]
+04:49:25,124  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+04:49:25,124  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:29 - got user : sma1@rpco.com authorities : [ROLE_SMA]
+04:49:25,125  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+04:51:06,337  INFO http-bio-8080-exec-4 GzLogonController:47 - Received request to signin XXX
+04:51:11,056  INFO http-bio-8080-exec-8 CustomUserDetailsService:30 - loadUserByUsername email : c1@rpco.com
+04:51:11,057  INFO http-bio-8080-exec-8 CustomUserDetailsService:53 - User : c1@rpco.com found with role :ROLE_COMP
+04:51:11,057  INFO http-bio-8080-exec-8 CustomUserDetailsService:60 - Using User : c1@rpco.com with authorities :[ROLE_COMP]
+04:51:11,147  INFO http-bio-8080-exec-8 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+04:51:11,147  INFO http-bio-8080-exec-8 CustomAuthenticationSuccessHandler:29 - got user : c1@rpco.com authorities : [ROLE_COMP]
+04:51:11,147  INFO http-bio-8080-exec-8 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+04:51:17,630  INFO http-bio-8080-exec-8 CsvImportMgr:83 - Importing :/home/pmk/redpacket/import/a1@rpco.com-2017-06-20.csv
+04:51:17,658  INFO http-bio-8080-exec-8 CsvImportMgr:88 - $$$ Importing recs from : /home/pmk/redpacket/import/a1@rpco.com-2017-06-20.csv  file#: 0 of: 1
+04:51:17,659  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+04:51:17,660  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+04:51:17,660  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Typing..., bankerTurnover=0.0, turnover=10755.0, rollingBet=1225.0, fees=0.0]
+04:51:17,660  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+04:51:17,661  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+04:51:17,661  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=NY<img src="/images/emoji/D83DDD31.png"/>NickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+04:51:17,661  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+04:51:17,661  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+04:51:17,661  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+04:51:17,662  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+04:51:17,662  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+04:51:17,662  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+04:51:17,662  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+04:51:17,663  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+04:51:17,663  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+04:51:17,663  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+04:51:17,663  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+04:51:17,663  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+04:51:17,664  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+04:51:17,664  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+04:51:17,664  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=jU<img src="/images/emoji/2122.png"/>祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+04:51:17,664  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+04:51:17,665  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+04:51:17,665  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Allan Goh<img src="/images/emoji/D83DDC12.png"/> 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+04:51:17,665  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+04:51:17,665  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+04:51:17,665  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+04:51:17,666  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+04:51:17,666  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+04:51:17,666  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+04:51:17,666  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+04:51:17,666  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Carol<img src="/images/emoji/D83DDC8B.png"/>, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+04:51:17,667  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+04:51:17,667  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+04:51:17,667  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=pkim khor<img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/><img src="/images/emoji/D83DDC30.png"/>, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+04:51:17,667  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+04:51:17,667  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=陈晨, bankerTurnover=0.0, turnover=1260.0, rollingBet=145.0, fees=0.0]
+04:51:17,668  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+04:51:17,668  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+04:51:17,668  INFO http-bio-8080-exec-8 CsvImporter:72 - PlayerRec [email=null, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+04:51:17,669  INFO http-bio-8080-exec-8 CsvImporter:81 - Read 43 Recs
+04:51:17,669  INFO http-bio-8080-exec-8 CsvImporter:88 - %%% Importing transactions %%%
+04:51:17,669  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=benny@rpco.com, contact=benny, bankerTurnover=1500.0, turnover=7599.0, rollingBet=804.0, fees=94.2]
+04:51:17,671  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=bigshow@rpco.com, contact=Big show, bankerTurnover=198500.0, turnover=61243.0, rollingBet=2905.0, fees=7583.4]
+04:51:17,672 ERROR http-bio-8080-exec-8 CsvImporter:102 - Could not create valid email from : Typing... Contact : Typing... ignored
+04:51:17,672  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=alanhoho@rpco.com, contact=alanhoho, bankerTurnover=0.0, turnover=480.0, rollingBet=70.0, fees=0.0]
+04:51:17,673  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=chochia@rpco.com, contact=Chochia, bankerTurnover=0.0, turnover=3290.0, rollingBet=385.0, fees=0.0]
+04:51:17,673  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=nynickyeap@rpco.com, contact=NYNickYeap, bankerTurnover=1500.0, turnover=11804.0, rollingBet=1210.0, fees=63.2]
+04:51:17,674  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=davidhong@rpco.com, contact=DAVID HONG, bankerTurnover=0.0, turnover=2700.0, rollingBet=325.0, fees=0.0]
+04:51:17,674  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=hanwoei@rpco.com, contact=HanWoei, bankerTurnover=0.0, turnover=110.0, rollingBet=15.0, fees=0.0]
+04:51:17,675  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=nickleong@rpco.com, contact=NICKLeong, bankerTurnover=0.0, turnover=2415.0, rollingBet=245.0, fees=0.0]
+04:51:17,675  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=leonlee@rpco.com, contact=Leon Lee, bankerTurnover=0.0, turnover=1070.0, rollingBet=140.0, fees=0.0]
+04:51:17,676  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=lst@rpco.com, contact=LST, bankerTurnover=0.0, turnover=12268.0, rollingBet=1322.0, fees=0.0]
+04:51:17,677  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=thyemaishoo@rpco.com, contact=thyemaishoo, bankerTurnover=4500.0, turnover=11883.0, rollingBet=1134.0, fees=194.6]
+04:51:17,677  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=patpat@rpco.com, contact=pat pat, bankerTurnover=0.0, turnover=2502.0, rollingBet=305.0, fees=0.0]
+04:51:17,678  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=thienhua@rpco.com, contact=Thien Hua, bankerTurnover=12000.0, turnover=8670.0, rollingBet=705.0, fees=535.6]
+04:51:17,678  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=jingjing@rpco.com, contact=jing jing, bankerTurnover=0.0, turnover=2530.0, rollingBet=285.0, fees=0.0]
+04:51:17,679  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=lcy@rpco.com, contact=LCY, bankerTurnover=0.0, turnover=365.0, rollingBet=40.0, fees=0.0]
+04:51:17,679  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=jingjieooi@rpco.com, contact=jingjieooi, bankerTurnover=0.0, turnover=7320.0, rollingBet=810.0, fees=0.0]
+04:51:17,680  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=cy@rpco.com, contact=CY, bankerTurnover=0.0, turnover=200.0, rollingBet=10.0, fees=0.0]
+04:51:17,681  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=chochuan@rpco.com, contact=chochuan, bankerTurnover=29000.0, turnover=21981.0, rollingBet=1575.0, fees=1002.4]
+04:51:17,681  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=hendrikioe@rpco.com, contact=Hendri Kioe, bankerTurnover=0.0, turnover=555.0, rollingBet=65.0, fees=0.0]
+04:51:17,682  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=ju@rpco.com, contact=jU祖, bankerTurnover=0.0, turnover=2675.0, rollingBet=315.0, fees=0.0]
+04:51:17,682  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=mr.lim@rpco.com, contact=MR.LIM, bankerTurnover=0.0, turnover=5250.0, rollingBet=600.0, fees=0.0]
+04:51:17,683  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=j@rpco.com, contact=J, bankerTurnover=58500.0, turnover=39022.0, rollingBet=3255.0, fees=2769.8]
+04:51:17,684  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=allangoh@rpco.com, contact=Allan Goh 阿伦, bankerTurnover=0.0, turnover=280.0, rollingBet=30.0, fees=0.0]
+04:51:17,684  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=jack@rpco.com, contact=Jack, bankerTurnover=0.0, turnover=100.0, rollingBet=10.0, fees=0.0]
+04:51:17,685  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=kwen@rpco.com, contact=k wen, bankerTurnover=0.0, turnover=4305.0, rollingBet=484.0, fees=0.0]
+04:51:17,685  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=jasonloh@rpco.com, contact=Jason Loh, bankerTurnover=321566.0, turnover=66421.0, rollingBet=1010.0, fees=11466.0]
+04:51:17,685  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=johntte@rpco.com, contact=johntte, bankerTurnover=18000.0, turnover=16045.0, rollingBet=1565.0, fees=763.4]
+04:51:17,686  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=jason@rpco.com, contact=Jason, bankerTurnover=0.0, turnover=4530.0, rollingBet=485.0, fees=0.0]
+04:51:17,686  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=123@rpco.com, contact=123, bankerTurnover=0.0, turnover=2974.0, rollingBet=366.0, fees=0.0]
+04:51:17,687  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=oswin@rpco.com, contact=Oswin, bankerTurnover=0.0, turnover=1010.0, rollingBet=118.0, fees=0.0]
+04:51:17,688  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=carol@rpco.com, contact=Carol, bankerTurnover=0.0, turnover=4560.0, rollingBet=530.0, fees=0.0]
+04:51:17,688  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=gregoryng@rpco.com, contact=Gregory Ng, bankerTurnover=64500.0, turnover=27523.0, rollingBet=741.0, fees=2141.4]
+04:51:17,689  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=nick999@rpco.com, contact=NICK999, bankerTurnover=0.0, turnover=1023.0, rollingBet=86.0, fees=0.0]
+04:51:17,689  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=pkimkhor@rpco.com, contact=pkim khor, bankerTurnover=118500.0, turnover=50092.0, rollingBet=3118.0, fees=5335.4]
+04:51:17,690  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=khangieekhang@rpco.com, contact=khangieekhang, bankerTurnover=3000.0, turnover=33472.0, rollingBet=3807.0, fees=148.4]
+04:51:17,691 ERROR http-bio-8080-exec-8 CsvImporter:102 - Could not create valid email from : 陈晨 Contact : 陈晨 ignored
+04:51:17,691  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=mkt.vincent@rpco.com, contact=MKT.VinceNT, bankerTurnover=0.0, turnover=190.0, rollingBet=25.0, fees=0.0]
+04:51:17,691  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=kentan@rpco.com, contact=Ken Tan, bankerTurnover=25500.0, turnover=9890.0, rollingBet=978.0, fees=768.2]
+04:51:17,692  INFO http-bio-8080-exec-8 CsvImporter:93 - PlayerRec [email=yhlau@rpco.com, contact=YH LAU, bankerTurnover=0.0, turnover=300.0, rollingBet=40.0, fees=0.0]
+04:51:17,693  INFO http-bio-8080-exec-8 GzAccountMgr:27 - Creating transactions for : org.rp.baseuser.GzBaseUser@65fd3da1 source: Tue Jun 20 00:00:00 MYT 2017
+04:51:20,849  INFO http-bio-8080-exec-3 GzAccountDaoImpl:568 - UPDATE xaction SET status='C' WHERE type ='I' and status='O'
+05:04:57,265  INFO http-bio-8080-exec-10 GzLogonController:47 - Received request to signin XXX
+05:05:01,186  INFO http-bio-8080-exec-6 CustomUserDetailsService:30 - loadUserByUsername email : c1@rpco.com
+05:05:01,187  INFO http-bio-8080-exec-6 CustomUserDetailsService:53 - User : c1@rpco.com found with role :ROLE_COMP
+05:05:01,187  INFO http-bio-8080-exec-6 CustomUserDetailsService:60 - Using User : c1@rpco.com with authorities :[ROLE_COMP]
+05:05:01,276  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+05:05:01,276  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:29 - got user : c1@rpco.com authorities : [ROLE_COMP]
+05:05:01,276  INFO http-bio-8080-exec-6 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+05:10:43,115  INFO http-bio-8080-exec-9 GzLogonController:47 - Received request to signin XXX
+05:10:44,909  INFO http-bio-8080-exec-9 CustomUserDetailsService:30 - loadUserByUsername email : c1@rpco.com
+05:10:44,912  INFO http-bio-8080-exec-9 CustomUserDetailsService:53 - User : c1@rpco.com found with role :ROLE_COMP
+05:10:44,912  INFO http-bio-8080-exec-9 CustomUserDetailsService:60 - Using User : c1@rpco.com with authorities :[ROLE_COMP]
+05:10:45,005  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:27 - In onAuthenticationSuccess
+05:10:45,005  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:29 - got user : c1@rpco.com authorities : [ROLE_COMP]
+05:10:45,005  INFO http-bio-8080-exec-9 CustomAuthenticationSuccessHandler:54 - Sending to : /rp/agnt/processAgent?goMemberHome
+05:10:49,773  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='c1@rpco.com' AND paymentId>0
+05:10:49,774  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='c1@rpco.com' AND paymentId>0
+05:10:49,775  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='c1@rpco.com' AND paymentId<=0
+05:10:49,776  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='c1@rpco.com' AND paymentId<=0
+05:10:49,776  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='c1@rpco.com' AND paymentId<=0
+05:10:49,777  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='c1@rpco.com' AND paymentId<=0
+05:10:49,807  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='sma1@rpco.com' AND paymentId>0
+05:10:49,808  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='sma1@rpco.com' AND paymentId>0
+05:10:49,810  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='sma1@rpco.com' AND paymentId<=0
+05:10:49,811  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='sma1@rpco.com' AND paymentId<=0
+05:10:49,813  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='sma1@rpco.com' AND paymentId<=0
+05:10:49,814  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='sma1@rpco.com' AND paymentId<=0
+05:10:52,753  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='sma1@rpco.com' AND paymentId>0
+05:10:52,753  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='sma1@rpco.com' AND paymentId>0
+05:10:52,754  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='sma1@rpco.com' AND paymentId<=0
+05:10:52,755  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='sma1@rpco.com' AND paymentId<=0
+05:10:52,755  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='sma1@rpco.com' AND paymentId<=0
+05:10:52,756  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='sma1@rpco.com' AND paymentId<=0
+05:10:52,758  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='ma1@rpco.com' AND paymentId>0
+05:10:52,758  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='ma1@rpco.com' AND paymentId>0
+05:10:52,759  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='ma1@rpco.com' AND paymentId<=0
+05:10:52,759  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='ma1@rpco.com' AND paymentId<=0
+05:10:52,760  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='ma1@rpco.com' AND paymentId<=0
+05:10:52,760  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='ma1@rpco.com' AND paymentId<=0
+05:10:54,491  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='ma1@rpco.com' AND paymentId>0
+05:10:54,493  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='ma1@rpco.com' AND paymentId>0
+05:10:54,494  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='ma1@rpco.com' AND paymentId<=0
+05:10:54,496  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='ma1@rpco.com' AND paymentId<=0
+05:10:54,498  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='ma1@rpco.com' AND paymentId<=0
+05:10:54,499  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='ma1@rpco.com' AND paymentId<=0
+05:10:54,506  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='a1@rpco.com' AND paymentId>0
+05:10:54,508  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='a1@rpco.com' AND paymentId>0
+05:10:54,509  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='a1@rpco.com' AND paymentId<=0
+05:10:54,511  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='a1@rpco.com' AND paymentId<=0
+05:10:54,512  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='a1@rpco.com' AND paymentId<=0
+05:10:54,514  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='a1@rpco.com' AND paymentId<=0
+05:10:55,245  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='a1@rpco.com' AND paymentId>0
+05:10:55,246  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='a1@rpco.com' AND paymentId>0
+05:10:55,247  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='a1@rpco.com' AND paymentId<=0
+05:10:55,249  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='a1@rpco.com' AND paymentId<=0
+05:10:55,250  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='a1@rpco.com' AND paymentId<=0
+05:10:55,251  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='a1@rpco.com' AND paymentId<=0
+05:10:55,260  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='123@rpco.com' AND paymentId>0
+05:10:55,261  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='123@rpco.com' AND paymentId>0
+05:10:55,261  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='123@rpco.com' AND paymentId<=0
+05:10:55,262  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='123@rpco.com' AND paymentId<=0
+05:10:55,262  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='123@rpco.com' AND paymentId<=0
+05:10:55,263  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='123@rpco.com' AND paymentId<=0
+05:10:55,263  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='alanhoho@rpco.com' AND paymentId>0
+05:10:55,264  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='alanhoho@rpco.com' AND paymentId>0
+05:10:55,264  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='alanhoho@rpco.com' AND paymentId<=0
+05:10:55,265  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='alanhoho@rpco.com' AND paymentId<=0
+05:10:55,265  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='alanhoho@rpco.com' AND paymentId<=0
+05:10:55,266  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='alanhoho@rpco.com' AND paymentId<=0
+05:10:55,266  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='allangoh@rpco.com' AND paymentId>0
+05:10:55,267  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='allangoh@rpco.com' AND paymentId>0
+05:10:55,267  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='allangoh@rpco.com' AND paymentId<=0
+05:10:55,268  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='allangoh@rpco.com' AND paymentId<=0
+05:10:55,268  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='allangoh@rpco.com' AND paymentId<=0
+05:10:55,269  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='allangoh@rpco.com' AND paymentId<=0
+05:10:55,270  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='benny@rpco.com' AND paymentId>0
+05:10:55,270  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='benny@rpco.com' AND paymentId>0
+05:10:55,271  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='benny@rpco.com' AND paymentId<=0
+05:10:55,271  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='benny@rpco.com' AND paymentId<=0
+05:10:55,272  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='benny@rpco.com' AND paymentId<=0
+05:10:55,273  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='benny@rpco.com' AND paymentId<=0
+05:10:55,273  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='bigshow@rpco.com' AND paymentId>0
+05:10:55,274  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='bigshow@rpco.com' AND paymentId>0
+05:10:55,275  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='bigshow@rpco.com' AND paymentId<=0
+05:10:55,276  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='bigshow@rpco.com' AND paymentId<=0
+05:10:55,277  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='bigshow@rpco.com' AND paymentId<=0
+05:10:55,277  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='bigshow@rpco.com' AND paymentId<=0
+05:10:55,278  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='carol@rpco.com' AND paymentId>0
+05:10:55,278  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='carol@rpco.com' AND paymentId>0
+05:10:55,279  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='carol@rpco.com' AND paymentId<=0
+05:10:55,279  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='carol@rpco.com' AND paymentId<=0
+05:10:55,280  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='carol@rpco.com' AND paymentId<=0
+05:10:55,281  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='carol@rpco.com' AND paymentId<=0
+05:10:55,281  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='chochia@rpco.com' AND paymentId>0
+05:10:55,281  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='chochia@rpco.com' AND paymentId>0
+05:10:55,282  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='chochia@rpco.com' AND paymentId<=0
+05:10:55,283  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='chochia@rpco.com' AND paymentId<=0
+05:10:55,283  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='chochia@rpco.com' AND paymentId<=0
+05:10:55,284  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='chochia@rpco.com' AND paymentId<=0
+05:10:55,284  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='chochuan@rpco.com' AND paymentId>0
+05:10:55,285  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='chochuan@rpco.com' AND paymentId>0
+05:10:55,285  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='chochuan@rpco.com' AND paymentId<=0
+05:10:55,286  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='chochuan@rpco.com' AND paymentId<=0
+05:10:55,287  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='chochuan@rpco.com' AND paymentId<=0
+05:10:55,287  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='chochuan@rpco.com' AND paymentId<=0
+05:10:55,288  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='cy@rpco.com' AND paymentId>0
+05:10:55,288  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='cy@rpco.com' AND paymentId>0
+05:10:55,289  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='cy@rpco.com' AND paymentId<=0
+05:10:55,289  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='cy@rpco.com' AND paymentId<=0
+05:10:55,290  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='cy@rpco.com' AND paymentId<=0
+05:10:55,290  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='cy@rpco.com' AND paymentId<=0
+05:10:55,291  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='davidhong@rpco.com' AND paymentId>0
+05:10:55,291  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='davidhong@rpco.com' AND paymentId>0
+05:10:55,292  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='davidhong@rpco.com' AND paymentId<=0
+05:10:55,292  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='davidhong@rpco.com' AND paymentId<=0
+05:10:55,293  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='davidhong@rpco.com' AND paymentId<=0
+05:10:55,293  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='davidhong@rpco.com' AND paymentId<=0
+05:10:55,293  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='gregoryng@rpco.com' AND paymentId>0
+05:10:55,294  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='gregoryng@rpco.com' AND paymentId>0
+05:10:55,294  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='gregoryng@rpco.com' AND paymentId<=0
+05:10:55,295  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='gregoryng@rpco.com' AND paymentId<=0
+05:10:55,295  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='gregoryng@rpco.com' AND paymentId<=0
+05:10:55,296  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='gregoryng@rpco.com' AND paymentId<=0
+05:10:55,296  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='hanwoei@rpco.com' AND paymentId>0
+05:10:55,297  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='hanwoei@rpco.com' AND paymentId>0
+05:10:55,297  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='hanwoei@rpco.com' AND paymentId<=0
+05:10:55,298  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='hanwoei@rpco.com' AND paymentId<=0
+05:10:55,298  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='hanwoei@rpco.com' AND paymentId<=0
+05:10:55,299  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='hanwoei@rpco.com' AND paymentId<=0
+05:10:55,299  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='hendrikioe@rpco.com' AND paymentId>0
+05:10:55,300  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='hendrikioe@rpco.com' AND paymentId>0
+05:10:55,300  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='hendrikioe@rpco.com' AND paymentId<=0
+05:10:55,301  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='hendrikioe@rpco.com' AND paymentId<=0
+05:10:55,301  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='hendrikioe@rpco.com' AND paymentId<=0
+05:10:55,302  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='hendrikioe@rpco.com' AND paymentId<=0
+05:10:55,303  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='jack@rpco.com' AND paymentId>0
+05:10:55,303  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='jack@rpco.com' AND paymentId>0
+05:10:55,304  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='jack@rpco.com' AND paymentId<=0
+05:10:55,304  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='jack@rpco.com' AND paymentId<=0
+05:10:55,304  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='jack@rpco.com' AND paymentId<=0
+05:10:55,305  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='jack@rpco.com' AND paymentId<=0
+05:10:55,305  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='jasonloh@rpco.com' AND paymentId>0
+05:10:55,306  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='jasonloh@rpco.com' AND paymentId>0
+05:10:55,307  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='jasonloh@rpco.com' AND paymentId<=0
+05:10:55,308  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='jasonloh@rpco.com' AND paymentId<=0
+05:10:55,309  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='jasonloh@rpco.com' AND paymentId<=0
+05:10:55,310  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='jasonloh@rpco.com' AND paymentId<=0
+05:10:55,310  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='jason@rpco.com' AND paymentId>0
+05:10:55,311  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='jason@rpco.com' AND paymentId>0
+05:10:55,311  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='jason@rpco.com' AND paymentId<=0
+05:10:55,312  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='jason@rpco.com' AND paymentId<=0
+05:10:55,312  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='jason@rpco.com' AND paymentId<=0
+05:10:55,313  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='jason@rpco.com' AND paymentId<=0
+05:10:55,313  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='jingjieooi@rpco.com' AND paymentId>0
+05:10:55,314  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='jingjieooi@rpco.com' AND paymentId>0
+05:10:55,314  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='jingjieooi@rpco.com' AND paymentId<=0
+05:10:55,315  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='jingjieooi@rpco.com' AND paymentId<=0
+05:10:55,315  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='jingjieooi@rpco.com' AND paymentId<=0
+05:10:55,316  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='jingjieooi@rpco.com' AND paymentId<=0
+05:10:55,316  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='jingjing@rpco.com' AND paymentId>0
+05:10:55,317  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='jingjing@rpco.com' AND paymentId>0
+05:10:55,317  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='jingjing@rpco.com' AND paymentId<=0
+05:10:55,318  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='jingjing@rpco.com' AND paymentId<=0
+05:10:55,318  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='jingjing@rpco.com' AND paymentId<=0
+05:10:55,319  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='jingjing@rpco.com' AND paymentId<=0
+05:10:55,319  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='johntte@rpco.com' AND paymentId>0
+05:10:55,320  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='johntte@rpco.com' AND paymentId>0
+05:10:55,320  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='johntte@rpco.com' AND paymentId<=0
+05:10:55,321  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='johntte@rpco.com' AND paymentId<=0
+05:10:55,321  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='johntte@rpco.com' AND paymentId<=0
+05:10:55,322  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='johntte@rpco.com' AND paymentId<=0
+05:10:55,322  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='j@rpco.com' AND paymentId>0
+05:10:55,322  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='j@rpco.com' AND paymentId>0
+05:10:55,323  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='j@rpco.com' AND paymentId<=0
+05:10:55,323  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='j@rpco.com' AND paymentId<=0
+05:10:55,324  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='j@rpco.com' AND paymentId<=0
+05:10:55,324  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='j@rpco.com' AND paymentId<=0
+05:10:55,325  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='ju@rpco.com' AND paymentId>0
+05:10:55,325  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='ju@rpco.com' AND paymentId>0
+05:10:55,325  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='ju@rpco.com' AND paymentId<=0
+05:10:55,326  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='ju@rpco.com' AND paymentId<=0
+05:10:55,326  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='ju@rpco.com' AND paymentId<=0
+05:10:55,327  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='ju@rpco.com' AND paymentId<=0
+05:10:55,327  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='kentan@rpco.com' AND paymentId>0
+05:10:55,328  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='kentan@rpco.com' AND paymentId>0
+05:10:55,328  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='kentan@rpco.com' AND paymentId<=0
+05:10:55,329  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='kentan@rpco.com' AND paymentId<=0
+05:10:55,330  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='kentan@rpco.com' AND paymentId<=0
+05:10:55,330  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='kentan@rpco.com' AND paymentId<=0
+05:10:55,330  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='khangieekhang@rpco.com' AND paymentId>0
+05:10:55,331  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='khangieekhang@rpco.com' AND paymentId>0
+05:10:55,331  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='khangieekhang@rpco.com' AND paymentId<=0
+05:10:55,332  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='khangieekhang@rpco.com' AND paymentId<=0
+05:10:55,332  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='khangieekhang@rpco.com' AND paymentId<=0
+05:10:55,333  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='khangieekhang@rpco.com' AND paymentId<=0
+05:10:55,333  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='kwen@rpco.com' AND paymentId>0
+05:10:55,334  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='kwen@rpco.com' AND paymentId>0
+05:10:55,334  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='kwen@rpco.com' AND paymentId<=0
+05:10:55,334  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='kwen@rpco.com' AND paymentId<=0
+05:10:55,335  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='kwen@rpco.com' AND paymentId<=0
+05:10:55,335  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='kwen@rpco.com' AND paymentId<=0
+05:10:55,335  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='lcy@rpco.com' AND paymentId>0
+05:10:55,336  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='lcy@rpco.com' AND paymentId>0
+05:10:55,336  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='lcy@rpco.com' AND paymentId<=0
+05:10:55,337  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='lcy@rpco.com' AND paymentId<=0
+05:10:55,337  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='lcy@rpco.com' AND paymentId<=0
+05:10:55,338  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='lcy@rpco.com' AND paymentId<=0
+05:10:55,338  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='leonlee@rpco.com' AND paymentId>0
+05:10:55,339  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='leonlee@rpco.com' AND paymentId>0
+05:10:55,339  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='leonlee@rpco.com' AND paymentId<=0
+05:10:55,339  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='leonlee@rpco.com' AND paymentId<=0
+05:10:55,340  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='leonlee@rpco.com' AND paymentId<=0
+05:10:55,340  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='leonlee@rpco.com' AND paymentId<=0
+05:10:55,341  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='lst@rpco.com' AND paymentId>0
+05:10:55,341  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='lst@rpco.com' AND paymentId>0
+05:10:55,342  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='lst@rpco.com' AND paymentId<=0
+05:10:55,342  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='lst@rpco.com' AND paymentId<=0
+05:10:55,342  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='lst@rpco.com' AND paymentId<=0
+05:10:55,343  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='lst@rpco.com' AND paymentId<=0
+05:10:55,343  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='mkt.vincent@rpco.com' AND paymentId>0
+05:10:55,343  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='mkt.vincent@rpco.com' AND paymentId>0
+05:10:55,344  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='mkt.vincent@rpco.com' AND paymentId<=0
+05:10:55,344  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='mkt.vincent@rpco.com' AND paymentId<=0
+05:10:55,344  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='mkt.vincent@rpco.com' AND paymentId<=0
+05:10:55,345  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='mkt.vincent@rpco.com' AND paymentId<=0
+05:10:55,345  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='mr.lim@rpco.com' AND paymentId>0
+05:10:55,346  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='mr.lim@rpco.com' AND paymentId>0
+05:10:55,346  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='mr.lim@rpco.com' AND paymentId<=0
+05:10:55,346  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='mr.lim@rpco.com' AND paymentId<=0
+05:10:55,347  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='mr.lim@rpco.com' AND paymentId<=0
+05:10:55,347  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='mr.lim@rpco.com' AND paymentId<=0
+05:10:55,348  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='nick999@rpco.com' AND paymentId>0
+05:10:55,349  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='nick999@rpco.com' AND paymentId>0
+05:10:55,349  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='nick999@rpco.com' AND paymentId<=0
+05:10:55,349  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='nick999@rpco.com' AND paymentId<=0
+05:10:55,350  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='nick999@rpco.com' AND paymentId<=0
+05:10:55,350  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='nick999@rpco.com' AND paymentId<=0
+05:10:55,350  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='nickleong@rpco.com' AND paymentId>0
+05:10:55,350  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='nickleong@rpco.com' AND paymentId>0
+05:10:55,351  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='nickleong@rpco.com' AND paymentId<=0
+05:10:55,351  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='nickleong@rpco.com' AND paymentId<=0
+05:10:55,351  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='nickleong@rpco.com' AND paymentId<=0
+05:10:55,352  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='nickleong@rpco.com' AND paymentId<=0
+05:10:55,353  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='nynickyeap@rpco.com' AND paymentId>0
+05:10:55,354  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='nynickyeap@rpco.com' AND paymentId>0
+05:10:55,355  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='nynickyeap@rpco.com' AND paymentId<=0
+05:10:55,356  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='nynickyeap@rpco.com' AND paymentId<=0
+05:10:55,356  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='nynickyeap@rpco.com' AND paymentId<=0
+05:10:55,357  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='nynickyeap@rpco.com' AND paymentId<=0
+05:10:55,357  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='oswin@rpco.com' AND paymentId>0
+05:10:55,358  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='oswin@rpco.com' AND paymentId>0
+05:10:55,358  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='oswin@rpco.com' AND paymentId<=0
+05:10:55,359  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='oswin@rpco.com' AND paymentId<=0
+05:10:55,359  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='oswin@rpco.com' AND paymentId<=0
+05:10:55,360  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='oswin@rpco.com' AND paymentId<=0
+05:10:55,360  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='patpat@rpco.com' AND paymentId>0
+05:10:55,361  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='patpat@rpco.com' AND paymentId>0
+05:10:55,361  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='patpat@rpco.com' AND paymentId<=0
+05:10:55,362  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='patpat@rpco.com' AND paymentId<=0
+05:10:55,362  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='patpat@rpco.com' AND paymentId<=0
+05:10:55,362  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='patpat@rpco.com' AND paymentId<=0
+05:10:55,363  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='pkimkhor@rpco.com' AND paymentId>0
+05:10:55,363  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='pkimkhor@rpco.com' AND paymentId>0
+05:10:55,364  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='pkimkhor@rpco.com' AND paymentId<=0
+05:10:55,364  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='pkimkhor@rpco.com' AND paymentId<=0
+05:10:55,365  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='pkimkhor@rpco.com' AND paymentId<=0
+05:10:55,365  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='pkimkhor@rpco.com' AND paymentId<=0
+05:10:55,366  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='thienhua@rpco.com' AND paymentId>0
+05:10:55,366  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='thienhua@rpco.com' AND paymentId>0
+05:10:55,366  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='thienhua@rpco.com' AND paymentId<=0
+05:10:55,367  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='thienhua@rpco.com' AND paymentId<=0
+05:10:55,367  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='thienhua@rpco.com' AND paymentId<=0
+05:10:55,368  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='thienhua@rpco.com' AND paymentId<=0
+05:10:55,368  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='thyemaishoo@rpco.com' AND paymentId>0
+05:10:55,369  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='thyemaishoo@rpco.com' AND paymentId>0
+05:10:55,370  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='thyemaishoo@rpco.com' AND paymentId<=0
+05:10:55,371  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='thyemaishoo@rpco.com' AND paymentId<=0
+05:10:55,372  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='thyemaishoo@rpco.com' AND paymentId<=0
+05:10:55,372  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='thyemaishoo@rpco.com' AND paymentId<=0
+05:10:55,373  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='yhlau@rpco.com' AND paymentId>0
+05:10:55,373  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='yhlau@rpco.com' AND paymentId>0
+05:10:55,373  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='yhlau@rpco.com' AND paymentId<=0
+05:10:55,374  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='yhlau@rpco.com' AND paymentId<=0
+05:10:55,374  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='yhlau@rpco.com' AND paymentId<=0
+05:10:55,375  INFO http-bio-8080-exec-9 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='yhlau@rpco.com' AND paymentId<=0
+05:13:06,028  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='ma1@rpco.com' AND paymentId>0
+05:13:06,030  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='ma1@rpco.com' AND paymentId>0
+05:13:06,032  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='ma1@rpco.com' AND paymentId<=0
+05:13:06,033  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='ma1@rpco.com' AND paymentId<=0
+05:13:06,035  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='ma1@rpco.com' AND paymentId<=0
+05:13:06,036  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='ma1@rpco.com' AND paymentId<=0
+05:13:06,041  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='a1@rpco.com' AND paymentId>0
+05:13:06,043  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='a1@rpco.com' AND paymentId>0
+05:13:06,045  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='a1@rpco.com' AND paymentId<=0
+05:13:06,048  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='a1@rpco.com' AND paymentId<=0
+05:13:06,050  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='a1@rpco.com' AND paymentId<=0
+05:13:06,051  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='a1@rpco.com' AND paymentId<=0
+05:13:07,245  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='sma1@rpco.com' AND paymentId>0
+05:13:07,247  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='sma1@rpco.com' AND paymentId>0
+05:13:07,249  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='sma1@rpco.com' AND paymentId<=0
+05:13:07,250  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='sma1@rpco.com' AND paymentId<=0
+05:13:07,252  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='sma1@rpco.com' AND paymentId<=0
+05:13:07,253  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='sma1@rpco.com' AND paymentId<=0
+05:13:07,255  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='ma1@rpco.com' AND paymentId>0
+05:13:07,256  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='ma1@rpco.com' AND paymentId>0
+05:13:07,256  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='ma1@rpco.com' AND paymentId<=0
+05:13:07,257  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='ma1@rpco.com' AND paymentId<=0
+05:13:07,258  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='ma1@rpco.com' AND paymentId<=0
+05:13:07,258  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='ma1@rpco.com' AND paymentId<=0
+05:13:07,743  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='c1@rpco.com' AND paymentId>0
+05:13:07,743  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='c1@rpco.com' AND paymentId>0
+05:13:07,744  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='c1@rpco.com' AND paymentId<=0
+05:13:07,744  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='c1@rpco.com' AND paymentId<=0
+05:13:07,745  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='c1@rpco.com' AND paymentId<=0
+05:13:07,746  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='c1@rpco.com' AND paymentId<=0
+05:13:07,748  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND payee='sma1@rpco.com' AND paymentId>0
+05:13:07,748  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I'  AND payer='sma1@rpco.com' AND paymentId>0
+05:13:07,749  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payee='sma1@rpco.com' AND paymentId<=0
+05:13:07,749  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(netamount) FROM xaction WHERE TYPE='I' AND STATUS='C' AND payer='sma1@rpco.com' AND paymentId<=0
+05:13:07,750  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='W' AND payee='sma1@rpco.com' AND paymentId<=0
+05:13:07,750  INFO http-bio-8080-exec-7 GzAccountDaoImpl:381 - getRollupValue : SELECT SUM(amount) FROM xaction WHERE TYPE='D' AND payee='sma1@rpco.com' AND paymentId<=0

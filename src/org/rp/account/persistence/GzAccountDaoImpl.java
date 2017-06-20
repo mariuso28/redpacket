@@ -175,9 +175,11 @@ public class GzAccountDaoImpl extends NamedParameterJdbcDaoSupport implements Gz
 			List<String> members = getJdbcTemplate().queryForList(sql,String.class);
 			for (String member : members)
 			{
-				sql = "SELECT sum(netamount) FROM xaction WHERE type='I' AND payee = '" + user.getEmail() + "' AND payer = '" + member + "'";
+				sql = "SELECT sum(netamount) FROM xaction WHERE type='I' AND payee = '" + user.getEmail() + "' AND payer = '" + member +
+																										"' AND status = 'C' AND paymentid < 0";
 				Double payIn = getJdbcTemplate().queryForObject(sql,Double.class);
-				sql = "SELECT sum(netamount) FROM xaction WHERE type='I' AND payer = '" + user.getEmail() + "' AND payee = '" + member + "'";
+				sql = "SELECT sum(netamount) FROM xaction WHERE type='I' AND payer = '" + user.getEmail() + "' AND payee = '" + member + 
+																										"' AND status = 'C' AND paymentid < 0";
 				Double payOut = getJdbcTemplate().queryForObject(sql,Double.class);
 				sql = "SELECT id FROM baseuser WHERE email = '" + member + "'";
 				UUID id = getJdbcTemplate().queryForObject(sql,UUID.class);
